@@ -63,10 +63,10 @@ export default function Pricing() {
 
             <div className="w-full">
               <p className="text-center font-semibold text-neutral-700 mb-3">Contact for more info</p>
-              <div className="flex justify-center gap-3">
+              <div className="flex flex-wrap justify-center gap-2">
                 <a 
                   href={ctas.secondary.href}
-                  className="flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 px-4 py-2 rounded-xl font-medium hover:bg-neutral-300 transition-colors"
+                  className="flex items-center justify-center gap-1.5 bg-neutral-200 text-neutral-700 px-3 py-2 rounded-xl text-sm font-medium hover:bg-neutral-300 transition-colors"
                 >
                   <Mail className="w-4 h-4" />
                   Email
@@ -75,7 +75,7 @@ export default function Pricing() {
                   href={siteConfig.contact.telegram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 px-4 py-2 rounded-xl font-medium hover:bg-neutral-300 transition-colors"
+                  className="flex items-center justify-center gap-1.5 bg-neutral-200 text-neutral-700 px-3 py-2 rounded-xl text-sm font-medium hover:bg-neutral-300 transition-colors"
                 >
                   <MessageCircle className="w-4 h-4" />
                   Telegram
@@ -84,7 +84,7 @@ export default function Pricing() {
                   href={ctas.whatsapp.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 px-4 py-2 rounded-xl font-medium hover:bg-neutral-300 transition-colors"
+                  className="flex items-center justify-center gap-1.5 bg-neutral-200 text-neutral-700 px-3 py-2 rounded-xl text-sm font-medium hover:bg-neutral-300 transition-colors"
                 >
                   <Phone className="w-4 h-4" />
                   WhatsApp
@@ -128,10 +128,10 @@ export default function Pricing() {
 
             <div className="w-full">
               <p className="text-center font-semibold text-neutral-700 mb-3">Contact for more info</p>
-              <div className="flex justify-center gap-3">
+              <div className="flex flex-wrap justify-center gap-2">
                 <a 
                   href={ctas.secondary.href}
-                  className="flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 px-4 py-2 rounded-xl font-medium hover:bg-neutral-300 transition-colors"
+                  className="flex items-center justify-center gap-1.5 bg-neutral-200 text-neutral-700 px-3 py-2 rounded-xl text-sm font-medium hover:bg-neutral-300 transition-colors"
                 >
                   <Mail className="w-4 h-4" />
                   Email
@@ -140,7 +140,7 @@ export default function Pricing() {
                   href={siteConfig.contact.telegram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 px-4 py-2 rounded-xl font-medium hover:bg-neutral-300 transition-colors"
+                  className="flex items-center justify-center gap-1.5 bg-neutral-200 text-neutral-700 px-3 py-2 rounded-xl text-sm font-medium hover:bg-neutral-300 transition-colors"
                 >
                   <MessageCircle className="w-4 h-4" />
                   Telegram
@@ -149,7 +149,7 @@ export default function Pricing() {
                   href={ctas.whatsapp.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 px-4 py-2 rounded-xl font-medium hover:bg-neutral-300 transition-colors"
+                  className="flex items-center justify-center gap-1.5 bg-neutral-200 text-neutral-700 px-3 py-2 rounded-xl text-sm font-medium hover:bg-neutral-300 transition-colors"
                 >
                   <Phone className="w-4 h-4" />
                   WhatsApp
