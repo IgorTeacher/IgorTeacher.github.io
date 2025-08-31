@@ -200,10 +200,28 @@ export const en = {
       title: "Education",
       items: [
         {
-          degree: "M.Sc. in Philosophy",
-          institution: "University",
-          period: "2020-2022",
-          description: "Advanced studies in philosophy with focus on educational theory and methodology"
+          degree: "Master's Degree in English Studies",
+          institution: "Uniwersytet SWPS",
+          period: "Oct 2023 - Jul 2025",
+          description: "Teaching English as a foreign or second language (TEFL). Specialized in modern pedagogical approaches and language acquisition theories."
+        },
+        {
+          degree: "Master's Degree in Cultural Studies/Critical Theory and Analysis",
+          institution: "Saint Petersburg State University",
+          period: "2019 - 2021",
+          description: "Advanced studies in cultural theory and critical analysis. Enhanced understanding of cross-cultural communication and language teaching methodologies."
+        },
+        {
+          degree: "Bachelor's Degree in Special Education and Teaching",
+          institution: "Minsk State Linguistic University",
+          period: "2017 - 2019",
+          description: "Specialized education and teaching methodologies. Focus on inclusive education and diverse learning approaches."
+        },
+        {
+          degree: "Bachelor's Degree in Language Interpretation and Translation",
+          institution: "Minsk State Linguistic University",
+          period: "2010 - 2014",
+          description: "Comprehensive foundation in language interpretation and translation. Core skills in language teaching and cross-cultural communication."
         }
       ]
     },

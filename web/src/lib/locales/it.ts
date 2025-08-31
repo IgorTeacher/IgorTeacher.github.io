@@ -196,13 +196,31 @@ export const it = {
       description: "Experienced language teacher with a passion for education and a commitment to helping students achieve their language goals. Specialized in English and German instruction with a focus on personalized learning approaches."
     },
     education: {
-      title: "Education",
+      title: "Istruzione",
       items: [
         {
-          degree: "M.Sc. in Philosophy",
-          institution: "University",
-          period: "2020-2022",
-          description: "Advanced studies in philosophy with focus on educational theory and methodology"
+          degree: "Laurea Magistrale in Studi Inglesi",
+          institution: "Uniwersytet SWPS",
+          period: "Ott 2023 - Lug 2025",
+          description: "Insegnamento dell'inglese come lingua straniera o seconda lingua (TEFL). Specializzato in approcci pedagogici moderni e teorie di acquisizione linguistica."
+        },
+        {
+          degree: "Laurea Magistrale in Studi Culturali/Teoria Critica e Analisi",
+          institution: "Università Statale di San Pietroburgo",
+          period: "2019 - 2021",
+          description: "Studi avanzati in teoria culturale e analisi critica. Comprensione approfondita della comunicazione interculturale e metodologie di insegnamento delle lingue."
+        },
+        {
+          degree: "Laurea Triennale in Educazione Speciale e Insegnamento",
+          institution: "Università Linguistica Statale di Minsk",
+          period: "2017 - 2019",
+          description: "Metodologie educative e didattiche specializzate. Focus sull'educazione inclusiva e approcci di apprendimento diversificati."
+        },
+        {
+          degree: "Laurea Triennale in Interpretazione e Traduzione Linguistica",
+          institution: "Università Linguistica Statale di Minsk",
+          period: "2010 - 2014",
+          description: "Fondazione completa in interpretazione e traduzione linguistica. Competenze fondamentali nell'insegnamento delle lingue e comunicazione interculturale."
         }
       ]
     },

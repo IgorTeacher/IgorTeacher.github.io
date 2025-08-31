@@ -196,13 +196,31 @@ export const pl = {
       description: "Experienced language teacher with a passion for education and a commitment to helping students achieve their language goals. Specialized in English and German instruction with a focus on personalized learning approaches."
     },
     education: {
-      title: "Education",
+      title: "Edukacja",
       items: [
         {
-          degree: "M.Sc. in Philosophy",
-          institution: "University",
-          period: "2020-2022",
-          description: "Advanced studies in philosophy with focus on educational theory and methodology"
+          degree: "Magister Filologii Angielskiej",
+          institution: "Uniwersytet SWPS",
+          period: "Paź 2023 - Lip 2025",
+          description: "Nauczanie języka angielskiego jako języka obcego lub drugiego (TEFL). Specjalizacja w nowoczesnych podejściach pedagogicznych i teoriach przyswajania języka."
+        },
+        {
+          degree: "Magister Studiów Kulturowych/Teoria Krytyczna i Analiza",
+          institution: "Państwowy Uniwersytet w Sankt Petersburgu",
+          period: "2019 - 2021",
+          description: "Zaawansowane studia w teorii kultury i analizie krytycznej. Pogłębione zrozumienie komunikacji międzykulturowej i metodologii nauczania języków."
+        },
+        {
+          degree: "Licencjat z Edukacji Specjalnej i Nauczania",
+          institution: "Miński Państwowy Uniwersytet Lingwistyczny",
+          period: "2017 - 2019",
+          description: "Specjalistyczne metodologie edukacyjne i dydaktyczne. Skupienie na edukacji włączającej i zróżnicowanych podejściach do uczenia się."
+        },
+        {
+          degree: "Licencjat z Interpretacji i Tłumaczenia Językowego",
+          institution: "Miński Państwowy Uniwersytet Lingwistyczny",
+          period: "2010 - 2014",
+          description: "Kompleksowa podstawa w interpretacji i tłumaczeniu językowym. Kluczowe umiejętności w nauczaniu języków i komunikacji międzykulturowej."
         }
       ]
     },

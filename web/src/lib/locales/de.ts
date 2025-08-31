@@ -196,13 +196,31 @@ export const de = {
       description: "Experienced language teacher with a passion for education and a commitment to helping students achieve their language goals. Specialized in English and German instruction with a focus on personalized learning approaches."
     },
     education: {
-      title: "Education",
+      title: "Ausbildung",
       items: [
         {
-          degree: "M.Sc. in Philosophy",
-          institution: "University",
-          period: "2020-2022",
-          description: "Advanced studies in philosophy with focus on educational theory and methodology"
+          degree: "Master-Abschluss in Anglistik",
+          institution: "Uniwersytet SWPS",
+          period: "Okt 2023 - Jul 2025",
+          description: "Lehre von Englisch als Fremd- oder Zweitsprache (TEFL). Spezialisiert auf moderne pädagogische Ansätze und Spracherwerbstheorien."
+        },
+        {
+          degree: "Master-Abschluss in Kulturwissenschaften/Kritische Theorie und Analyse",
+          institution: "Staatliche Universität Sankt Petersburg",
+          period: "2019 - 2021",
+          description: "Fortgeschrittene Studien in Kulturtheorie und kritischer Analyse. Vertieftes Verständnis für interkulturelle Kommunikation und Sprachlehr-Methodologien."
+        },
+        {
+          degree: "Bachelor-Abschluss in Sonderpädagogik und Lehre",
+          institution: "Minsker Staatliche Linguistische Universität",
+          period: "2017 - 2019",
+          description: "Spezialisierte Bildungs- und Lehrmethodologien. Fokus auf inklusive Bildung und vielfältige Lernansätze."
+        },
+        {
+          degree: "Bachelor-Abschluss in Sprachinterpretation und Übersetzung",
+          institution: "Minsker Staatliche Linguistische Universität",
+          period: "2010 - 2014",
+          description: "Umfassende Grundlage in Sprachinterpretation und Übersetzung. Kernkompetenzen in Sprachlehre und interkultureller Kommunikation."
         }
       ]
     },

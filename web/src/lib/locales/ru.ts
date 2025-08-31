@@ -196,13 +196,31 @@ export const ru = {
       description: "Experienced language teacher with a passion for education and a commitment to helping students achieve their language goals. Specialized in English and German instruction with a focus on personalized learning approaches."
     },
     education: {
-      title: "Education",
+      title: "Образование",
       items: [
         {
-          degree: "M.Sc. in Philosophy",
-          institution: "University",
-          period: "2020-2022",
-          description: "Advanced studies in philosophy with focus on educational theory and methodology"
+          degree: "Магистр английской филологии",
+          institution: "Университет SWPS",
+          period: "Окт 2023 - Июл 2025",
+          description: "Преподавание английского как иностранного или второго языка (TEFL). Специализация на современных педагогических подходах и теориях усвоения языка."
+        },
+        {
+          degree: "Магистр культурологии/Критическая теория и анализ",
+          institution: "Санкт-Петербургский государственный университет",
+          period: "2019 - 2021",
+          description: "Углубленные исследования в области культурной теории и критического анализа. Улучшенное понимание межкультурной коммуникации и методологий преподавания языков."
+        },
+        {
+          degree: "Бакалавр специального образования и преподавания",
+          institution: "Минский государственный лингвистический университет",
+          period: "2017 - 2019",
+          description: "Специализированные образовательные и преподавательские методологии. Фокус на инклюзивном образовании и разнообразных подходах к обучению."
+        },
+        {
+          degree: "Бакалавр языковой интерпретации и перевода",
+          institution: "Минский государственный лингвистический университет",
+          period: "2010 - 2014",
+          description: "Комплексная основа в языковой интерпретации и переводе. Ключевые навыки в преподавании языков и межкультурной коммуникации."
         }
       ]
     },
