@@ -61,7 +61,7 @@ export const en = {
     heading: "My Teaching in Numbers",
     subtitle: "Experience and results that speak for themselves",
     yearsOfExperience: "Years of Experience",
-    hoursOfLessonsDelivered: "Hours of Lessons Delivered",
+    collaborationsWithIndustry: "Collaborations with Industry",
     learnersGuidedWorldwide: "Learners Guided Worldwide",
     studentsEarnedCertifications: "Students Earned Certifications"
   },

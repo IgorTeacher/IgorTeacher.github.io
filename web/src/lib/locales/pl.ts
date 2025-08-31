@@ -60,7 +60,7 @@ export const pl = {
     heading: "Moje nauczanie w liczbach",
     subtitle: "Doświadczenie i wyniki, które mówią same za siebie",
     yearsOfExperience: "Lat doświadczenia",
-    hoursOfLessonsDelivered: "Godzin lekcji przeprowadzonych",
+    collaborationsWithIndustry: "Współpraca z przemysłem",
     learnersGuidedWorldwide: "Uczniów prowadzonych na całym świecie",
     studentsEarnedCertifications: "Studentów uzyskało certyfikaty"
   },

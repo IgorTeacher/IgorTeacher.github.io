@@ -1,13 +1,18 @@
 "use client";
 import { useTranslation } from "@/hooks/useTranslation";
-import AnimatedCounter, { calculateYearsFromDate, calculateTeachingHours } from "@/components/AnimatedCounter";
+import AnimatedCounter, { calculateYearsFromDate } from "@/components/AnimatedCounter";
+
+// Constants for easy modification
+const BUSINESS_STATS = {
+  companiesCollaborations: 25,
+  studentsCertifications: 40
+} as const;
 
 export default function TeachingStats() {
   const { t } = useTranslation();
 
   // Calculate values for dynamic text
   const yearsTeaching = calculateYearsFromDate('2013-01-01');
-  const teachingHours = calculateTeachingHours('2013-01-01', 22.5);
   
   return (
     <section className="py-20 bg-gradient-to-r from-blue-50 to-indigo-50">
@@ -37,18 +42,18 @@ export default function TeachingStats() {
             <div className="text-4xl font-bold text-blue-600 mb-3">
               <AnimatedCounter 
                 startValue={0} 
-                endValue={teachingHours} 
+                endValue={BUSINESS_STATS.companiesCollaborations} 
                 suffix="+" 
                 duration={2000}
               />
             </div>
-            <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.hoursOfLessonsDelivered')}</div>
+            <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.collaborationsWithIndustry')}</div>
           </div>
           <div className="bg-white p-8 rounded-3xl shadow-lg border border-neutral-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="text-4xl font-bold text-blue-600 mb-3">
               <AnimatedCounter 
                 startValue={0} 
-                endValue={50} 
+                endValue={100} 
                 suffix="+" 
                 duration={1800}
               />
@@ -59,8 +64,8 @@ export default function TeachingStats() {
             <div className="text-4xl font-bold text-blue-600 mb-3">
               <AnimatedCounter 
                 startValue={0} 
-                endValue={18} 
-                suffix="" 
+                endValue={BUSINESS_STATS.studentsCertifications} 
+                suffix="+" 
                 duration={1600}
               />
             </div>

@@ -60,7 +60,7 @@ export const ru = {
     heading: "Мое преподавание в цифрах",
     subtitle: "Опыт и результаты, которые говорят сами за себя",
     yearsOfExperience: "Лет опыта",
-    hoursOfLessonsDelivered: "Часов уроков проведено",
+    collaborationsWithIndustry: "Сотрудничество с промышленностью",
     learnersGuidedWorldwide: "Учащихся по всему миру",
     studentsEarnedCertifications: "Студентов получили сертификаты"
   },
