@@ -34,7 +34,7 @@ export default function About() {
           <div className="order-2 lg:order-1">
             <div className="relative">
               <Image
-                src="/igor-teaching.png"
+                src="/igor-with-igor-at-the-cafe-with-book-smiling.jpg"
                 alt="Igor teaching online"
                 width={500}
                 height={400}

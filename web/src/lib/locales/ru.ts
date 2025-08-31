@@ -171,7 +171,7 @@ export const ru = {
     paymentMethods: ["Cash", "Bank Transfer", "Online Payment"],
     openingHours: "Mo-Su 09:00-21:00",
     freeTrialName: "Free Trial Lesson",
-    freeTrialDescription: "20-minute free trial lesson"
+    freeTrialDescription: "30-minute free trial lesson"
   },
 
   cv: {

@@ -41,27 +41,27 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const metadata: Record<string, any> = {
     en: {
       title: "Learn English & German with Ihar - CELTA Certified Teacher",
-      description: "CELTA-certified teacher offering personalized English and German lessons. Book a free 20-minute trial class.",
+      description: "CELTA-certified teacher offering personalized English and German lessons. Book a free 30-minute trial class.",
       keywords: "English lessons, German lessons, CELTA teacher, online language learning, personalized tutoring",
     },
     de: {
       title: "Englisch & Deutsch lernen mit Ihar - CELTA-zertifizierter Lehrer",
-      description: "CELTA-zertifizierter Lehrer für personalisierten Englisch- und Deutschunterricht. Kostenlose 20-minütige Probestunde buchen.",
+      description: "CELTA-zertifizierter Lehrer für personalisierten Englisch- und Deutschunterricht. Kostenlose 30-minütige Probestunde buchen.",
       keywords: "Englischunterricht, Deutschunterricht, CELTA Lehrer, Online-Sprachunterricht, personalisierte Nachhilfe",
     },
     ru: {
       title: "Изучайте английский и немецкий с Игаром - Сертифицированный преподаватель CELTA",
-      description: "Сертифицированный преподаватель CELTA предлагает персонализированные уроки английского и немецкого. Забронируйте бесплатную 20-минутную пробную сессию.",
+      description: "Сертифицированный преподаватель CELTA предлагает персонализированные уроки английского и немецкого. Забронируйте бесплатную 30-минутную пробную сессию.",
       keywords: "уроки английского, уроки немецкого, преподаватель CELTA, онлайн изучение языков, персональное обучение",
     },
     it: {
       title: "Impara inglese e tedesco con Ihar - Insegnante certificato CELTA",
-      description: "Insegnante certificato CELTA offre lezioni personalizzate di inglese e tedesco. Prenota una lezione di prova gratuita di 20 minuti.",
+      description: "Insegnante certificato CELTA offre lezioni personalizzate di inglese e tedesco. Prenota una lezione di prova gratuita di 30 minuti.",
       keywords: "lezioni di inglese, lezioni di tedesco, insegnante CELTA, apprendimento linguistico online, tutoraggio personalizzato",
     },
     pl: {
       title: "Ucz się angielskiego i niemieckiego z Iharem - Certyfikowany nauczyciel CELTA",
-      description: "Certyfikowany nauczyciel CELTA oferuje spersonalizowane lekcje angielskiego i niemieckiego. Zarezerwuj bezpłatną 20-minutową lekcję próbną.",
+      description: "Certyfikowany nauczyciel CELTA oferuje spersonalizowane lekcje angielskiego i niemieckiego. Zarezerwuj bezpłatną 30-minutową lekcję próbną.",
       keywords: "lekcje angielskiego, lekcje niemieckiego, nauczyciel CELTA, nauka języków online, korepetycje indywidualne",
     }
   };

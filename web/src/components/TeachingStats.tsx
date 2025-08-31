@@ -4,7 +4,7 @@ import AnimatedCounter, { calculateYearsFromDate } from "@/components/AnimatedCo
 
 // Constants for easy modification
 const BUSINESS_STATS = {
-  companiesCollaborations: 25,
+  companiesCollaborations: 20,
   studentsCertifications: 40
 } as const;
 
@@ -33,7 +33,7 @@ export default function TeachingStats() {
                 startValue={0} 
                 endValue={yearsTeaching} 
                 suffix="+" 
-                duration={1500}
+                duration={2500}
               />
             </div>
             <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.yearsOfExperience')}</div>
@@ -44,7 +44,7 @@ export default function TeachingStats() {
                 startValue={0} 
                 endValue={BUSINESS_STATS.companiesCollaborations} 
                 suffix="+" 
-                duration={2000}
+                duration={3000}
               />
             </div>
             <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.collaborationsWithIndustry')}</div>
@@ -55,7 +55,7 @@ export default function TeachingStats() {
                 startValue={0} 
                 endValue={100} 
                 suffix="+" 
-                duration={1800}
+                duration={3500}
               />
             </div>
             <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.learnersGuidedWorldwide')}</div>
@@ -66,7 +66,7 @@ export default function TeachingStats() {
                 startValue={0} 
                 endValue={BUSINESS_STATS.studentsCertifications} 
                 suffix="+" 
-                duration={1600}
+                duration={2500}
               />
             </div>
             <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.studentsEarnedCertifications')}</div>

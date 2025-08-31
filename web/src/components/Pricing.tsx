@@ -154,7 +154,7 @@ export default function Pricing() {
             
             <div className="text-center mb-6">
               <div className="text-4xl font-bold text-blue-600 mb-2">Free</div>
-              <div className="text-neutral-600">20-minute session</div>
+              <div className="text-neutral-600">30-minute session</div>
             </div>
 
             <ul className="space-y-4 mb-8">

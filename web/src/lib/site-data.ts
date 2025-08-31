@@ -54,7 +54,7 @@ export const siteConfig: SiteConfig = {
     },
     trial: {
       price: 0,
-      duration: "20-min",
+      duration: "30-min",
       description: "Free trial lesson"
     }
   }
