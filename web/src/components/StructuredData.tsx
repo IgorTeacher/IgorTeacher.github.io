@@ -9,7 +9,7 @@ export default function StructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "EducationalService",
-    "name": "Ihar Teacher - Language Learning",
+    "name": t('structuredData.serviceName'),
     "description": t('hero.subheadline'),
     "url": `${baseUrl}/${locale}`,
     "telephone": "+48123456789", // Replace with actual phone
@@ -20,25 +20,25 @@ export default function StructuredData() {
     },
     "provider": {
       "@type": "Person",
-      "name": "Ihar Ausiany",
-      "jobTitle": "CELTA Certified Language Teacher",
-      "description": "Professional language teacher with CELTA certification",
-      "knowsAbout": ["English Language Teaching", "German Language Teaching", "Online Education", "Language Assessment"]
+      "name": t('structuredData.providerName'),
+      "jobTitle": t('structuredData.jobTitle'),
+      "description": t('structuredData.providerDescription'),
+      "knowsAbout": t('structuredData.knowsAbout')
     },
-    "serviceType": ["English Language Lessons", "German Language Lessons", "Online Tutoring"],
+    "serviceType": t('structuredData.serviceTypes'),
     "areaServed": ["Worldwide"],
     "availableLanguage": ["en", "de", "ru", "it", "pl"],
     "priceRange": "€€",
-    "paymentAccepted": ["Cash", "Bank Transfer", "Online Payment"],
+    "paymentAccepted": t('structuredData.paymentMethods'),
     "currenciesAccepted": "EUR",
-    "openingHours": "Mo-Su 09:00-21:00",
+    "openingHours": t('structuredData.openingHours'),
     "sameAs": [
       "https://www.linkedin.com/in/ihar-ausiany/"
     ],
     "offers": {
       "@type": "Offer",
-      "name": "Free Trial Lesson",
-      "description": "20-minute free trial lesson",
+      "name": t('structuredData.freeTrialName'),
+      "description": t('structuredData.freeTrialDescription'),
       "price": "0",
       "priceCurrency": "EUR",
       "availability": "https://schema.org/InStock"

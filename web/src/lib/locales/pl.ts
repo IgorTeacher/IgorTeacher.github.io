@@ -131,5 +131,18 @@ export const pl = {
   footer: {
     allRightsReserved: "Wszystkie prawa zastrzeżone",
     quote: "Niczego w życiu nie należy się bać, to tylko trzeba zrozumieć. Teraz jest czas, aby zrozumieć więcej, abyśmy mogli mniej się bać."
+  },
+
+  structuredData: {
+    serviceName: "Ihar Teacher - Language Learning",
+    providerName: "Ihar Ausiany",
+    jobTitle: "CELTA Certified Language Teacher",
+    providerDescription: "Professional language teacher with CELTA certification",
+    knowsAbout: ["English Language Teaching", "German Language Teaching", "Online Education", "Language Assessment"],
+    serviceTypes: ["English Language Lessons", "German Language Lessons", "Online Tutoring"],
+    paymentMethods: ["Cash", "Bank Transfer", "Online Payment"],
+    openingHours: "Mo-Su 09:00-21:00",
+    freeTrialName: "Free Trial Lesson",
+    freeTrialDescription: "20-minute free trial lesson"
   }
 } as const;

@@ -15,32 +15,19 @@ export default function About() {
               {t('about.heading')}
             </h2>
             <div className="space-y-6 text-lg text-neutral-600 leading-relaxed">
-              <p>
-                Hi, I&apos;m <strong className="text-neutral-900">Igor Ausiany</strong>, and I&apos;m passionate about 
-                transforming education through innovative and engaging methods. I believe learning 
-                should be inspiring, not intimidating.
-              </p>
-              <p>
-                With multiple certifications including <strong className="text-neutral-900">TESOL</strong>, 
-                <strong className="text-neutral-900"> TKT</strong>, and an ongoing 
-                <strong className="text-neutral-900"> CELTA</strong>, plus an M.Sc. in Philosophy, 
-                I bring both academic rigor and practical experience to every lesson.
-              </p>
-              <p>
-                Currently, I work with over <strong className="text-neutral-900">10 regular students</strong> from 
-                around the world, helping them achieve their language goals through personalized, 
-                engaging online instruction.
-              </p>
+              <p dangerouslySetInnerHTML={{ __html: t('about.introduction.greeting').replace('Igor Ausiany', '<strong class="text-neutral-900">Igor Ausiany</strong>') }} />
+              <p dangerouslySetInnerHTML={{ __html: t('about.introduction.certifications').replace('TESOL', '<strong class="text-neutral-900">TESOL</strong>').replace('TKT', '<strong class="text-neutral-900">TKT</strong>').replace('CELTA', '<strong class="text-neutral-900">CELTA</strong>') }} />
+              <p dangerouslySetInnerHTML={{ __html: t('about.introduction.experience').replace('10 regular students', '<strong class="text-neutral-900">10 regular students</strong>') }} />
             </div>
             
             <div className="mt-8 grid grid-cols-2 gap-6">
               <div className="bg-blue-50 p-4 rounded-2xl border border-neutral-200">
                 <div className="text-2xl font-bold text-blue-600 mb-1">{siteConfig.teaching.experience.yearsTeaching}</div>
-                <div className="text-sm text-neutral-600">Years Teaching</div>
+                <div className="text-sm text-neutral-600">{t('about.stats.yearsTeaching')}</div>
               </div>
               <div className="bg-blue-50 p-4 rounded-2xl border border-neutral-200">
                 <div className="text-2xl font-bold text-blue-600 mb-1">{siteConfig.teaching.experience.lessonsDelivered}</div>
-                <div className="text-sm text-neutral-600">Lessons Delivered</div>
+                <div className="text-sm text-neutral-600">{t('about.stats.lessonsDelivered')}</div>
               </div>
             </div>
           </div>

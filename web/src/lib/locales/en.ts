@@ -52,6 +52,15 @@ export const en = {
   
   about: {
     heading: "Meet Your Teacher",
+    introduction: {
+      greeting: "Hi, I'm Igor Ausiany, and I'm passionate about transforming education through innovative and engaging methods. I believe learning should be inspiring, not intimidating.",
+      certifications: "With multiple certifications including TESOL, TKT, and an ongoing CELTA, plus an M.Sc. in Philosophy, I bring both academic rigor and practical experience to every lesson.",
+      experience: "Currently, I work with over 10 regular students from around the world, helping them achieve their language goals through personalized, engaging online instruction."
+    },
+    stats: {
+      yearsTeaching: "Years Teaching",
+      lessonsDelivered: "Lessons Delivered"
+    },
     philosophy: {
       heading: "My Teaching Philosophy",
       quote: "I seek the most effective ways to inspire and teach students, making challenging subjects like grammar come alive through innovative methods."
@@ -131,5 +140,18 @@ export const en = {
   footer: {
     allRightsReserved: "All rights reserved",
     quote: "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less."
+  },
+  
+  structuredData: {
+    serviceName: "Ihar Teacher - Language Learning",
+    providerName: "Ihar Ausiany",
+    jobTitle: "CELTA Certified Language Teacher",
+    providerDescription: "Professional language teacher with CELTA certification",
+    knowsAbout: ["English Language Teaching", "German Language Teaching", "Online Education", "Language Assessment"],
+    serviceTypes: ["English Language Lessons", "German Language Lessons", "Online Tutoring"],
+    paymentMethods: ["Cash", "Bank Transfer", "Online Payment"],
+    openingHours: "Mo-Su 09:00-21:00",
+    freeTrialName: "Free Trial Lesson",
+    freeTrialDescription: "20-minute free trial lesson"
   }
 } as const;

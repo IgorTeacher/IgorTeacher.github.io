@@ -27,8 +27,8 @@ export default function Pricing() {
             </div>
             
             <div className="text-center mb-6">
-              <div className="text-4xl font-bold text-neutral-900 mb-2">from €45</div>
-              <div className="text-neutral-600">per 60-min lesson</div>
+              <div className="text-4xl font-bold text-neutral-900 mb-2">from {siteConfig.pricing.individual.currency}{siteConfig.pricing.individual.price}</div>
+              <div className="text-neutral-600">per {siteConfig.pricing.individual.duration} {siteConfig.pricing.individual.unit}</div>
             </div>
 
             <ul className="space-y-4 mb-8">
@@ -88,8 +88,8 @@ export default function Pricing() {
             </div>
             
             <div className="text-center mb-6">
-              <div className="text-4xl font-bold text-neutral-900 mb-2">€200</div>
-              <div className="text-neutral-600">save 11% vs individual</div>
+              <div className="text-4xl font-bold text-neutral-900 mb-2">{siteConfig.pricing.package.currency}{siteConfig.pricing.package.price}</div>
+              <div className="text-neutral-600">save {siteConfig.pricing.package.savings} vs individual</div>
             </div>
 
             <ul className="space-y-4 mb-8">
