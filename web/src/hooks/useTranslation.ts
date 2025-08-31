@@ -8,7 +8,7 @@ export function useTranslation() {
   // Extract locale from pathname (e.g., "/de/about" -> "de")
   const locale = pathname.split('/')[1] || 'en';
 
-  const t = (key: string): string => {
+  const t = (key: string): any => {
     const keys = key.split('.');
     let value: unknown = translations[locale as keyof typeof translations];
     
@@ -20,7 +20,7 @@ export function useTranslation() {
       }
     }
     
-    return typeof value === 'string' ? value : key;
+    return value !== undefined ? value : key;
   };
 
   const changeLanguage = (newLocale: string) => {

@@ -21,7 +21,7 @@ export default function Offer() {
         <h2 className="text-xl font-semibold">{t('offer.heading')}</h2>
 
         <div className="mt-6 grid gap-6 md:grid-cols-3">
-          {t('offer.items').map((item: any, index: number) => {
+          {(Array.isArray(t('offer.items')) ? t('offer.items') : offerItems).map((item: any, index: number) => {
             const Icon = iconMap[offerItems[index].iconName];
             return (
             <div

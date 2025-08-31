@@ -18,7 +18,7 @@ export default function HowItWorks() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {t('howItWorks.steps').map((step: any, index: number) => (
+          {(Array.isArray(t('howItWorks.steps')) ? t('howItWorks.steps') : howItWorksSteps).map((step: any, index: number) => (
             <div key={index} className="text-center">
               <div className="relative mb-6">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
