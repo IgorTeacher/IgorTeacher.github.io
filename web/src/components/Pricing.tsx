@@ -1,4 +1,5 @@
-import { ctas } from "@/lib/site-data";
+import { ctas, siteConfig } from "@/lib/site-data";
+import { Mail, MessageCircle } from "lucide-react";
 
 export default function Pricing() {
   return (
@@ -61,12 +62,11 @@ export default function Pricing() {
             </ul>
 
             <a 
-              href={ctas.primary.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full block text-center bg-neutral-200 text-neutral-700 py-3 rounded-2xl font-semibold hover:bg-neutral-300 transition-colors"
+              href={ctas.secondary.href}
+              className="w-full flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 py-3 rounded-2xl font-semibold hover:bg-neutral-300 transition-colors"
             >
-              {ctas.primary.text}
+              <Mail className="w-4 h-4" />
+              Contact for details
             </a>
           </div>
 
@@ -104,12 +104,13 @@ export default function Pricing() {
             </ul>
 
             <a 
-              href={ctas.primary.href}
+              href={siteConfig.contact.telegram}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full block text-center bg-neutral-200 text-neutral-700 py-3 rounded-2xl font-semibold hover:bg-neutral-300 transition-colors"
+              className="w-full flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 py-3 rounded-2xl font-semibold hover:bg-neutral-300 transition-colors"
             >
-              {ctas.primary.text}
+              <MessageCircle className="w-4 h-4" />
+              Message on Telegram
             </a>
           </div>
 
@@ -165,10 +166,12 @@ export default function Pricing() {
             </ul>
 
             <a 
-              href="mailto:igorteacher@icloud.com"
+              href={ctas.primary.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full block text-center bg-blue-600 text-white py-3 rounded-2xl font-semibold hover:bg-blue-700 transition-colors transform hover:scale-105"
             >
-              Book free trial
+              {ctas.primary.text}
             </a>
           </div>
         </div>
