@@ -79,6 +79,51 @@ export default function About() {
           </div>
         </div>
 
+        {/* Photo Gallery - Showcasing Different Aspects */}
+        <div className="mt-20">
+          <div className="text-center mb-12">
+            <h3 className="text-2xl font-bold text-neutral-900 mb-4">
+              {t('about.gallery.heading')}
+            </h3>
+            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+              {t('about.gallery.subtitle')}
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Travel/Explorer Photo */}
+            <div className="relative group">
+              <Image
+                src="/igor-explorer-selfie-with-mountains-in-red-hat.jpg"
+                alt="Igor exploring mountains and traveling"
+                width={600}
+                height={400}
+                className="rounded-3xl shadow-lg w-full h-80 object-cover group-hover:shadow-xl transition-all duration-300"
+              />
+              <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-2xl">
+                <p className="text-sm font-medium text-neutral-900">
+                  {t('about.gallery.travelLabel')}
+                </p>
+              </div>
+            </div>
+
+            {/* Academic/Intellectual Photo */}
+            <div className="relative group">
+              <Image
+                src="/igor-at-the-cafe-with-book-smiling.jpg"
+                alt="Igor reading and studying at a cafe"
+                width={600}
+                height={400}
+                className="rounded-3xl shadow-lg w-full h-80 object-cover group-hover:shadow-xl transition-all duration-300"
+              />
+              <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-2xl">
+                <p className="text-sm font-medium text-neutral-900">
+                  {t('about.gallery.academicLabel')}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
     </section>

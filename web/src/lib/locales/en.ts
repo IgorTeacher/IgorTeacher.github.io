@@ -81,10 +81,16 @@ export const en = {
       students: "Students",
       certifications: "Certifications"
     },
-    philosophy: {
-      heading: "My Teaching Philosophy",
-      quote: "I seek the most effective ways to inspire and teach students, making challenging subjects like grammar come alive through innovative methods."
-    }
+          philosophy: {
+        heading: "My Teaching Philosophy",
+        quote: "I seek the most effective ways to inspire and teach students, making challenging subjects like grammar come alive through innovative methods."
+      },
+      gallery: {
+        heading: "Beyond the Classroom",
+        subtitle: "A glimpse into the experiences that shape my teaching approach",
+        travelLabel: "Passionate Traveler",
+        academicLabel: "Lifelong Learner"
+      }
   },
   
   pricing: {
@@ -172,7 +178,7 @@ export const en = {
     paymentMethods: ["Cash", "Bank Transfer", "Online Payment"],
     openingHours: "Mo-Su 09:00-21:00",
     freeTrialName: "Free Trial Lesson",
-    freeTrialDescription: "20-minute free trial lesson"
+    freeTrialDescription: "30-minute free trial lesson"
   },
   
   cv: {

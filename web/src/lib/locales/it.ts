@@ -83,6 +83,12 @@ export const it = {
     philosophy: {
       heading: "La mia filosofia di insegnamento",
       quote: "Cerco i modi più efficaci per ispirare e insegnare agli studenti, dando vita a materie impegnative come la grammatica attraverso metodi innovativi."
+    },
+    gallery: {
+      heading: "Oltre l'aula",
+      subtitle: "Uno sguardo alle esperienze che plasmano il mio approccio all'insegnamento",
+      travelLabel: "Viaggiatore appassionato",
+      academicLabel: "Studente per tutta la vita"
     }
   },
   
@@ -171,7 +177,7 @@ export const it = {
     paymentMethods: ["Cash", "Bank Transfer", "Online Payment"],
     openingHours: "Mo-Su 09:00-21:00",
     freeTrialName: "Free Trial Lesson",
-    freeTrialDescription: "20-minute free trial lesson"
+    freeTrialDescription: "30-minute free trial lesson"
   },
 
   cv: {
