@@ -33,13 +33,13 @@ export default function SocialProof() {
       <div className="mx-auto max-w-6xl px-4">
         <h2 className="text-xl font-semibold">{content.socialProof.heading}</h2>
 
-        <div className="mt-10 overflow-hidden" ref={emblaRef}>
+        <div className="mt-10 overflow-hidden px-4" ref={emblaRef}>
           <div className="flex gap-6">
             {testimonials.map((t, i) => (
               <figure
                 key={i}
                 data-active={i === selected}
-                className="relative min-w-[86%] md:min-w-[48%] lg:min-w-[32%]
+                className="relative min-w-[80%] md:min-w-[45%] lg:min-w-[30%]
                            rounded-2xl border bg-white p-5 shadow-sm transition
                            will-change-transform data-[active=true]:scale-[1.01] mt-4"
               >
