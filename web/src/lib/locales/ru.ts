@@ -59,10 +59,10 @@ export const ru = {
   teachingStats: {
     heading: "Мое преподавание в цифрах",
     subtitle: "Опыт и результаты, которые говорят сами за себя",
-    yearsTeaching: "Лет преподавания",
-    teachingHours: "Часов преподавания",
-    students: "Студентов",
-    certifications: "Сертификатов"
+    yearsOfExperience: "Лет опыта",
+    hoursOfLessonsDelivered: "Часов уроков проведено",
+    learnersGuidedWorldwide: "Учащихся по всему миру",
+    studentsEarnedCertifications: "Студентов получили сертификаты"
   },
   about: {
     heading: "Познакомьтесь с вашим преподавателем",

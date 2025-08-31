@@ -31,7 +31,7 @@ export default function TeachingStats() {
                 duration={1500}
               />
             </div>
-            <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.yearsTeaching')}</div>
+            <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.yearsOfExperience')}</div>
           </div>
           <div className="bg-white p-8 rounded-3xl shadow-lg border border-neutral-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="text-4xl font-bold text-blue-600 mb-3">
@@ -42,7 +42,7 @@ export default function TeachingStats() {
                 duration={2000}
               />
             </div>
-            <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.teachingHours')}</div>
+            <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.hoursOfLessonsDelivered')}</div>
           </div>
           <div className="bg-white p-8 rounded-3xl shadow-lg border border-neutral-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="text-4xl font-bold text-blue-600 mb-3">
@@ -53,7 +53,7 @@ export default function TeachingStats() {
                 duration={1800}
               />
             </div>
-            <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.students')}</div>
+            <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.learnersGuidedWorldwide')}</div>
           </div>
           <div className="bg-white p-8 rounded-3xl shadow-lg border border-neutral-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="text-4xl font-bold text-blue-600 mb-3">
@@ -64,7 +64,7 @@ export default function TeachingStats() {
                 duration={1600}
               />
             </div>
-            <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.certifications')}</div>
+            <div className="text-sm text-neutral-600 font-medium">{t('teachingStats.studentsEarnedCertifications')}</div>
           </div>
         </div>
       </div>

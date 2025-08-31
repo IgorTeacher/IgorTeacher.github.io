@@ -59,10 +59,10 @@ export const it = {
   teachingStats: {
     heading: "Il mio insegnamento in numeri",
     subtitle: "Esperienza e risultati che parlano da soli",
-    yearsTeaching: "Anni di insegnamento",
-    teachingHours: "Ore di insegnamento",
-    students: "Studenti",
-    certifications: "Certificazioni"
+    yearsOfExperience: "Anni di esperienza",
+    hoursOfLessonsDelivered: "Ore di lezioni erogate",
+    learnersGuidedWorldwide: "Studenti guidati nel mondo",
+    studentsEarnedCertifications: "Studenti hanno ottenuto certificazioni"
   },
   about: {
     heading: "Conosci il tuo insegnante",

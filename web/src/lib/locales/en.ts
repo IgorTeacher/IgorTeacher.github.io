@@ -60,10 +60,10 @@ export const en = {
   teachingStats: {
     heading: "My Teaching in Numbers",
     subtitle: "Experience and results that speak for themselves",
-    yearsTeaching: "Years Teaching",
-    teachingHours: "Teaching Hours",
-    students: "Students",
-    certifications: "Certifications"
+    yearsOfExperience: "Years of Experience",
+    hoursOfLessonsDelivered: "Hours of Lessons Delivered",
+    learnersGuidedWorldwide: "Learners Guided Worldwide",
+    studentsEarnedCertifications: "Students Earned Certifications"
   },
   about: {
     heading: "Meet Your Teacher",
