@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { content, ctas } from "@/lib/site-data";
 
 export default function Hero() {
   return (
@@ -14,24 +15,24 @@ export default function Hero() {
               transition={{ duration: 0.5, ease: "easeOut" }}
               className="text-4xl md:text-5xl font-semibold tracking-tight text-neutral-900 mb-6 leading-tight"
             >
-              English & German lessons, made personal.
+                                {content.hero.headline}
             </motion.h1>
-            <p className="text-lg text-neutral-700 mb-6">
-              CELTA-certified teacher. Practical speaking, clear structure, friendly guidance.
-            </p>
+                            <p className="text-lg text-neutral-700 mb-6">
+                  {content.hero.subheadline}
+                </p>
             <div className="flex gap-3">
-              <a 
-                href="mailto:igorteacher@icloud.com"
-                className="rounded-2xl px-4 py-2 bg-igor-blue text-white font-medium hover:opacity-90"
-              >
-                Book free trial
-              </a>
-              <a 
-                href="https://wa.me/+48123456789"
-                className="rounded-2xl px-4 py-2 border border-neutral-300 hover:border-igor-blue"
-              >
-                WhatsApp
-              </a>
+                                <a 
+                    href={ctas.primary.href}
+                    className="rounded-2xl px-4 py-2 bg-igor-blue text-white font-medium hover:opacity-90"
+                  >
+                    {ctas.primary.text}
+                  </a>
+                  <a 
+                    href={ctas.whatsapp.href}
+                    className="rounded-2xl px-4 py-2 border border-neutral-300 hover:border-igor-blue"
+                  >
+                    {ctas.whatsapp.text}
+                  </a>
             </div>
           </div>
           <div className="order-1 lg:order-2 text-center">
@@ -47,7 +48,7 @@ export default function Hero() {
               <div className="absolute bottom-4 left-4 bg-white rounded-xl px-3 py-2 shadow-lg border">
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                  <span className="text-sm font-medium text-neutral-800">Available for lessons</span>
+                                        <span className="text-sm font-medium text-neutral-800">{content.hero.availabilityBadge}</span>
                 </div>
               </div>
             </div>

@@ -1,22 +1,12 @@
 import { Languages, Video, Users } from "lucide-react";
+import { offerItems, content } from "@/lib/site-data";
 
-const items = [
-  {
-    title: "Languages & levels",
-    body: "English & German, A2–C1",
-    Icon: Languages,
-  },
-  {
-    title: "Formats",
-    body: "1:1 or pair • Online (Zoom/Meet) or in person",
-    Icon: Video,
-  },
-  {
-    title: "Who I help",
-    body: "Professionals, interview prep, confident speaking",
-    Icon: Users,
-  },
-];
+// Map icon names to actual icon components
+const iconMap = {
+  Languages,
+  Video, 
+  Users
+} as const;
 
 export default function Offer() {
   return (
@@ -24,10 +14,12 @@ export default function Offer() {
       {/* gentle backdrop to separate sections */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-blue-50/40 via-transparent to-transparent" />
       <div className="mx-auto max-w-6xl px-4">
-        <h2 className="text-xl font-semibold">Your lessons at a glance</h2>
+        <h2 className="text-xl font-semibold">{content.offer.heading}</h2>
 
         <div className="mt-6 grid gap-6 md:grid-cols-3">
-          {items.map(({ title, body, Icon }) => (
+          {offerItems.map(({ title, body, iconName }) => {
+            const Icon = iconMap[iconName];
+            return (
             <div
               key={title}
               className="rounded-2xl border bg-white p-5 shadow-sm transition
@@ -41,7 +33,8 @@ export default function Offer() {
               </div>
               <p className="mt-3 text-neutral-700">{body}</p>
             </div>
-          ))}
+          );
+          })}
         </div>
       </div>
     </section>

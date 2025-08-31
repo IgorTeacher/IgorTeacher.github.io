@@ -2,13 +2,7 @@
 
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback, useEffect, useState } from "react";
-
-const testimonials = [
-  { quote: "Ihar helped me feel confident at work meetings.", author: "Anna, Berlin" },
-  { quote: "Clear plan + friendly feedback. My fluency jumped.", author: "Mark, Warsaw" },
-  { quote: "Lessons are practical and motivating.", author: "Olga, Kraków" },
-  { quote: "Great structure. Speaking feels natural now.", author: "Max, Munich" },
-];
+import { testimonials, content } from "@/lib/site-data";
 
 export default function SocialProof() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
@@ -35,7 +29,7 @@ export default function SocialProof() {
   return (
     <section className="mt-24">
       <div className="mx-auto max-w-6xl px-4">
-        <h2 className="text-xl font-semibold">What students say</h2>
+        <h2 className="text-xl font-semibold">{content.socialProof.heading}</h2>
 
         <div className="mt-6 overflow-hidden" ref={emblaRef}>
           <div className="flex gap-6">
@@ -46,9 +40,9 @@ export default function SocialProof() {
                            transition will-change-transform data-[active=true]:scale-[1.01]"
                 data-active={i === selectedIndex}
               >
-                <blockquote className="text-neutral-800">
-                  "{t.quote}"
-                </blockquote>
+                                    <blockquote className="text-neutral-800">
+                      &ldquo;{t.quote}&rdquo;
+                    </blockquote>
                 <figcaption className="mt-3 text-sm text-neutral-600">— {t.author}</figcaption>
               </figure>
             ))}

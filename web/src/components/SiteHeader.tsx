@@ -1,12 +1,13 @@
 "use client";
 import Link from "next/link";
+import { siteConfig, ctas } from "@/lib/site-data";
 
 export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-neutral-200">
       <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
         <Link href="/" className="font-semibold text-lg text-neutral-900">
-          <span className="font-bold">Igor</span> — English & German
+          <span className="font-bold">{siteConfig.author.split(' ')[0]}</span> — {siteConfig.teaching.languages.join(' & ')}
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           <a href="#offer" className="text-neutral-600 hover:text-neutral-900 hover:underline">
@@ -22,10 +23,10 @@ export default function SiteHeader() {
             CV
           </a>
           <a
-            href="mailto:igorteacher@icloud.com"
+            href={ctas.primary.href}
             className="rounded-2xl px-4 py-2 bg-igor-blue text-white font-medium hover:opacity-90 transform hover:scale-105"
           >
-            Book free trial
+            {ctas.primary.text}
           </a>
         </nav>
         {/* Mobile menu button */}
