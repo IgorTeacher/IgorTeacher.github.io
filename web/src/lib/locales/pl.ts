@@ -64,6 +64,14 @@ export const pl = {
     learnersGuidedWorldwide: "Uczniów prowadzonych na całym świecie",
     studentsEarnedCertifications: "Studentów uzyskało certyfikaty"
   },
+  beyondClassroom: {
+    heading: "Poza klasą",
+    subtitle: "Gdzie języki ożywają przez realne doświadczenia",
+    travelLabel: "Zapalony podróżnik",
+    adventureLabel: "Globalny odkrywca",
+    academicLabel: "Uczeń przez całe życie",
+    description: "Te doświadczenia kształtują moje podejście do nauczania, przynosząc realny kontekst i kulturowe spostrzeżenia do każdej lekcji."
+  },
   about: {
     heading: "Poznaj swojego nauczyciela",
     subtitle: "Pasjonat edukacji z ponad dziesięcioletnim doświadczeniem w nauczaniu języków",

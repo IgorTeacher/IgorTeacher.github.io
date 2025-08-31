@@ -65,6 +65,14 @@ export const en = {
     learnersGuidedWorldwide: "Learners Guided Worldwide",
     studentsEarnedCertifications: "Students Earned Certifications"
   },
+  beyondClassroom: {
+    heading: "Beyond the Classroom",
+    subtitle: "Where languages come alive through real-world experiences",
+    travelLabel: "Passionate Traveler",
+    adventureLabel: "Global Explorer",
+    academicLabel: "Lifelong Learner",
+    description: "These experiences shape my teaching approach, bringing real-world context and cultural insights to every lesson."
+  },
   about: {
     heading: "Meet Your Teacher",
     subtitle: "Passionate educator with over a decade of experience in language teaching",

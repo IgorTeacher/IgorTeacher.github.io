@@ -64,6 +64,14 @@ export const de = {
     learnersGuidedWorldwide: "Lernende weltweit betreut",
     studentsEarnedCertifications: "Schüler haben Zertifizierungen erworben"
   },
+  beyondClassroom: {
+    heading: "Jenseits des Klassenzimmers",
+    subtitle: "Wo Sprachen durch reale Erfahrungen zum Leben erweckt werden",
+    travelLabel: "Leidenschaftlicher Reisender",
+    adventureLabel: "Globaler Entdecker",
+    academicLabel: "Lebenslanger Lerner",
+    description: "Diese Erfahrungen prägen meinen Unterrichtsansatz und bringen realen Kontext und kulturelle Einblicke in jede Lektion."
+  },
   about: {
     heading: "Lernen Sie Ihren Lehrer kennen",
     subtitle: "Leidenschaftlicher Pädagoge mit über einem Jahrzehnt Erfahrung im Sprachunterricht",

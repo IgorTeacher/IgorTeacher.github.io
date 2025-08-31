@@ -6,6 +6,7 @@ import Offer from "@/components/Offer";
 import About from "@/components/About";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
+import BeyondClassroom from "@/components/BeyondClassroom";
 import FinalCTA from "@/components/FinalCTA";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <About />
       <Pricing />
       <FAQ />
+      <BeyondClassroom />
       <FinalCTA />
     </main>
   );
