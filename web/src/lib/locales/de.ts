@@ -58,6 +58,15 @@ export const de = {
   
   about: {
     heading: "Lernen Sie Ihren Lehrer kennen",
+    introduction: {
+      greeting: "Hallo, ich bin Ihar (Igor) Ausiany. Ich unterrichte seit über 12 Jahren Englisch und Deutsch, und dabei habe ich auch selbst Sprachen gelernt — Persisch, Polnisch, Französisch und sogar ein bisschen Chinesisch. Ich erwähne das, weil ich die Höhen und Tiefen des Sprachenlernens wirklich von innen kenne.",
+      certifications: "Ich bin CELTA-zertifiziert und bereite mich derzeit auf die DELTA Cambridge Prüfungen vor. Ich habe drei sprachbezogene Universitätsdiplome, das neueste von der SWPS Universität in Englischstudien (Lehrtrack).",
+      experience: "Außerhalb des Klassenzimmers bin ich ein leidenschaftlicher Reisender — ich habe bereits 50 Länder besucht. Diese Erfahrungen haben mir gezeigt, wie Sprache in der Praxis wirklich funktioniert. Deshalb sind meine Stunden praktisch, freundlich und auf Sie zugeschnitten — aufgebaut um reale Situationen, klare Struktur, freundliches Feedback und Ihre persönlichen Ziele."
+    },
+    stats: {
+      yearsTeaching: "Jahre Unterricht",
+      lessonsDelivered: "Stunden gegeben"
+    },
     philosophy: {
       heading: "Meine Unterrichtsphilosophie",
       quote: "Ich suche die effektivsten Wege, Schüler zu inspirieren und zu unterrichten, und bringe herausfordernde Themen wie Grammatik durch innovative Methoden zum Leben."

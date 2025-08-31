@@ -60,9 +60,9 @@ export const en = {
   about: {
     heading: "Meet Your Teacher",
     introduction: {
-      greeting: "Hi, I'm Igor Ausiany, and I'm passionate about transforming education through innovative and engaging methods. I believe learning should be inspiring, not intimidating.",
-      certifications: "With multiple certifications including TESOL, TKT, and an ongoing CELTA, plus an M.Sc. in Philosophy, I bring both academic rigor and practical experience to every lesson.",
-      experience: "Currently, I work with over 10 regular students from around the world, helping them achieve their language goals through personalized, engaging online instruction."
+      greeting: "Hi, I'm Ihar (Igor) Ausiany. I've been teaching English and German for over 12 years, and along the way I've also learned languages myself — Farsi, Polish, French, and even a bit of Chinese. I mention this because I truly know the ups and downs of language learning from the inside.",
+      certifications: "I'm CELTA-certified and currently preparing for the DELTA Cambridge exams. I hold three language-focused university diplomas, the most recent from SWPS University in English Studies (Teaching track).",
+      experience: "Beyond the classroom, I'm a passionate traveller — I've visited 50 countries so far. These experiences have shown me how language really works in practice. That's why my lessons are practical, friendly, and tailored to you — built around real-life situations, clear structure, kind feedback, and your personal goals."
     },
     stats: {
       yearsTeaching: "Years Teaching",
