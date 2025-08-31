@@ -21,7 +21,7 @@ export const siteConfig: SiteConfig = {
   contact: {
     email: "igorteacher@icloud.com",
     whatsapp: "https://wa.me/+48123456789", // Replace with real number
-    telegram: "https://t.me/username", // Replace with real username
+    telegram: "https://t.me/ihar_ausiany",
     zrzutka: "https://zrzutka.pl/en/ghr8d9"
   },
 
