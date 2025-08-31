@@ -1,7 +1,8 @@
 "use client";
 import Image from "next/image";
-import { siteConfig } from "@/lib/site-data";
+
 import { useTranslation } from "@/hooks/useTranslation";
+import AnimatedCounter, { calculateYearsFromDate, calculateTeachingHours } from "@/components/AnimatedCounter";
 
 export default function About() {
   const { t } = useTranslation();
@@ -24,23 +25,59 @@ export default function About() {
                 .replace('CELTA-certified', '<strong class="text-neutral-900">CELTA-certified</strong>')
                 .replace('DELTA Cambridge exams', '<strong class="text-neutral-900">DELTA Cambridge exams</strong>')
                 .replace('three language-focused university diplomas', '<strong class="text-neutral-900">three language-focused university diplomas</strong>')
-                .replace('SWPS University', '<strong class="text-neutral-900">SWPS University</strong>')
+                
               }} />
               <p dangerouslySetInnerHTML={{ __html: t('about.introduction.experience')
                 .replace('50 countries', '<strong class="text-neutral-900">50 countries</strong>')
                 .replace('practical, friendly, and tailored to you', '<strong class="text-neutral-900">practical, friendly, and tailored to you</strong>')
-                .replace('real-life situations, clear structure, kind feedback, and your personal goals', '<strong class="text-neutral-900">real-life situations, clear structure, kind feedback, and your personal goals</strong>')
+                .replace('your personal goals', '<strong class="text-neutral-900">your personal goals</strong>')
               }} />
             </div>
             
-            <div className="mt-8 grid grid-cols-2 gap-6">
+            <div className="mt-8 grid grid-cols-4 gap-6">
               <div className="bg-blue-50 p-4 rounded-2xl border border-neutral-200">
-                <div className="text-2xl font-bold text-blue-600 mb-1">{siteConfig.teaching.experience.yearsTeaching}</div>
+                <div className="text-2xl font-bold text-blue-600 mb-1">
+                  <AnimatedCounter 
+                    startValue={0} 
+                    endValue={calculateYearsFromDate('2013-01-01')} 
+                    suffix="+" 
+                    duration={1500}
+                  />
+                </div>
                 <div className="text-sm text-neutral-600">{t('about.stats.yearsTeaching')}</div>
               </div>
               <div className="bg-blue-50 p-4 rounded-2xl border border-neutral-200">
-                <div className="text-2xl font-bold text-blue-600 mb-1">{siteConfig.teaching.experience.lessonsDelivered}</div>
-                <div className="text-sm text-neutral-600">{t('about.stats.lessonsDelivered')}</div>
+                <div className="text-2xl font-bold text-blue-600 mb-1">
+                  <AnimatedCounter 
+                    startValue={0} 
+                    endValue={calculateTeachingHours('2023-01-01', 15)} 
+                    suffix="+" 
+                    duration={2000}
+                  />
+                </div>
+                <div className="text-sm text-neutral-600">{t('about.stats.teachingHours')}</div>
+              </div>
+              <div className="bg-blue-50 p-4 rounded-2xl border border-neutral-200">
+                <div className="text-2xl font-bold text-blue-600 mb-1">
+                  <AnimatedCounter 
+                    startValue={0} 
+                    endValue={50} 
+                    suffix="+" 
+                    duration={1800}
+                  />
+                </div>
+                <div className="text-sm text-neutral-600">{t('about.stats.students')}</div>
+              </div>
+              <div className="bg-blue-50 p-4 rounded-2xl border border-neutral-200">
+                <div className="text-2xl font-bold text-blue-600 mb-1">
+                  <AnimatedCounter 
+                    startValue={0} 
+                    endValue={18} 
+                    suffix="" 
+                    duration={1600}
+                  />
+                </div>
+                <div className="text-sm text-neutral-600">{t('about.stats.certifications')}</div>
               </div>
             </div>
           </div>

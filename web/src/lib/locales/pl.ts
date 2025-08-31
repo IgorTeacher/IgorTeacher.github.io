@@ -65,7 +65,9 @@ export const pl = {
     },
     stats: {
       yearsTeaching: "Lat nauczania",
-      lessonsDelivered: "Przeprowadzonych lekcji"
+      teachingHours: "Godzin nauczania",
+      students: "Studentów",
+      certifications: "Certyfikatów"
     },
     philosophy: {
       heading: "Moja filozofia nauczania",

@@ -65,7 +65,9 @@ export const de = {
     },
     stats: {
       yearsTeaching: "Jahre Unterricht",
-      lessonsDelivered: "Stunden gegeben"
+      teachingHours: "Unterrichtsstunden",
+      students: "Schüler",
+      certifications: "Zertifizierungen"
     },
     philosophy: {
       heading: "Meine Unterrichtsphilosophie",

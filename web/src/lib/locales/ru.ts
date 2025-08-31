@@ -65,7 +65,9 @@ export const ru = {
     },
     stats: {
       yearsTeaching: "Лет преподавания",
-      lessonsDelivered: "Проведено уроков"
+      teachingHours: "Часов преподавания",
+      students: "Студентов",
+      certifications: "Сертификатов"
     },
     philosophy: {
       heading: "Моя философия преподавания",

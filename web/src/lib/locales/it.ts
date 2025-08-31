@@ -65,7 +65,9 @@ export const it = {
     },
     stats: {
       yearsTeaching: "Anni di insegnamento",
-      lessonsDelivered: "Lezioni tenute"
+      teachingHours: "Ore di insegnamento",
+      students: "Studenti",
+      certifications: "Certificazioni"
     },
     philosophy: {
       heading: "La mia filosofia di insegnamento",
