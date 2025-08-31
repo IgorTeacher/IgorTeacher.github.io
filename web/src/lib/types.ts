@@ -4,6 +4,7 @@ export interface ContactInfo {
   email: string;
   whatsapp: string;
   telegram: string;
+  linkedin: string;
   zrzutka: string;
 }
 

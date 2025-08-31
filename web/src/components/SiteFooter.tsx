@@ -14,7 +14,7 @@ export default function SiteFooter() {
               Email
             </a>
             <a 
-              href="https://www.linkedin.com/in/ihar-ausiany" 
+              href={siteConfig.contact.linkedin} 
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-neutral-900 hover:underline"

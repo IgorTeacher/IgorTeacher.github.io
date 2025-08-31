@@ -22,6 +22,7 @@ export const siteConfig: SiteConfig = {
     email: "igorteacher@icloud.com",
     whatsapp: "https://wa.me/+48123456789", // Replace with real number
     telegram: "https://t.me/ihar_ausiany",
+    linkedin: "https://www.linkedin.com/in/ihar-ausiany/",
     zrzutka: "https://zrzutka.pl/en/ghr8d9"
   },
 
