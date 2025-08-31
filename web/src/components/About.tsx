@@ -7,9 +7,13 @@ import AnimatedCounter, { calculateYearsFromDate, calculateTeachingHours } from 
 export default function About() {
   const { t } = useTranslation();
 
+  // Calculate values for dynamic text
+  const yearsTeaching = calculateYearsFromDate('2013-01-01');
+  const teachingHours = calculateTeachingHours('2013-01-01', 20);
+  
   // Debug: Log calculated values
-  console.log('Years from 2013:', calculateYearsFromDate('2013-01-01'));
-  console.log('Hours from 2023:', calculateTeachingHours('2023-01-01', 15));
+  console.log('Years from 2013:', yearsTeaching);
+  console.log('Hours from 2013:', teachingHours);
   
   return (
     <section className="mt-24">
@@ -20,11 +24,12 @@ export default function About() {
               {t('about.heading')}
             </h2>
             <div className="space-y-6 text-lg text-neutral-600 leading-relaxed">
-              <p dangerouslySetInnerHTML={{ __html: t('about.introduction.greeting')
-                .replace('Ihar (Igor) Ausiany', '<strong class="text-neutral-900">Ihar (Igor) Ausiany</strong>')
-                .replace('12 years', '<strong class="text-neutral-900">12 years</strong>')
-                .replace('Farsi, Polish, French, and even a bit of Chinese', '<strong class="text-neutral-900">Farsi, Polish, French, and even a bit of Chinese</strong>')
-              }} />
+                                <p dangerouslySetInnerHTML={{ __html: t('about.introduction.greeting')
+                    .replace('[YEARS]', yearsTeaching.toString())
+                    .replace('Ihar (Igor) Ausiany', '<strong class="text-neutral-900">Ihar (Igor) Ausiany</strong>')
+                    .replace(`${yearsTeaching} years`, `<strong class="text-neutral-900">${yearsTeaching} years</strong>`)
+                    .replace('Farsi, Polish, French, and even a bit of Chinese', '<strong class="text-neutral-900">Farsi, Polish, French, and even a bit of Chinese</strong>')
+                  }} />
               <p dangerouslySetInnerHTML={{ __html: t('about.introduction.certifications')
                 .replace('CELTA-certified', '<strong class="text-neutral-900">CELTA-certified</strong>')
                 .replace('DELTA Cambridge exams', '<strong class="text-neutral-900">DELTA Cambridge exams</strong>')
@@ -52,12 +57,12 @@ export default function About() {
               </div>
               <div className="bg-blue-50 p-4 rounded-2xl border border-neutral-200">
                 <div className="text-2xl font-bold text-blue-600 mb-1">
-                  <AnimatedCounter 
-                    startValue={0} 
-                    endValue={calculateTeachingHours('2023-01-01', 15)} 
-                    suffix="+" 
-                    duration={2000}
-                  />
+                                     <AnimatedCounter 
+                     startValue={0} 
+                     endValue={teachingHours} 
+                     suffix="+" 
+                     duration={2000}
+                   />
                 </div>
                 <div className="text-sm text-neutral-600">{t('about.stats.teachingHours')}</div>
               </div>

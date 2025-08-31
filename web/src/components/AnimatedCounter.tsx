@@ -55,7 +55,7 @@ export default function AnimatedCounter({
 
     observer.observe(element);
 
-    // Fallback: Start animation after 1 second if intersection observer doesn't trigger
+    // Fallback: Start animation after 3 seconds if intersection observer doesn't trigger
     const fallbackTimer = setTimeout(() => {
       if (!hasAnimated) {
         setHasAnimated(true);
@@ -78,7 +78,7 @@ export default function AnimatedCounter({
           }
         }, 16); // ~60fps
       }
-    }, 1000);
+    }, 3000);
 
     return () => {
       observer.disconnect();
@@ -102,10 +102,12 @@ export function calculateYearsFromDate(startDate: string): number {
   return diffYears;
 }
 
-export function calculateTeachingHours(startDate: string, hoursPerMonth: number = 15): number {
+export function calculateTeachingHours(startDate: string, hoursPerWeek: number = 20): number {
   const start = new Date(startDate);
   const now = new Date();
   const diffTime = Math.abs(now.getTime() - start.getTime());
-  const diffMonths = Math.ceil(diffTime / (1000 * 60 * 60 * 24 * 30));
-  return Math.floor(diffMonths * hoursPerMonth);
+  const diffWeeks = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 7));
+  const totalHours = diffWeeks * hoursPerWeek;
+  // Round down to nearest thousand
+  return Math.floor(totalHours / 1000) * 1000;
 }

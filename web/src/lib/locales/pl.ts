@@ -60,7 +60,7 @@ export const pl = {
     heading: "Poznaj swojego nauczyciela",
     subtitle: "Pasjonat edukacji z ponad dziesięcioletnim doświadczeniem w nauczaniu języków",
     introduction: {
-      greeting: "Cześć, jestem Ihar (Igor) Ausiany. Uczę angielskiego i niemieckiego od ponad 12 lat, a po drodze sam też uczyłem się języków — perskiego, polskiego, francuskiego, a nawet trochę chińskiego. Wspominam o tym, ponieważ naprawdę znam wzloty i upadki nauki języków od środka.",
+              greeting: "Cześć, jestem Ihar (Igor) Ausiany. Uczę angielskiego i niemieckiego od ponad [YEARS] lat, a po drodze sam też uczyłem się języków — perskiego, polskiego, francuskiego, a nawet trochę chińskiego. Wspominam o tym, ponieważ naprawdę znam wzloty i upadki nauki języków od środka.",
       certifications: "Jestem certyfikowany CELTA i obecnie przygotowuję się do egzaminów DELTA Cambridge. Mam trzy dyplomy uniwersyteckie związane z językami, najnowszy z SWPS University w zakresie Studiów Anglistycznych (specjalizacja nauczycielska).",
       experience: "Poza klasą jestem zapalonym podróżnikiem — odwiedziłem już 50 krajów. Te doświadczenia pokazały mi, jak język naprawdę działa w praktyce. Dlatego moje lekcje są praktyczne, przyjazne i dostosowane do Ciebie — zbudowane wokół realnych sytuacji życiowych, jasnej struktury, życzliwej informacji zwrotnej i Twoich osobistych celów."
     },
