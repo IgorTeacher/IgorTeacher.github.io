@@ -38,6 +38,8 @@ export default function HowItWorks() {
         <div className="mt-16 mb-6 text-center">
           <a 
             href={ctas.primary.href}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-igor-blue text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:opacity-90 transform hover:scale-105"
           >
             {ctas.primary.text}

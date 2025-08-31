@@ -20,20 +20,22 @@ export default function Hero() {
                             <p className="text-lg text-neutral-700 mb-6">
                   {content.hero.subheadline}
                 </p>
-            <div className="flex gap-3">
-                                <a 
+                            <div className="flex gap-3">
+                  <a 
                     href={ctas.primary.href}
-                    className="rounded-2xl px-4 py-2 bg-igor-blue text-white font-medium hover:opacity-90"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-2xl px-4 py-2 bg-igor-blue text-white font-medium hover:opacity-90 transform hover:scale-105"
                   >
                     {ctas.primary.text}
                   </a>
                   <a 
-                    href={ctas.whatsapp.href}
+                    href={ctas.secondary.href}
                     className="rounded-2xl px-4 py-2 border border-neutral-300 hover:border-igor-blue"
                   >
-                    {ctas.whatsapp.text}
+                    {ctas.secondary.text}
                   </a>
-            </div>
+                </div>
           </div>
           <div className="order-1 lg:order-2 text-center">
             <div className="relative inline-block">

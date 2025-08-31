@@ -258,6 +258,10 @@ export const content: SiteContent = {
 export const ctas: CTAs = {
   primary: {
     text: "Book free trial",
+    href: "https://calendly.com/igorteacher/30min-trial-class"
+  },
+  secondary: {
+    text: "Email me",
     href: `mailto:${siteConfig.contact.email}`
   },
   whatsapp: {

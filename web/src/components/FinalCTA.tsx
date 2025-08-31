@@ -14,6 +14,8 @@ export default function FinalCTA() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <a 
             href={ctas.primary.href}
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-white text-igor-blue px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-neutral-50 transition-colors transform hover:scale-105"
           >
             {ctas.primary.text}

@@ -50,7 +50,7 @@ export default function FAQ() {
             Still have questions?
           </p>
                       <a 
-              href={ctas.primary.href}
+              href={ctas.secondary.href}
               className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold"
             >
               Contact me directly

@@ -1,3 +1,5 @@
+import { ctas } from "@/lib/site-data";
+
 export default function Pricing() {
   return (
     <section id="pricing" className="mt-24">
@@ -59,10 +61,12 @@ export default function Pricing() {
             </ul>
 
             <a 
-              href="mailto:igorteacher@icloud.com"
+              href={ctas.primary.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full block text-center bg-neutral-200 text-neutral-700 py-3 rounded-2xl font-semibold hover:bg-neutral-300 transition-colors"
             >
-              Book free trial
+              {ctas.primary.text}
             </a>
           </div>
 
@@ -100,10 +104,12 @@ export default function Pricing() {
             </ul>
 
             <a 
-              href="mailto:igorteacher@icloud.com"
+              href={ctas.primary.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full block text-center bg-neutral-200 text-neutral-700 py-3 rounded-2xl font-semibold hover:bg-neutral-300 transition-colors"
             >
-              Book free trial
+              {ctas.primary.text}
             </a>
           </div>
 

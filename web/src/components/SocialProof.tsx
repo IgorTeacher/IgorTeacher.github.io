@@ -33,7 +33,7 @@ export default function SocialProof() {
       <div className="mx-auto max-w-6xl px-4">
         <h2 className="text-xl font-semibold">{content.socialProof.heading}</h2>
 
-        <div className="mt-6 overflow-hidden" ref={emblaRef}>
+        <div className="mt-10 overflow-hidden" ref={emblaRef}>
           <div className="flex gap-6">
             {testimonials.map((t, i) => (
               <figure
@@ -41,11 +41,11 @@ export default function SocialProof() {
                 data-active={i === selected}
                 className="relative min-w-[86%] md:min-w-[48%] lg:min-w-[32%]
                            rounded-2xl border bg-white p-5 shadow-sm transition
-                           will-change-transform data-[active=true]:scale-[1.01]"
+                           will-change-transform data-[active=true]:scale-[1.01] mt-4"
               >
                 {/* avatar */}
                 {t.avatar && (
-                  <div className="absolute -top-4 -left-4 h-12 w-12 rounded-full ring-4 ring-white overflow-hidden shadow">
+                  <div className="absolute -top-6 -left-4 h-12 w-12 rounded-full ring-4 ring-white overflow-hidden shadow">
                     <Image 
                       src={t.avatar} 
                       alt={t.name} 

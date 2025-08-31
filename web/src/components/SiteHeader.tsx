@@ -24,6 +24,8 @@ export default function SiteHeader() {
           </a>
           <a
             href={ctas.primary.href}
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-2xl px-4 py-2 bg-igor-blue text-white font-medium hover:opacity-90 transform hover:scale-105"
           >
             {ctas.primary.text}

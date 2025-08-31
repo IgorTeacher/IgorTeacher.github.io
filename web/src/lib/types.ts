@@ -120,6 +120,7 @@ export interface CTALink {
 
 export interface CTAs {
   primary: CTALink;
+  secondary: CTALink;
   whatsapp: CTALink;
   support: CTALink;
 }
