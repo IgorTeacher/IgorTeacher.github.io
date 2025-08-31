@@ -1,0 +1,135 @@
+export const it = {
+  hero: {
+    headline: "Lezioni di inglese e tedesco, personalizzate.",
+    subheadline: "Insegnante certificato CELTA. Conversazione pratica, struttura chiara, guida amichevole.",
+    availabilityBadge: "Disponibile per lezioni"
+  },
+  
+  socialProof: {
+    heading: "Cosa dicono gli studenti"
+  },
+  
+  howItWorks: {
+    heading: "Come funziona",
+    subheading: "Un approccio comprovato che ha aiutato gli studenti a raggiungere la fluenza in inglese e tedesco, dai principianti assoluti agli studenti avanzati.",
+    steps: [
+      {
+        title: "Consulenza gratuita",
+        description: "Discutiamo i tuoi obiettivi, valutiamo il tuo livello attuale e creiamo un piano di apprendimento personalizzato."
+      },
+      {
+        title: "Lezioni su misura",
+        description: "Partecipa a lezioni interattive progettate per il tuo stile di apprendimento, ritmo e obiettivi."
+      },
+      {
+        title: "Monitora i progressi",
+        description: "Valutazioni regolari e feedback ti aiutano a vedere i miglioramenti e rimanere motivato."
+      },
+      {
+        title: "Raggiungi la fluenza",
+        description: "Raggiungi i tuoi obiettivi linguistici attraverso la pratica costante e la guida esperta."
+      }
+    ]
+  },
+  
+  offer: {
+    heading: "Le tue lezioni a colpo d'occhio",
+    items: [
+      {
+        title: "Lingue e livelli",
+        body: "Inglese e tedesco, A2–C1"
+      },
+      {
+        title: "Formati",
+        body: "1:1 o in coppia • Online (Zoom/Meet) o di persona"
+      },
+      {
+        title: "Chi aiuto",
+        body: "Professionisti, preparazione colloqui, conversazione sicura"
+      }
+    ]
+  },
+  
+  about: {
+    heading: "Conosci il tuo insegnante",
+    philosophy: {
+      heading: "La mia filosofia di insegnamento",
+      quote: "Cerco i modi più efficaci per ispirare e insegnare agli studenti, dando vita a materie impegnative come la grammatica attraverso metodi innovativi."
+    }
+  },
+  
+  pricing: {
+    heading: "Prezzi semplici e trasparenti",
+    subheading: "Opzioni di lezione flessibili che si adattano al tuo programma e budget. Tutte le lezioni sono condotte online tramite Zoom per la massima comodità.",
+    individual: {
+      title: "Lezioni individuali",
+      subtitle: "Perfetto per l'attenzione personalizzata",
+      features: [
+        "Lezioni di 60 minuti",
+        "Curriculum completamente personalizzato",
+        "Programmazione flessibile",
+        "Materiali di apprendimento inclusi",
+        "Monitoraggio dei progressi"
+      ]
+    },
+    package: {
+      title: "Pacchetto 5 lezioni",
+      subtitle: "Risparmia con più lezioni",
+      features: [
+        "5 × lezioni di 60 minuti",
+        "Programmazione flessibile",
+        "Miglior valore"
+      ]
+    },
+    trial: {
+      title: "Lezione di prova gratuita",
+      subtitle: "Sperimenta il mio stile di insegnamento",
+      features: [
+        "Valutazione del livello",
+        "Discussione degli obiettivi",
+        "Lezione di esempio",
+        "Piano di apprendimento personalizzato",
+        "Nessun impegno richiesto"
+      ]
+    },
+    contactInfo: "Contatta per maggiori informazioni",
+    bottomText: "Tutte le lezioni sono condotte tramite Zoom. Le opzioni di pagamento e i prezzi specifici saranno discussi durante la tua lezione di prova."
+  },
+  
+  faq: {
+    heading: "Domande frequenti",
+    subheading: "Hai domande? Ho le risposte. Ecco le domande più comuni sul mio approccio di insegnamento e la struttura delle lezioni.",
+    stillHaveQuestions: "Hai ancora domande?",
+    contactDirectly: "Contattami direttamente"
+  },
+  
+  finalCTA: {
+    heading: "Pronto a iniziare il tuo viaggio linguistico?",
+    subheading: "Unisciti agli studenti di tutto il mondo che stanno raggiungendo i loro obiettivi linguistici attraverso un'istruzione personalizzata e coinvolgente. Il tuo viaggio verso la fluenza inizia con una conversazione.",
+    highlights: [
+      { value: "Gratuito", label: "Lezione di prova" },
+      { value: "Flessibile", label: "Programmazione" },
+      { value: "Certificato", label: "Insegnante esperto" }
+    ],
+    noObligationText: "Nessun obbligo dopo la lezione di prova"
+  },
+  
+  ctas: {
+    bookFreeTrial: "Prenota lezione di prova gratuita",
+    emailMe: "Inviami un'email",
+    contactForDetails: "Contatta per dettagli",
+    messageOnTelegram: "Messaggio su Telegram",
+    supportMyTeaching: "Sostieni il mio insegnamento"
+  },
+  
+  contact: {
+    email: "Email",
+    telegram: "Telegram",
+    whatsapp: "WhatsApp"
+  },
+  
+  footer: {
+    allRightsReserved: "Tutti i diritti riservati",
+    quote: "Nulla nella vita è da temere, è solo da comprendere. Ora è il momento di comprendere di più, così possiamo temere di meno."
+  }
+} as const;
