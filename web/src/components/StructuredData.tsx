@@ -4,7 +4,7 @@ import { useTranslation } from "@/hooks/useTranslation";
 
 export default function StructuredData() {
   const { t, locale } = useTranslation();
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://igorteacher.com';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://learnwithihar.com';
   
   const structuredData = {
     "@context": "https://schema.org",
@@ -13,7 +13,7 @@ export default function StructuredData() {
     "description": t('hero.subheadline'),
     "url": `${baseUrl}/${locale}`,
     "telephone": "+48123456789", // Replace with actual phone
-    "email": "igorteacher@icloud.com",
+    "email": "hello@learnwithihar.com",
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "PL"

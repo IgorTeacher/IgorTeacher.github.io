@@ -6,7 +6,7 @@ Create a `.env.local` file in the `web/` directory with:
 
 ```bash
 # Base URL for the website (update this with your actual domain)
-NEXT_PUBLIC_BASE_URL=https://igorteacher.com
+NEXT_PUBLIC_BASE_URL=https://learnwithihar.com
 
 # For development, you can use:
 # NEXT_PUBLIC_BASE_URL=http://localhost:3000

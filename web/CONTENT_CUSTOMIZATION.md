@@ -31,7 +31,7 @@ web/src/lib/
 ```typescript
 export const siteConfig: SiteConfig = {
   contact: {
-    email: "your-email@example.com",        // ← Change this
+    email: "hello@learnwithihar.com",        // ← Change this
     whatsapp: "https://wa.me/+YOURNUMBER",  // ← Change this
     telegram: "https://t.me/YOUR_USERNAME", // ← Change this
   },
@@ -143,7 +143,7 @@ export const testimonials: readonly Testimonial[] = [
 1. **In `site-data.ts`:**
    ```typescript
    contact: {
-     email: "new-email@example.com",
+  email: "hello@learnwithihar.com",
      whatsapp: "https://wa.me/+NEWNUMBER",
      telegram: "https://t.me/NEW_USERNAME",
      linkedin: "https://linkedin.com/in/NEW_PROFILE",

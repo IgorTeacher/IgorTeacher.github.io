@@ -14,12 +14,12 @@ import type {
 export const siteConfig: SiteConfig = {
   // Basic site info
   title: "Learn English & German with Ihar",
-  description: "CELTA-certified teacher. Book a free 20-minute trial.",
+  description: "CELTA-certified teacher. Book a free 30-minute trial.",
   author: "Ihar Ausiany",
   
   // Contact info
   contact: {
-    email: "igorteacher@icloud.com",
+    email: "hello@learnwithihar.com",
     whatsapp: "https://wa.me/+48123456789", // Replace with real number
     telegram: "https://t.me/ihar_ausiany",
     linkedin: "https://www.linkedin.com/in/ihar-ausiany/",

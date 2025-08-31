@@ -34,7 +34,7 @@ export default async function LocaleLayout({
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://igorteacher.com';
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://learnwithihar.com';
   
   // Language-specific metadata
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
