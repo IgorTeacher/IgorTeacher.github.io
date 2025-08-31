@@ -56,6 +56,14 @@ export const it = {
     ]
   },
   
+  teachingStats: {
+    heading: "Il mio insegnamento in numeri",
+    subtitle: "Esperienza e risultati che parlano da soli",
+    yearsTeaching: "Anni di insegnamento",
+    teachingHours: "Ore di insegnamento",
+    students: "Studenti",
+    certifications: "Certificazioni"
+  },
   about: {
     heading: "Conosci il tuo insegnante",
     subtitle: "Educatore appassionato con oltre un decennio di esperienza nell'insegnamento delle lingue",

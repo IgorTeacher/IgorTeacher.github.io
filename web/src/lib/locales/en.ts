@@ -57,6 +57,14 @@ export const en = {
     ]
   },
   
+  teachingStats: {
+    heading: "My Teaching in Numbers",
+    subtitle: "Experience and results that speak for themselves",
+    yearsTeaching: "Years Teaching",
+    teachingHours: "Teaching Hours",
+    students: "Students",
+    certifications: "Certifications"
+  },
   about: {
     heading: "Meet Your Teacher",
     subtitle: "Passionate educator with over a decade of experience in language teaching",

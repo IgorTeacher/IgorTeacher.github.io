@@ -56,6 +56,14 @@ export const de = {
     ]
   },
   
+  teachingStats: {
+    heading: "Mein Unterricht in Zahlen",
+    subtitle: "Erfahrung und Ergebnisse, die für sich sprechen",
+    yearsTeaching: "Jahre Unterricht",
+    teachingHours: "Unterrichtsstunden",
+    students: "Schüler",
+    certifications: "Zertifizierungen"
+  },
   about: {
     heading: "Lernen Sie Ihren Lehrer kennen",
     subtitle: "Leidenschaftlicher Pädagoge mit über einem Jahrzehnt Erfahrung im Sprachunterricht",

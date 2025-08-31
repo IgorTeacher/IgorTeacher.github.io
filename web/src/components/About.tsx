@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 import { useTranslation } from "@/hooks/useTranslation";
-import AnimatedCounter, { calculateYearsFromDate, calculateTeachingHours } from "@/components/AnimatedCounter";
+import { calculateYearsFromDate, calculateTeachingHours } from "@/components/AnimatedCounter";
 
 export default function About() {
   const { t } = useTranslation();
@@ -79,62 +79,7 @@ export default function About() {
           </div>
         </div>
 
-        {/* Statistics Section */}
-        <div className="text-center">
-          <h3 className="text-3xl font-bold text-neutral-900 mb-4">
-            {t('about.stats.heading')}
-          </h3>
-          <p className="text-lg text-neutral-600 max-w-2xl mx-auto mb-12">
-            {t('about.stats.subtitle')}
-          </p>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="bg-white p-8 rounded-3xl shadow-lg border border-neutral-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <div className="text-4xl font-bold text-blue-600 mb-3">
-                <AnimatedCounter 
-                  startValue={0} 
-                  endValue={yearsTeaching} 
-                  suffix="+" 
-                  duration={1500}
-                />
-              </div>
-              <div className="text-sm text-neutral-600 font-medium">{t('about.stats.yearsTeaching')}</div>
-            </div>
-            <div className="bg-white p-8 rounded-3xl shadow-lg border border-neutral-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <div className="text-4xl font-bold text-blue-600 mb-3">
-                <AnimatedCounter 
-                  startValue={0} 
-                  endValue={teachingHours} 
-                  suffix="+" 
-                  duration={2000}
-                />
-              </div>
-              <div className="text-sm text-neutral-600 font-medium">{t('about.stats.teachingHours')}</div>
-            </div>
-            <div className="bg-white p-8 rounded-3xl shadow-lg border border-neutral-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <div className="text-4xl font-bold text-blue-600 mb-3">
-                <AnimatedCounter 
-                  startValue={0} 
-                  endValue={50} 
-                  suffix="+" 
-                  duration={1800}
-                />
-              </div>
-              <div className="text-sm text-neutral-600 font-medium">{t('about.stats.students')}</div>
-            </div>
-            <div className="bg-white p-8 rounded-3xl shadow-lg border border-neutral-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-              <div className="text-4xl font-bold text-blue-600 mb-3">
-                <AnimatedCounter 
-                  startValue={0} 
-                  endValue={18} 
-                  suffix="" 
-                  duration={1600}
-                />
-              </div>
-              <div className="text-sm text-neutral-600 font-medium">{t('about.stats.certifications')}</div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );
