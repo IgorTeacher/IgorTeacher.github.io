@@ -1,14 +1,18 @@
+"use client";
 import Image from "next/image";
 import { content, siteConfig } from "@/lib/site-data";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function About() {
+  const { t } = useTranslation();
+  
   return (
     <section className="mt-24">
       <div className="mx-auto max-w-6xl px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-xl font-semibold mb-6">
-              {content.about.heading}
+              {t('about.heading')}
             </h2>
             <div className="space-y-6 text-lg text-neutral-600 leading-relaxed">
               <p>
@@ -51,9 +55,9 @@ export default function About() {
             />
             
             <div className="mt-8 bg-white p-6 rounded-2xl shadow-sm border-neutral-200 border max-w-md mx-auto lg:mx-0">
-              <h3 className="font-semibold text-neutral-900 mb-4">{content.about.philosophy.heading}</h3>
+              <h3 className="font-semibold text-neutral-900 mb-4">{t('about.philosophy.heading')}</h3>
               <blockquote className="text-neutral-600 italic">
-                &ldquo;{content.about.philosophy.quote}&rdquo;
+                &ldquo;{t('about.philosophy.quote')}&rdquo;
               </blockquote>
             </div>
           </div>

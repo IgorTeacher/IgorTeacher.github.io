@@ -1,17 +1,20 @@
+"use client";
 import { ctas, siteConfig } from "@/lib/site-data";
 import { Mail, MessageCircle, Phone } from "lucide-react";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function Pricing() {
+  const { t } = useTranslation();
+  
   return (
     <section id="pricing" className="mt-24">
       <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-16">
           <h2 className="text-xl font-semibold mb-6">
-            Simple, Transparent Pricing
+            {t('pricing.heading')}
           </h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            Flexible lesson options that fit your schedule and budget. All lessons are 
-            conducted online via Zoom for maximum convenience.
+            {t('pricing.subheading')}
           </p>
         </div>
 

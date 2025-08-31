@@ -2,8 +2,11 @@
 import Link from "next/link";
 import { siteConfig, ctas } from "@/lib/site-data";
 import LanguageSelector from "@/components/LanguageSelector";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function SiteHeader() {
+  const { t } = useTranslation();
+  
   return (
     <header className="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-neutral-200">
       <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
@@ -34,7 +37,7 @@ export default function SiteHeader() {
               rel="noopener noreferrer"
               className="rounded-2xl px-4 py-2 bg-igor-blue text-white font-medium hover:opacity-90 transform hover:scale-105"
             >
-              {ctas.primary.text}
+              {t('ctas.bookFreeTrial')}
             </a>
           </nav>
         </div>

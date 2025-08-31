@@ -1,8 +1,10 @@
 "use client";
 import { useState } from "react";
 import { faqItems, content, ctas } from "@/lib/site-data";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function FAQ() {
+  const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
@@ -10,10 +12,10 @@ export default function FAQ() {
       <div className="mx-auto max-w-4xl px-4 py-20">
         <div className="text-center mb-16">
           <h2 className="text-xl font-semibold mb-6">
-            {content.faq.heading}
+            {t('faq.heading')}
           </h2>
           <p className="text-xl text-neutral-600">
-            {content.faq.subheading}
+            {t('faq.subheading')}
           </p>
         </div>
 
@@ -47,13 +49,13 @@ export default function FAQ() {
 
         <div className="mt-12 text-center">
           <p className="text-neutral-600 mb-4">
-            Still have questions?
+            {t('faq.stillHaveQuestions')}
           </p>
                       <a 
               href={ctas.secondary.href}
               className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold"
             >
-              Contact me directly
+              {t('faq.contactDirectly')}
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
