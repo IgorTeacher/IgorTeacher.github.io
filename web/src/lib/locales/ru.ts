@@ -144,5 +144,106 @@ export const ru = {
     openingHours: "Mo-Su 09:00-21:00",
     freeTrialName: "Free Trial Lesson",
     freeTrialDescription: "20-minute free trial lesson"
+  },
+
+  cv: {
+    title: "Professional CV & Certifications",
+    subtitle: "Dedicated language teacher with comprehensive qualifications and experience",
+    overview: {
+      title: "Professional Overview",
+      description: "Experienced language teacher with a passion for education and a commitment to helping students achieve their language goals. Specialized in English and German instruction with a focus on personalized learning approaches."
+    },
+    education: {
+      title: "Education",
+      items: [
+        {
+          degree: "M.Sc. in Philosophy",
+          institution: "University",
+          period: "2020-2022",
+          description: "Advanced studies in philosophy with focus on educational theory and methodology"
+        }
+      ]
+    },
+    certifications: {
+      title: "Professional Certifications",
+      subtitle: "Recognized qualifications in language teaching and education",
+      items: [
+        {
+          name: "TESOL Certificate",
+          description: "Teaching English to Speakers of Other Languages",
+          image: "/certificates/Certificate_TESOL.pdf"
+        },
+        {
+          name: "Technology Certificate",
+          description: "Educational technology and digital teaching methods",
+          image: "/certificates/Certificate_Technology.pdf"
+        },
+        {
+          name: "TKT Certificate - Level 1",
+          description: "Teaching Knowledge Test - Module 1",
+          image: "/certificates/Certificate_TKT_1.jpeg"
+        },
+        {
+          name: "TKT Certificate - Level 2",
+          description: "Teaching Knowledge Test - Module 2",
+          image: "/certificates/Certificate_TKT_2.jpeg"
+        },
+        {
+          name: "TKT Certificate - Level 3",
+          description: "Teaching Knowledge Test - Module 3",
+          image: "/certificates/Certificate_TKT_3.jpeg"
+        }
+      ]
+    },
+    experience: {
+      title: "Teaching Experience",
+      items: [
+        {
+          role: "Language Teacher",
+          period: "2020 - Present",
+          description: "Providing personalized English and German lessons to students of all levels, from complete beginners to advanced learners. Specializing in conversational skills, business language, and exam preparation."
+        },
+        {
+          role: "Online Education Specialist",
+          period: "2021 - Present",
+          description: "Conducting virtual lessons via Zoom, utilizing modern technology to create engaging and effective learning experiences."
+        }
+      ]
+    },
+    skills: {
+      title: "Core Skills",
+      items: [
+        "Personalized lesson planning and curriculum development",
+        "Conversational English and German instruction",
+        "Business language and professional communication",
+        "Exam preparation (IELTS, TOEFL, TestDaF)",
+        "Online teaching and digital education tools",
+        "Student assessment and progress tracking",
+        "Cultural context and real-world application"
+      ]
+    },
+    levels: {
+      title: "Teaching Levels",
+      subtitle: "Comprehensive instruction across all proficiency levels",
+      items: [
+        {
+          level: "A1 - Complete Beginners",
+          description: "Building solid foundations with essential vocabulary, basic grammar, and everyday conversation skills."
+        },
+        {
+          level: "A2-B1 - Intermediate",
+          description: "Expanding vocabulary, improving conversational fluency, and developing reading and writing skills."
+        },
+        {
+          level: "B2-C1 - Advanced",
+          description: "Fine-tuning language skills for natural conversations, cultural insights, and professional or academic contexts."
+        }
+      ]
+    },
+    contact: {
+      title: "Ready to Start Your Language Journey?",
+      description: "Let's work together to achieve your language goals. Book a free trial lesson to experience my teaching approach.",
+      cta: "Book Free Trial Lesson"
+    }
   }
 } as const;
