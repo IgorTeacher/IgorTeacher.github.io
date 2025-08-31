@@ -1,5 +1,5 @@
 import { ctas, siteConfig } from "@/lib/site-data";
-import { Mail, MessageCircle } from "lucide-react";
+import { Mail, MessageCircle, Phone } from "lucide-react";
 
 export default function Pricing() {
   return (
@@ -61,13 +61,36 @@ export default function Pricing() {
               </li>
             </ul>
 
-            <a 
-              href={ctas.secondary.href}
-              className="w-full flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 py-3 rounded-2xl font-semibold hover:bg-neutral-300 transition-colors"
-            >
-              <Mail className="w-4 h-4" />
-              Contact for details
-            </a>
+            <div className="w-full">
+              <p className="text-center font-semibold text-neutral-700 mb-3">Contact for more info</p>
+              <div className="flex justify-center gap-3">
+                <a 
+                  href={ctas.secondary.href}
+                  className="flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 px-4 py-2 rounded-xl font-medium hover:bg-neutral-300 transition-colors"
+                >
+                  <Mail className="w-4 h-4" />
+                  Email
+                </a>
+                <a 
+                  href={siteConfig.contact.telegram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 px-4 py-2 rounded-xl font-medium hover:bg-neutral-300 transition-colors"
+                >
+                  <MessageCircle className="w-4 h-4" />
+                  Telegram
+                </a>
+                <a 
+                  href={ctas.whatsapp.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 px-4 py-2 rounded-xl font-medium hover:bg-neutral-300 transition-colors"
+                >
+                  <Phone className="w-4 h-4" />
+                  WhatsApp
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* 5-Lesson Package */}
@@ -103,15 +126,36 @@ export default function Pricing() {
               </li>
             </ul>
 
-            <a 
-              href={siteConfig.contact.telegram}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 py-3 rounded-2xl font-semibold hover:bg-neutral-300 transition-colors"
-            >
-              <MessageCircle className="w-4 h-4" />
-              Message on Telegram
-            </a>
+            <div className="w-full">
+              <p className="text-center font-semibold text-neutral-700 mb-3">Contact for more info</p>
+              <div className="flex justify-center gap-3">
+                <a 
+                  href={ctas.secondary.href}
+                  className="flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 px-4 py-2 rounded-xl font-medium hover:bg-neutral-300 transition-colors"
+                >
+                  <Mail className="w-4 h-4" />
+                  Email
+                </a>
+                <a 
+                  href={siteConfig.contact.telegram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 px-4 py-2 rounded-xl font-medium hover:bg-neutral-300 transition-colors"
+                >
+                  <MessageCircle className="w-4 h-4" />
+                  Telegram
+                </a>
+                <a 
+                  href={ctas.whatsapp.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-neutral-200 text-neutral-700 px-4 py-2 rounded-xl font-medium hover:bg-neutral-300 transition-colors"
+                >
+                  <Phone className="w-4 h-4" />
+                  WhatsApp
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* Trial Lesson */}
