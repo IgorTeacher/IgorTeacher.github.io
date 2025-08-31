@@ -61,21 +61,65 @@ export const siteConfig: SiteConfig = {
 
 // Content data
 export const testimonials: readonly Testimonial[] = [
-  { 
-    quote: "Ihar helped me feel confident at work meetings.", 
-    author: "Anna, Berlin" 
+  {
+    quote: "Ihar helped me feel confident at work meetings.",
+    name: "Anna",
+    location: "Berlin",
+    avatar: "/avatars/anna.svg",
+    profileUrl: "https://www.linkedin.com/in/anna-testimonial",
+    platform: "linkedin",
   },
-  { 
-    quote: "Clear plan + friendly feedback. My fluency jumped.", 
-    author: "Mark, Warsaw" 
+  {
+    quote: "Clear plan + friendly feedback. My fluency jumped.",
+    name: "Mark",
+    location: "Warsaw",
+    avatar: "/avatars/mark.svg",
+    profileUrl: "https://www.instagram.com/mark_speaks_english",
+    platform: "instagram",
   },
-  { 
-    quote: "Lessons are practical and motivating.", 
-    author: "Olga, Kraków" 
+  {
+    quote: "Lessons are practical and motivating.",
+    name: "Olga",
+    location: "Kraków",
+    avatar: "/avatars/olga.svg",
   },
-  { 
-    quote: "Great structure. Speaking feels natural now.", 
-    author: "Max, Munich" 
+  {
+    quote: "Great structure. Speaking feels natural now.",
+    name: "Max",
+    location: "Munich",
+    avatar: "/avatars/max.svg",
+    profileUrl: "https://www.linkedin.com/in/max-engineer",
+    platform: "linkedin",
+  },
+  {
+    quote: "Perfect for business German. Presentations went smoothly!",
+    name: "Sophie",
+    location: "Vienna",
+    avatar: "/avatars/sophie.svg",
+    profileUrl: "https://www.linkedin.com/in/sophie-business",
+    platform: "linkedin",
+  },
+  {
+    quote: "From zero to conversational in 6 months. Amazing results!",
+    name: "Lucas",
+    location: "Amsterdam",
+    avatar: "/avatars/lucas.svg",
+  },
+  {
+    quote: "Flexible scheduling made it possible to fit lessons into my busy life.",
+    name: "Maria",
+    location: "Barcelona",
+    avatar: "/avatars/maria.svg",
+    profileUrl: "https://www.instagram.com/maria_learning",
+    platform: "instagram",
+  },
+  {
+    quote: "Technical English for my engineering career. Highly recommend!",
+    name: "Pavel",
+    location: "Prague",
+    avatar: "/avatars/pavel.svg",
+    profileUrl: "https://www.linkedin.com/in/pavel-tech",
+    platform: "linkedin",
   }
 ] as const;
 

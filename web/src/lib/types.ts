@@ -49,7 +49,11 @@ export interface SiteConfig {
 
 export interface Testimonial {
   quote: string;
-  author: string;
+  name: string;
+  location?: string;
+  avatar?: string;               // e.g. "/avatars/anna.jpg"
+  profileUrl?: string;           // e.g. "https://www.linkedin.com/in/..."
+  platform?: "linkedin" | "instagram";
 }
 
 export interface HowItWorksStep {
