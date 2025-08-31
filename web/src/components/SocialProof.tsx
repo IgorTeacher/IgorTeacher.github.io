@@ -5,8 +5,10 @@ import { ExternalLink, Instagram, Linkedin } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 import { useEffect, useState, useCallback } from "react";
 import { testimonials, content } from "@/lib/site-data";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function SocialProof() {
+  const { t } = useTranslation();
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
   const [selected, setSelected] = useState(0);
 
@@ -29,9 +31,9 @@ export default function SocialProof() {
   }, [emblaApi, onSelect]);
 
   return (
-    <section className="mt-24">
-      <div className="mx-auto max-w-6xl px-4">
-        <h2 className="text-xl font-semibold">{content.socialProof.heading}</h2>
+            <section className="mt-24">
+          <div className="mx-auto max-w-6xl px-4">
+            <h2 className="text-xl font-semibold">{t('socialProof.heading')}</h2>
 
         <div className="mt-10 overflow-hidden px-4" ref={emblaRef}>
           <div className="flex gap-6">

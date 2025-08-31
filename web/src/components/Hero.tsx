@@ -2,8 +2,11 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { content, ctas } from "@/lib/site-data";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function Hero() {
+  const { t } = useTranslation();
+  
   return (
     <section className="pt-16 pb-20 bg-gradient-to-b from-neutral-50 to-white">
       <div className="mx-auto max-w-6xl px-4">
@@ -15,11 +18,11 @@ export default function Hero() {
               transition={{ duration: 0.5, ease: "easeOut" }}
               className="text-4xl md:text-5xl font-semibold tracking-tight text-neutral-900 mb-6 leading-tight"
             >
-                                {content.hero.headline}
+              {t('hero.headline')}
             </motion.h1>
-                            <p className="text-lg text-neutral-700 mb-6">
-                  {content.hero.subheadline}
-                </p>
+            <p className="text-lg text-neutral-700 mb-6">
+              {t('hero.subheadline')}
+            </p>
                             <div className="flex gap-3">
                   <a 
                     href={ctas.primary.href}
@@ -27,13 +30,13 @@ export default function Hero() {
                     rel="noopener noreferrer"
                     className="rounded-2xl px-4 py-2 bg-igor-blue text-white font-medium hover:opacity-90 transform hover:scale-105"
                   >
-                    {ctas.primary.text}
+                    {t('ctas.bookFreeTrial')}
                   </a>
                   <a 
                     href={ctas.secondary.href}
                     className="rounded-2xl px-4 py-2 border border-neutral-300 hover:border-igor-blue"
                   >
-                    {ctas.secondary.text}
+                    {t('ctas.emailMe')}
                   </a>
                 </div>
           </div>
@@ -50,7 +53,7 @@ export default function Hero() {
               <div className="absolute bottom-4 left-4 bg-white rounded-xl px-3 py-2 shadow-lg border">
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                                        <span className="text-sm font-medium text-neutral-800">{content.hero.availabilityBadge}</span>
+                  <span className="text-sm font-medium text-neutral-800">{t('hero.availabilityBadge')}</span>
                 </div>
               </div>
             </div>
