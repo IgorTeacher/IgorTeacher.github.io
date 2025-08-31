@@ -1,5 +1,5 @@
 "use client";
-import { howItWorksSteps, content, ctas } from "@/lib/site-data";
+import { howItWorksSteps, ctas } from "@/lib/site-data";
 import { useTranslation } from "@/hooks/useTranslation";
 
 export default function HowItWorks() {
@@ -18,6 +18,7 @@ export default function HowItWorks() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
           {(Array.isArray(t('howItWorks.steps')) ? t('howItWorks.steps') : howItWorksSteps).map((step: any, index: number) => (
             <div key={index} className="text-center">
               <div className="relative mb-6">

@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { content, ctas } from "@/lib/site-data";
+import { ctas } from "@/lib/site-data";
 import { useTranslation } from "@/hooks/useTranslation";
 
 export default function Hero() {

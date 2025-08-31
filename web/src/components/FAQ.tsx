@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { faqItems, content, ctas } from "@/lib/site-data";
+import { faqItems, ctas } from "@/lib/site-data";
 import { useTranslation } from "@/hooks/useTranslation";
 
 export default function FAQ() {

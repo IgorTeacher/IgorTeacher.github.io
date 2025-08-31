@@ -8,6 +8,7 @@ export function useTranslation() {
   // Extract locale from pathname (e.g., "/de/about" -> "de")
   const locale = pathname.split('/')[1] || 'en';
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const t = (key: string): any => {
     const keys = key.split('.');
     let value: unknown = translations[locale as keyof typeof translations];

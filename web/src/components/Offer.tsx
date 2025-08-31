@@ -1,6 +1,6 @@
 "use client";
 import { Languages, Video, Users } from "lucide-react";
-import { offerItems, content } from "@/lib/site-data";
+import { offerItems } from "@/lib/site-data";
 import { useTranslation } from "@/hooks/useTranslation";
 
 // Map icon names to actual icon components
@@ -21,6 +21,7 @@ export default function Offer() {
         <h2 className="text-xl font-semibold">{t('offer.heading')}</h2>
 
         <div className="mt-6 grid gap-6 md:grid-cols-3">
+          {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
           {(Array.isArray(t('offer.items')) ? t('offer.items') : offerItems).map((item: any, index: number) => {
             const Icon = iconMap[offerItems[index].iconName];
             return (

@@ -28,9 +28,9 @@ export default function SiteHeader() {
             <a href="#faq" className="text-neutral-600 hover:text-neutral-900 hover:underline">
               FAQ
             </a>
-            <a href="/legacy-al-folio" className="text-neutral-600 hover:text-neutral-900 hover:underline">
-              CV
-            </a>
+                      <a href="/legacy-al-folio" target="_blank" rel="noopener noreferrer" className="text-neutral-600 hover:text-neutral-900 hover:underline">
+            CV
+          </a>
             <a
               href={ctas.primary.href}
               target="_blank"

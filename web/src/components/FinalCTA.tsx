@@ -35,6 +35,7 @@ export default function FinalCTA() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 text-center text-blue-100">
+          {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
           {(Array.isArray(t('finalCTA.highlights')) ? t('finalCTA.highlights') : content.finalCTA.highlights).map((highlight: any, index: number) => (
             <div key={index}>
               <div className="text-2xl font-bold text-white mb-2">{highlight.value}</div>

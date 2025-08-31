@@ -4,7 +4,7 @@ import Image from "next/image";
 import { ExternalLink, Instagram, Linkedin } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 import { useEffect, useState, useCallback } from "react";
-import { testimonials, content } from "@/lib/site-data";
+import { testimonials } from "@/lib/site-data";
 import { useTranslation } from "@/hooks/useTranslation";
 
 export default function SocialProof() {

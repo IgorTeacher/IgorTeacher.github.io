@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { content, siteConfig } from "@/lib/site-data";
+import { siteConfig } from "@/lib/site-data";
 import { useTranslation } from "@/hooks/useTranslation";
 
 export default function About() {
