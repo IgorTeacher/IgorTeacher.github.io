@@ -22,8 +22,8 @@ export default function Pricing() {
           {/* Individual Lessons */}
           <div className="bg-neutral-50 p-8 rounded-2xl border border-neutral-300">
             <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold text-neutral-900 mb-2">Individual Lessons</h3>
-              <p className="text-neutral-600">Perfect for personalized attention</p>
+              <h3 className="text-2xl font-bold text-neutral-900 mb-2">{t('pricing.individual.title')}</h3>
+              <p className="text-neutral-600">{t('pricing.individual.subtitle')}</p>
             </div>
             
             <div className="text-center mb-6">
@@ -32,47 +32,31 @@ export default function Pricing() {
             </div>
 
             <ul className="space-y-4 mb-8">
-              <li className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>60-minute lessons</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Completely personalized curriculum</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Flexible scheduling</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Learning materials included</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Progress tracking</span>
-              </li>
+              {(Array.isArray(t('pricing.individual.features')) ? t('pricing.individual.features') : [
+                "60-minute lessons",
+                "Completely personalized curriculum", 
+                "Flexible scheduling",
+                "Learning materials included",
+                "Progress tracking"
+              ]).map((feature: string, index: number) => (
+                <li key={index} className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  <span>{feature}</span>
+                </li>
+              ))}
             </ul>
 
             <div className="w-full">
-              <p className="text-center font-semibold text-neutral-700 mb-3">Contact for more info</p>
+              <p className="text-center font-semibold text-neutral-700 mb-3">{t('pricing.contactInfo')}</p>
               <div className="flex flex-wrap justify-center gap-2">
                 <a 
                   href={ctas.secondary.href}
                   className="flex items-center justify-center gap-1.5 bg-neutral-200 text-neutral-700 px-3 py-2 rounded-xl text-sm font-medium hover:bg-neutral-300 transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  Email
+                  {t('contact.email')}
                 </a>
                 <a 
                   href={siteConfig.contact.telegram}
@@ -81,7 +65,7 @@ export default function Pricing() {
                   className="flex items-center justify-center gap-1.5 bg-neutral-200 text-neutral-700 px-3 py-2 rounded-xl text-sm font-medium hover:bg-neutral-300 transition-colors"
                 >
                   <MessageCircle className="w-4 h-4" />
-                  Telegram
+                  {t('contact.telegram')}
                 </a>
                 <a 
                   href={ctas.whatsapp.href}
@@ -90,7 +74,7 @@ export default function Pricing() {
                   className="flex items-center justify-center gap-1.5 bg-neutral-200 text-neutral-700 px-3 py-2 rounded-xl text-sm font-medium hover:bg-neutral-300 transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  WhatsApp
+                  {t('contact.whatsapp')}
                 </a>
               </div>
             </div>
@@ -99,8 +83,8 @@ export default function Pricing() {
           {/* 5-Lesson Package */}
           <div className="bg-neutral-50 p-8 rounded-2xl border border-neutral-300">
             <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold text-neutral-900 mb-2">5-Lesson Package</h3>
-              <p className="text-neutral-600">Save with multiple lessons</p>
+              <h3 className="text-2xl font-bold text-neutral-900 mb-2">{t('pricing.package.title')}</h3>
+              <p className="text-neutral-600">{t('pricing.package.subtitle')}</p>
             </div>
             
             <div className="text-center mb-6">
@@ -109,35 +93,29 @@ export default function Pricing() {
             </div>
 
             <ul className="space-y-4 mb-8">
-              <li className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>5 × 60-minute lessons</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Flexible scheduling</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Better value</span>
-              </li>
+              {(Array.isArray(t('pricing.package.features')) ? t('pricing.package.features') : [
+                "5 × 60-minute lessons",
+                "Flexible scheduling", 
+                "Better value"
+              ]).map((feature: string, index: number) => (
+                <li key={index} className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  <span>{feature}</span>
+                </li>
+              ))}
             </ul>
 
             <div className="w-full">
-              <p className="text-center font-semibold text-neutral-700 mb-3">Contact for more info</p>
+              <p className="text-center font-semibold text-neutral-700 mb-3">{t('pricing.contactInfo')}</p>
               <div className="flex flex-wrap justify-center gap-2">
                 <a 
                   href={ctas.secondary.href}
                   className="flex items-center justify-center gap-1.5 bg-neutral-200 text-neutral-700 px-3 py-2 rounded-xl text-sm font-medium hover:bg-neutral-300 transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  Email
+                  {t('contact.email')}
                 </a>
                 <a 
                   href={siteConfig.contact.telegram}
@@ -146,7 +124,7 @@ export default function Pricing() {
                   className="flex items-center justify-center gap-1.5 bg-neutral-200 text-neutral-700 px-3 py-2 rounded-xl text-sm font-medium hover:bg-neutral-300 transition-colors"
                 >
                   <MessageCircle className="w-4 h-4" />
-                  Telegram
+                  {t('contact.telegram')}
                 </a>
                 <a 
                   href={ctas.whatsapp.href}
@@ -155,7 +133,7 @@ export default function Pricing() {
                   className="flex items-center justify-center gap-1.5 bg-neutral-200 text-neutral-700 px-3 py-2 rounded-xl text-sm font-medium hover:bg-neutral-300 transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  WhatsApp
+                  {t('contact.whatsapp')}
                 </a>
               </div>
             </div>
@@ -170,8 +148,8 @@ export default function Pricing() {
             </div>
             
             <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold text-neutral-900 mb-2">Free Trial Lesson</h3>
-              <p className="text-neutral-600">Experience my teaching style</p>
+              <h3 className="text-2xl font-bold text-neutral-900 mb-2">{t('pricing.trial.title')}</h3>
+              <p className="text-neutral-600">{t('pricing.trial.subtitle')}</p>
             </div>
             
             <div className="text-center mb-6">
@@ -180,36 +158,20 @@ export default function Pricing() {
             </div>
 
             <ul className="space-y-4 mb-8">
-              <li className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Level assessment</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Goal discussion</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Sample lesson</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Personalized learning plan</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>No commitment required</span>
-              </li>
+              {(Array.isArray(t('pricing.trial.features')) ? t('pricing.trial.features') : [
+                "Level assessment",
+                "Goal discussion",
+                "Sample lesson",
+                "Personalized learning plan", 
+                "No commitment required"
+              ]).map((feature: string, index: number) => (
+                <li key={index} className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  <span>{feature}</span>
+                </li>
+              ))}
             </ul>
 
             <a 
@@ -218,20 +180,20 @@ export default function Pricing() {
               rel="noopener noreferrer"
               className="w-full block text-center bg-blue-600 text-white py-3 rounded-2xl font-semibold hover:bg-blue-700 transition-colors transform hover:scale-105"
             >
-              {ctas.primary.text}
+              {t('ctas.bookFreeTrial')}
             </a>
           </div>
         </div>
 
         <div className="mt-16 text-center">
           <p className="text-neutral-600 mb-4">
-            All lessons are conducted via Zoom. Payment options and specific pricing will be discussed during your trial lesson.
+            {t('pricing.bottomText')}
           </p>
           <div className="inline-flex items-center gap-2 text-blue-600">
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span className="text-sm">No obligation after the trial</span>
+            <span className="text-sm">{t('finalCTA.noObligationText')}</span>
           </div>
         </div>
       </div>
