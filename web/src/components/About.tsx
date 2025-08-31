@@ -15,9 +15,22 @@ export default function About() {
               {t('about.heading')}
             </h2>
             <div className="space-y-6 text-lg text-neutral-600 leading-relaxed">
-              <p dangerouslySetInnerHTML={{ __html: t('about.introduction.greeting').replace('Igor Ausiany', '<strong class="text-neutral-900">Igor Ausiany</strong>') }} />
-              <p dangerouslySetInnerHTML={{ __html: t('about.introduction.certifications').replace('TESOL', '<strong class="text-neutral-900">TESOL</strong>').replace('TKT', '<strong class="text-neutral-900">TKT</strong>').replace('CELTA', '<strong class="text-neutral-900">CELTA</strong>') }} />
-              <p dangerouslySetInnerHTML={{ __html: t('about.introduction.experience').replace('10 regular students', '<strong class="text-neutral-900">10 regular students</strong>') }} />
+              <p dangerouslySetInnerHTML={{ __html: t('about.introduction.greeting')
+                .replace('Ihar (Igor) Ausiany', '<strong class="text-neutral-900">Ihar (Igor) Ausiany</strong>')
+                .replace('12 years', '<strong class="text-neutral-900">12 years</strong>')
+                .replace('Farsi, Polish, French, and even a bit of Chinese', '<strong class="text-neutral-900">Farsi, Polish, French, and even a bit of Chinese</strong>')
+              }} />
+              <p dangerouslySetInnerHTML={{ __html: t('about.introduction.certifications')
+                .replace('CELTA-certified', '<strong class="text-neutral-900">CELTA-certified</strong>')
+                .replace('DELTA Cambridge exams', '<strong class="text-neutral-900">DELTA Cambridge exams</strong>')
+                .replace('three language-focused university diplomas', '<strong class="text-neutral-900">three language-focused university diplomas</strong>')
+                .replace('SWPS University', '<strong class="text-neutral-900">SWPS University</strong>')
+              }} />
+              <p dangerouslySetInnerHTML={{ __html: t('about.introduction.experience')
+                .replace('50 countries', '<strong class="text-neutral-900">50 countries</strong>')
+                .replace('practical, friendly, and tailored to you', '<strong class="text-neutral-900">practical, friendly, and tailored to you</strong>')
+                .replace('real-life situations, clear structure, kind feedback, and your personal goals', '<strong class="text-neutral-900">real-life situations, clear structure, kind feedback, and your personal goals</strong>')
+              }} />
             </div>
             
             <div className="mt-8 grid grid-cols-2 gap-6">
