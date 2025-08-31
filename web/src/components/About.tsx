@@ -6,6 +6,10 @@ import AnimatedCounter, { calculateYearsFromDate, calculateTeachingHours } from 
 
 export default function About() {
   const { t } = useTranslation();
+
+  // Debug: Log calculated values
+  console.log('Years from 2013:', calculateYearsFromDate('2013-01-01'));
+  console.log('Hours from 2023:', calculateTeachingHours('2023-01-01', 15));
   
   return (
     <section className="mt-24">

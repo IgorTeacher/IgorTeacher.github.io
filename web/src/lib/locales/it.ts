@@ -58,12 +58,15 @@ export const it = {
   
   about: {
     heading: "Conosci il tuo insegnante",
+    subtitle: "Educatore appassionato con oltre un decennio di esperienza nell'insegnamento delle lingue",
     introduction: {
       greeting: "Ciao, sono Ihar (Igor) Ausiany. Insegno inglese e tedesco da oltre 12 anni, e nel frattempo ho anche imparato lingue io stesso — farsi, polacco, francese e persino un po' di cinese. Lo menziono perché conosco davvero gli alti e bassi dell'apprendimento delle lingue dall'interno.",
       certifications: "Sono certificato CELTA e attualmente mi sto preparando per gli esami DELTA Cambridge. Ho tre diplomi universitari focalizzati sulle lingue, il più recente dalla SWPS University in Studi Inglesi (percorso di insegnamento).",
       experience: "Oltre alla classe, sono un viaggiatore appassionato — ho visitato 50 paesi finora. Queste esperienze mi hanno mostrato come la lingua funziona davvero nella pratica. Ecco perché le mie lezioni sono pratiche, amichevoli e personalizzate per te — costruite intorno a situazioni reali, struttura chiara, feedback gentile e i tuoi obiettivi personali."
     },
     stats: {
+      heading: "Esperienza di insegnamento",
+      subtitle: "Numeri che parlano da soli",
       yearsTeaching: "Anni di insegnamento",
       teachingHours: "Ore di insegnamento",
       students: "Studenti",

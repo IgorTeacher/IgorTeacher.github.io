@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect, useRef } from 'react';
-import { useInView } from 'framer-motion';
 
 interface AnimatedCounterProps {
   startValue: number;
@@ -19,34 +18,73 @@ export default function AnimatedCounter({
 }: AnimatedCounterProps) {
   const [count, setCount] = useState(startValue);
   const [hasAnimated, setHasAnimated] = useState(false);
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const ref = useRef<HTMLSpanElement>(null);
 
   useEffect(() => {
-    if (isInView && !hasAnimated) {
-      setHasAnimated(true);
-      
-      const startTime = Date.now();
-      const difference = endValue - startValue;
-      
-      const timer = setInterval(() => {
-        const elapsed = Date.now() - startTime;
-        const progress = Math.min(elapsed / duration, 1);
+    const element = ref.current;
+    if (!element || hasAnimated) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !hasAnimated) {
+            setHasAnimated(true);
+            
+            const startTime = Date.now();
+            const difference = endValue - startValue;
+            
+            const timer = setInterval(() => {
+              const elapsed = Date.now() - startTime;
+              const progress = Math.min(elapsed / duration, 1);
+              
+              // Easing function for smooth animation
+              const easeOutQuart = 1 - Math.pow(1 - progress, 4);
+              const currentCount = Math.floor(startValue + (difference * easeOutQuart));
+              
+              setCount(currentCount);
+              
+              if (progress >= 1) {
+                clearInterval(timer);
+              }
+            }, 16); // ~60fps
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: "-50px" }
+    );
+
+    observer.observe(element);
+
+    // Fallback: Start animation after 1 second if intersection observer doesn't trigger
+    const fallbackTimer = setTimeout(() => {
+      if (!hasAnimated) {
+        setHasAnimated(true);
         
-        // Easing function for smooth animation
-        const easeOutQuart = 1 - Math.pow(1 - progress, 4);
-        const currentCount = Math.floor(startValue + (difference * easeOutQuart));
+        const startTime = Date.now();
+        const difference = endValue - startValue;
         
-        setCount(currentCount);
-        
-        if (progress >= 1) {
-          clearInterval(timer);
-        }
-      }, 16); // ~60fps
-      
-      return () => clearInterval(timer);
-    }
-  }, [isInView, hasAnimated, startValue, endValue, duration]);
+        const timer = setInterval(() => {
+          const elapsed = Date.now() - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          
+          // Easing function for smooth animation
+          const easeOutQuart = 1 - Math.pow(1 - progress, 4);
+          const currentCount = Math.floor(startValue + (difference * easeOutQuart));
+          
+          setCount(currentCount);
+          
+          if (progress >= 1) {
+            clearInterval(timer);
+          }
+        }, 16); // ~60fps
+      }
+    }, 1000);
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(fallbackTimer);
+    };
+  }, [hasAnimated, startValue, endValue, duration]);
 
   return (
     <span ref={ref} className={className}>
