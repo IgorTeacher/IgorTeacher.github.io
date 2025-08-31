@@ -1,4 +1,10 @@
 export const it = {
+  nav: {
+    offer: "Offerta",
+    pricing: "Prezzi",
+    faq: "FAQ",
+    cv: "CV"
+  },
   hero: {
     headline: "Lezioni di inglese e tedesco, personalizzate.",
     subheadline: "Insegnante certificato CELTA. Conversazione pratica, struttura chiara, guida amichevole.",

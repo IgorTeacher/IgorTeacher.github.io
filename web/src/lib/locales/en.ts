@@ -1,4 +1,11 @@
 export const en = {
+  nav: {
+    offer: "Offer",
+    pricing: "Pricing",
+    faq: "FAQ",
+    cv: "CV"
+  },
+  
   hero: {
     headline: "English & German lessons, made personal.",
     subheadline: "CELTA-certified teacher. Practical speaking, clear structure, friendly guidance.",

@@ -1,4 +1,10 @@
 export const de = {
+  nav: {
+    offer: "Angebot",
+    pricing: "Preise",
+    faq: "FAQ",
+    cv: "CV"
+  },
   hero: {
     headline: "Englisch & Deutsch Unterricht, persönlich gestaltet.",
     subheadline: "CELTA-zertifizierter Lehrer. Praktisches Sprechen, klare Struktur, freundliche Anleitung.",
