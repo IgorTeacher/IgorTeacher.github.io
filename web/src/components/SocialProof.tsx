@@ -1,46 +1,71 @@
+"use client";
+
+import useEmblaCarousel from "embla-carousel-react";
+import { useCallback, useEffect, useState } from "react";
+
+const testimonials = [
+  { quote: "Ihar helped me feel confident at work meetings.", author: "Anna, Berlin" },
+  { quote: "Clear plan + friendly feedback. My fluency jumped.", author: "Mark, Warsaw" },
+  { quote: "Lessons are practical and motivating.", author: "Olga, Kraków" },
+  { quote: "Great structure. Speaking feels natural now.", author: "Max, Munich" },
+];
+
 export default function SocialProof() {
-  const credentials = [
-    { name: "TESOL Certified", org: "Arizona State University", year: "2021" },
-    { name: "TKT Modules 1-3", org: "University of Cambridge", year: "2020" },
-    { name: "CELTA", org: "University of Cambridge", year: "Ongoing" },
-    { name: "M.Sc. Philosophy", org: "Saint-Petersburg State University", year: "2021" }
-  ];
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
+  const [selectedIndex, setSelectedIndex] = useState(0);
+
+  // mild auto-play
+  useEffect(() => {
+    if (!emblaApi) return;
+    const id = setInterval(() => emblaApi.scrollNext(), 5000);
+    return () => clearInterval(id);
+  }, [emblaApi]);
+
+  const onSelect = useCallback(() => {
+    if (!emblaApi) return;
+    setSelectedIndex(emblaApi.selectedScrollSnap());
+  }, [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+    emblaApi.on("select", onSelect);
+    onSelect();
+  }, [emblaApi, onSelect]);
 
   return (
-    <section className="section-spacing bg-white">
+    <section className="mt-24">
       <div className="mx-auto max-w-6xl px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-neutral-900 mb-4">
-            Trusted by Students Worldwide
-          </h2>
-          <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-            With multiple certifications and years of experience, I help students achieve their language goals effectively.
-          </p>
-        </div>
-        
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          {credentials.map((credential, index) => (
-            <div key={index} className="text-center p-6 bg-neutral-50 rounded-xl border border-neutral-200">
-              <div className="text-emerald-600 font-semibold text-sm mb-2">{credential.year}</div>
-              <h3 className="font-semibold text-neutral-900 mb-2">{credential.name}</h3>
-              <p className="text-sm text-neutral-600">{credential.org}</p>
-            </div>
-          ))}
+        <h2 className="text-xl font-semibold">What students say</h2>
+
+        <div className="mt-6 overflow-hidden" ref={emblaRef}>
+          <div className="flex gap-6">
+            {testimonials.map((t, i) => (
+              <figure
+                key={i}
+                className="min-w-[85%] md:min-w-[48%] lg:min-w-[32%] rounded-2xl border p-5 shadow-sm
+                           transition will-change-transform data-[active=true]:scale-[1.01]"
+                data-active={i === selectedIndex}
+              >
+                <blockquote className="text-neutral-800">
+                  "{t.quote}"
+                </blockquote>
+                <figcaption className="mt-3 text-sm text-neutral-600">— {t.author}</figcaption>
+              </figure>
+            ))}
+          </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 text-center">
-          <div>
-            <div className="text-3xl font-bold text-emerald-600 mb-2">10+</div>
-            <div className="text-neutral-600">Regular Students</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold text-emerald-600 mb-2">A1-C1</div>
-            <div className="text-neutral-600">All Levels Covered</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold text-emerald-600 mb-2">100%</div>
-            <div className="text-neutral-600">Online via Zoom</div>
-          </div>
+        {/* Dots */}
+        <div className="mt-4 flex gap-2">
+          {testimonials.map((_, i) => (
+            <button
+              key={i}
+              aria-label={`Go to slide ${i + 1}`}
+              onClick={() => emblaApi?.scrollTo(i)}
+              className={`h-2.5 w-2.5 rounded-full transition
+                ${i === selectedIndex ? "bg-neutral-800" : "bg-neutral-300"}`}
+            />
+          ))}
         </div>
       </div>
     </section>

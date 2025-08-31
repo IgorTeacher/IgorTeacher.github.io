@@ -15,14 +15,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Igor Ausiany - English & German Language Teacher",
-  description: "Master English and German with certified teacher Igor Ausiany. Personalized online lessons from A1 to C1 levels. Free trial available.",
-  keywords: "English teacher, German teacher, online language lessons, TESOL, CELTA, language learning",
+  title: "Learn English & German with Ihar",
+  description: "CELTA-certified teacher. Book a free 20-minute trial.",
   openGraph: {
-    title: "Igor Ausiany - English & German Language Teacher",
-    description: "Master English and German with certified teacher Igor Ausiany. Personalized online lessons from A1 to C1 levels.",
-    type: "website",
-  },
+    title: "Learn English & German with Ihar",
+    description: "CELTA-certified teacher. Book a free 20-minute trial.",
+    images: ["/og.jpg"],
+  }
 };
 
 export default function RootLayout({

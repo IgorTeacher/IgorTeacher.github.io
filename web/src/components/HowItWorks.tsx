@@ -27,10 +27,10 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section id="offer" className="section-spacing bg-gradient-to-b from-emerald-50 to-white">
+    <section id="offer" className="mt-24">
       <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-neutral-900 mb-6">
+          <h2 className="text-xl font-semibold">
             How It Works
           </h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
@@ -43,10 +43,10 @@ export default function HowItWorks() {
           {steps.map((step, index) => (
             <div key={index} className="text-center">
               <div className="relative mb-6">
-                <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">{step.icon}</span>
                 </div>
-                <div className="absolute -top-2 -right-2 w-8 h-8 bg-emerald-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
+                <div className="absolute -top-2 -right-2 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
                   {step.step}
                 </div>
               </div>
@@ -60,12 +60,12 @@ export default function HowItWorks() {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-16 mb-6 text-center">
           <a 
             href="mailto:igorteacher@icloud.com"
-            className="inline-flex items-center gap-2 bg-emerald-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-emerald-700 transform hover:scale-105"
+            className="inline-flex items-center gap-2 bg-igor-blue text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:opacity-90 transform hover:scale-105"
           >
-            Book Your Free Consultation
+            Book free trial
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>

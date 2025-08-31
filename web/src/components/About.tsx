@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="section-spacing bg-gradient-to-b from-neutral-50 to-white">
+    <section className="mt-24">
       <div className="mx-auto max-w-6xl px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-4xl font-bold text-neutral-900 mb-6">
+            <h2 className="text-xl font-semibold mb-6">
               Meet Your Teacher
             </h2>
             <div className="space-y-6 text-lg text-neutral-600 leading-relaxed">
@@ -29,12 +29,12 @@ export default function About() {
             </div>
             
             <div className="mt-8 grid grid-cols-2 gap-6">
-              <div className="bg-emerald-50 p-4 rounded-xl">
-                <div className="text-2xl font-bold text-emerald-600 mb-1">4+</div>
+              <div className="bg-blue-50 p-4 rounded-2xl border border-neutral-200">
+                <div className="text-2xl font-bold text-blue-600 mb-1">4+</div>
                 <div className="text-sm text-neutral-600">Years Teaching</div>
               </div>
-              <div className="bg-emerald-50 p-4 rounded-xl">
-                <div className="text-2xl font-bold text-emerald-600 mb-1">500+</div>
+              <div className="bg-blue-50 p-4 rounded-2xl border border-neutral-200">
+                <div className="text-2xl font-bold text-blue-600 mb-1">500+</div>
                 <div className="text-sm text-neutral-600">Lessons Delivered</div>
               </div>
             </div>
@@ -46,10 +46,10 @@ export default function About() {
               alt="Igor teaching online"
               width={500}
               height={400}
-              className="rounded-2xl shadow-xl mx-auto lg:mx-0"
+              className="rounded-2xl shadow-sm mx-auto lg:mx-0"
             />
             
-            <div className="mt-8 bg-white p-6 rounded-xl shadow-lg border max-w-md mx-auto lg:mx-0">
+            <div className="mt-8 bg-white p-6 rounded-2xl shadow-sm border-neutral-200 border max-w-md mx-auto lg:mx-0">
               <h3 className="font-semibold text-neutral-900 mb-4">My Teaching Philosophy</h3>
               <blockquote className="text-neutral-600 italic">
                 "I seek the most effective ways to inspire and teach students, 

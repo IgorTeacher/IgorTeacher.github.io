@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -56,4 +56,29 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
   }
+}
+
+/* Custom Igor Blue to match photo background */
+.bg-igor-blue {
+  background-color: #3B87EB;
+}
+
+.text-igor-blue {
+  color: #3B87EB;
+}
+
+.border-igor-blue {
+  border-color: #3B87EB;
+}
+
+.hover\:bg-igor-blue:hover {
+  background-color: #3B87EB;
+}
+
+.hover\:text-igor-blue:hover {
+  color: #3B87EB;
+}
+
+.hover\:border-igor-blue:hover {
+  border-color: #3B87EB;
 }

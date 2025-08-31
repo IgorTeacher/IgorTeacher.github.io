@@ -23,7 +23,7 @@ export default function SiteHeader() {
           </a>
           <a
             href="mailto:igorteacher@icloud.com"
-            className="rounded-xl px-4 py-2 bg-emerald-600 text-white font-medium hover:bg-emerald-700 transform hover:scale-105"
+            className="rounded-2xl px-4 py-2 bg-igor-blue text-white font-medium hover:opacity-90 transform hover:scale-105"
           >
             Book free trial
           </a>

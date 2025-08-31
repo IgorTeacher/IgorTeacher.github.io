@@ -40,20 +40,20 @@ export default function FAQ() {
   ];
 
   return (
-    <section id="faq" className="section-spacing bg-neutral-50">
-      <div className="mx-auto max-w-4xl px-4">
+    <section id="faq" className="mt-24 bg-neutral-50">
+      <div className="mx-auto max-w-4xl px-4 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-neutral-900 mb-6">
+          <h2 className="text-xl font-semibold mb-6">
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-neutral-600">
-            Everything you need to know about learning with Igor Teacher School
+            Everything you need to know about learning with Igor
           </p>
         </div>
 
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="bg-white rounded-xl border border-neutral-200 overflow-hidden">
+            <div key={index} className="bg-white rounded-2xl border border-neutral-300 overflow-hidden">
               <button
                 className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-neutral-50 transition-colors"
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
@@ -83,15 +83,15 @@ export default function FAQ() {
           <p className="text-neutral-600 mb-4">
             Still have questions?
           </p>
-          <a 
-            href="mailto:igorteacher@icloud.com"
-            className="inline-flex items-center gap-2 text-emerald-600 hover:text-emerald-700 font-semibold"
-          >
-            Contact me directly
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </a>
+                      <a 
+              href="mailto:igorteacher@icloud.com"
+              className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold"
+            >
+              Contact me directly
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
         </div>
       </div>
     </section>
