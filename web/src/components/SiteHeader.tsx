@@ -20,17 +20,17 @@ export default function SiteHeader() {
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-6">
             <a href="#offer" className="text-neutral-600 hover:text-neutral-900 hover:underline">
-              Offer
+              {t('nav.offer')}
             </a>
             <a href="#pricing" className="text-neutral-600 hover:text-neutral-900 hover:underline">
-              Pricing
+              {t('nav.pricing')}
             </a>
             <a href="#faq" className="text-neutral-600 hover:text-neutral-900 hover:underline">
-              FAQ
+              {t('nav.faq')}
             </a>
-                      <a href="/legacy-al-folio" target="_blank" rel="noopener noreferrer" className="text-neutral-600 hover:text-neutral-900 hover:underline">
-            CV
-          </a>
+                      <Link href="/cv" className="text-neutral-600 hover:text-neutral-900 hover:underline">
+              {t('nav.cv')}
+            </Link>
             <a
               href={ctas.primary.href}
               target="_blank"
