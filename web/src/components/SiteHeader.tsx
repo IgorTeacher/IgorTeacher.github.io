@@ -5,12 +5,12 @@ import LanguageSelector from "@/components/LanguageSelector";
 import { useTranslation } from "@/hooks/useTranslation";
 
 export default function SiteHeader() {
-  const { t } = useTranslation();
+  const { t, locale } = useTranslation();
   
   return (
     <header className="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-neutral-200">
       <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="font-semibold text-lg text-neutral-900">
+        <Link href={`/${locale}`} className="font-semibold text-lg text-neutral-900">
           <span className="font-bold">{siteConfig.author.split(' ')[0]}</span> — {siteConfig.teaching.languages.join(' & ')}
         </Link>
         <div className="flex items-center gap-4">
@@ -19,16 +19,16 @@ export default function SiteHeader() {
           
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-6">
-            <a href="#offer" className="text-neutral-600 hover:text-neutral-900 hover:underline">
+            <Link href={`/${locale}#offer`} className="text-neutral-600 hover:text-neutral-900 hover:underline">
               {t('nav.offer')}
-            </a>
-            <a href="#pricing" className="text-neutral-600 hover:text-neutral-900 hover:underline">
+            </Link>
+            <Link href={`/${locale}#pricing`} className="text-neutral-600 hover:text-neutral-900 hover:underline">
               {t('nav.pricing')}
-            </a>
-            <a href="#faq" className="text-neutral-600 hover:text-neutral-900 hover:underline">
+            </Link>
+            <Link href={`/${locale}#faq`} className="text-neutral-600 hover:text-neutral-900 hover:underline">
               {t('nav.faq')}
-            </a>
-                      <Link href="/cv" className="text-neutral-600 hover:text-neutral-900 hover:underline">
+            </Link>
+            <Link href={`/${locale}/cv`} className="text-neutral-600 hover:text-neutral-900 hover:underline">
               {t('nav.cv')}
             </Link>
             <a
