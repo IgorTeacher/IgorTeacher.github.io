@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import AnalyticsRouteTracker from '@/components/AnalyticsRouteTracker';
 
 export const metadata: Metadata = {
   title: 'Ihar Teacher - Language Learning',
@@ -16,6 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <GoogleAnalytics />
+        <AnalyticsRouteTracker />
         {children}
       </body>
     </html>
