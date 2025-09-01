@@ -5,6 +5,13 @@ export const pl = {
     faq: "FAQ",
     cv: "CV"
   },
+  
+  consent: {
+    title: "Szanujemy Twoją prywatność",
+    description: "Ta strona internetowa używa plików cookie i podobnych technologii, aby zapewnić Ci najlepsze możliwe doświadczenie. Używamy analityki, aby zrozumieć, jak używana jest nasza strona i poprawić nasze usługi nauki języków. Możesz wybrać, jakie rodzaje plików cookie chcesz zezwolić.",
+    accept: "Akceptuj wszystkie pliki cookie",
+    decline: "Tylko niezbędne pliki cookie"
+  },
   hero: {
     headline: "Lekcje angielskiego i niemieckiego, spersonalizowane.",
     subheadline: "Nauczyciel z certyfikatem CELTA. Praktyczna rozmowa, przejrzysta struktura, przyjazne wskazówki.",
@@ -181,7 +188,8 @@ export const pl = {
   
   footer: {
     allRightsReserved: "Wszystkie prawa zastrzeżone",
-    quote: "Niczego w życiu nie należy się bać, to tylko trzeba zrozumieć. Teraz jest czas, aby zrozumieć więcej, abyśmy mogli mniej się bać."
+    quote: "Niczego w życiu nie należy się bać, to tylko trzeba zrozumieć. Teraz jest czas, aby zrozumieć więcej, abyśmy mogli mniej się bać.",
+    cookieSettings: "Ustawienia plików cookie"
   },
 
   structuredData: {

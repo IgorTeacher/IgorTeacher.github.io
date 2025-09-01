@@ -5,6 +5,13 @@ export const it = {
     faq: "FAQ",
     cv: "CV"
   },
+  
+  consent: {
+    title: "Rispettiamo la tua privacy",
+    description: "Questo sito web utilizza cookie e tecnologie simili per fornirti la migliore esperienza possibile. Utilizziamo l'analisi per capire come viene utilizzato il nostro sito e migliorare i nostri servizi di apprendimento delle lingue. Puoi scegliere quali tipi di cookie consentire.",
+    accept: "Accetta tutti i cookie",
+    decline: "Solo cookie essenziali"
+  },
   hero: {
     headline: "Lezioni di inglese e tedesco, personalizzate.",
     subheadline: "Insegnante certificato CELTA. Conversazione pratica, struttura chiara, guida amichevole.",
@@ -181,7 +188,8 @@ export const it = {
   
   footer: {
     allRightsReserved: "Tutti i diritti riservati",
-    quote: "Nulla nella vita è da temere, è solo da comprendere. Ora è il momento di comprendere di più, così possiamo temere di meno."
+    quote: "Nulla nella vita è da temere, è solo da comprendere. Ora è il momento di comprendere di più, così possiamo temere di meno.",
+    cookieSettings: "Impostazioni cookie"
   },
 
   structuredData: {
