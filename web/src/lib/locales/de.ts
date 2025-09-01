@@ -141,6 +141,15 @@ export const de = {
   faq: {
     heading: "Häufig gestellte Fragen",
     subheading: "Haben Sie Fragen? Ich habe Antworten. Hier sind die häufigsten Fragen zu meinem Unterrichtsansatz und der Stundenstruktur.",
+    items: [
+      { question: "Welche Niveaus unterrichten Sie?", answer: "Ich unterrichte alle Niveaus von Anfängern bis Fortgeschrittenen (A2–C1). Jede Stunde wird auf Ihr Niveau und Ihre Ziele zugeschnitten." },
+      { question: "Wie finden die Stunden statt?", answer: "Alle Stunden finden online über Zoom oder Google Meet statt. Sie erhalten vor jeder Stunde einen Link." },
+      { question: "Welche Sprachen unterrichten Sie?", answer: "Ich spezialisiere mich auf Englisch und Deutsch. Weitere Sprachkenntnisse helfen bei Bedarf." },
+      { question: "Wie lange dauern die Stunden?", answer: "Reguläre Stunden dauern 60 Minuten. Die kostenlose Probestunde (30 Minuten) dient zur Zielklärung und zum Kennenlernen." },
+      { question: "Stellen Sie Materialien bereit?", answer: "Ja. Ich stelle strukturierte Materialien, Übungen und praxisnahe Ressourcen bereit – passend zu Ihrem Niveau." },
+      { question: "Bereiten Sie auf Prüfungen vor?", answer: "Ja, ich biete gezielte Vorbereitung auf gängige Englisch- und Deutschprüfungen mit klarem Plan und Feedback." },
+      { question: "Wie flexibel ist die Terminplanung?", answer: "Sehr flexibel. Wir finden gemeinsam Zeiten, die zu Ihrem Kalender und Ihrer Zeitzone passen." }
+    ],
     stillHaveQuestions: "Haben Sie noch Fragen?",
     contactDirectly: "Kontaktieren Sie mich direkt"
   },
@@ -228,6 +237,11 @@ export const de = {
       title: "Professional Certifications",
       subtitle: "Recognized qualifications in language teaching and education",
       items: [
+        {
+          name: "CELTA-Zertifikat",
+          description: "Zertifikat für Englischunterricht für Erwachsene (Cambridge CELTA)",
+          image: "/certificates/Certificate_CELTA.pdf"
+        },
         {
           name: "TESOL Certificate",
           description: "Teaching English to Speakers of Other Languages",

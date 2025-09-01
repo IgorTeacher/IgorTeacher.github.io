@@ -142,6 +142,15 @@ export const en = {
   faq: {
     heading: "Frequently Asked Questions",
     subheading: "Got questions? I've got answers. Here are the most common questions about my teaching approach and lesson structure.",
+    items: [
+      { question: "What levels do you teach?", answer: "I teach all levels from complete beginners (A1) to advanced learners (A2–C1). Each lesson is tailored to your proficiency and goals." },
+      { question: "How are lessons conducted?", answer: "All lessons are online via Zoom or Google Meet. You'll receive a link before each session." },
+      { question: "What languages do you teach?", answer: "I specialize in English and German. I also speak other languages, which helps when needed." },
+      { question: "How long are the lessons?", answer: "Standard lessons are 60 minutes. The free trial is 30 minutes to discuss goals and try my approach." },
+      { question: "Do you provide materials?", answer: "Yes. I provide structured materials, exercises, and practical resources based on your level." },
+      { question: "Do you help with exams?", answer: "Absolutely. I offer preparation for common English and German exams with a clear plan and feedback." },
+      { question: "How flexible is scheduling?", answer: "Very flexible. We coordinate times that fit your calendar and time zone." }
+    ],
     stillHaveQuestions: "Still have questions?",
     contactDirectly: "Contact me directly"
   },
@@ -229,6 +238,11 @@ export const en = {
       title: "Professional Certifications",
       subtitle: "Recognized qualifications in language teaching and education",
       items: [
+        {
+          name: "CELTA Certificate",
+          description: "Certificate in English Language Teaching to Adults (Cambridge CELTA)",
+          image: "/certificates/Certificate_CELTA.pdf"
+        },
         {
           name: "TESOL Certificate",
           description: "Teaching English to Speakers of Other Languages",

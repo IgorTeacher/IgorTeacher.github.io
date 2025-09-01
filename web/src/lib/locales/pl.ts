@@ -141,6 +141,15 @@ export const pl = {
   faq: {
     heading: "Często zadawane pytania",
     subheading: "Masz pytania? Mam odpowiedzi. Oto najczęstsze pytania o moje podejście do nauczania i strukturę lekcji.",
+    items: [
+      { question: "Na jakich poziomach uczysz?", answer: "Uczę na wszystkich poziomach – od początkujących do zaawansowanych (A2–C1). Każda lekcja jest dostosowana do Twojego poziomu i celów." },
+      { question: "Jak odbywają się lekcje?", answer: "Wszystkie lekcje odbywają się online przez Zoom lub Google Meet. Przed każdą sesją otrzymasz link." },
+      { question: "Jakich języków uczysz?", answer: "Specjalizuję się w angielskim i niemieckim. Znajomość innych języków pomaga, gdy jest to potrzebne." },
+      { question: "Jak długo trwa lekcja?", answer: "Standardowa lekcja trwa 60 minut. Bezpłatna lekcja próbna trwa 30 minut – omawiamy cele i poznajesz mój styl." },
+      { question: "Czy zapewniasz materiały?", answer: "Tak. Zapewniam materiały, ćwiczenia i praktyczne zasoby dopasowane do Twojego poziomu." },
+      { question: "Czy przygotowujesz do egzaminów?", answer: "Oczywiście. Oferuję przygotowanie do popularnych egzaminów z angielskiego i niemieckiego z jasnym planem i informacją zwrotną." },
+      { question: "Jak elastyczne są terminy?", answer: "Bardzo elastyczne. Ustalimy terminy pasujące do Twojego kalendarza i strefy czasowej." }
+    ],
     stillHaveQuestions: "Nadal masz pytania?",
     contactDirectly: "Skontaktuj się ze mną bezpośrednio"
   },
@@ -228,6 +237,11 @@ export const pl = {
       title: "Professional Certifications",
       subtitle: "Recognized qualifications in language teaching and education",
       items: [
+        {
+          name: "Certyfikat CELTA",
+          description: "Certyfikat nauczania języka angielskiego dorosłych (Cambridge CELTA)",
+          image: "/certificates/Certificate_CELTA.pdf"
+        },
         {
           name: "TESOL Certificate",
           description: "Teaching English to Speakers of Other Languages",

@@ -42,7 +42,7 @@ export default function About() {
               />
               <div className="absolute -bottom-4 -left-4 bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium flex items-center gap-2 shadow-lg">
                 <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                Available for lessons
+                {t('hero.availabilityBadge')}
               </div>
             </div>
           </div>

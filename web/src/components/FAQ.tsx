@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { faqItems, ctas } from "@/lib/site-data";
+import { ctas } from "@/lib/site-data";
 import { useTranslation } from "@/hooks/useTranslation";
 
 export default function FAQ() {
@@ -20,7 +20,8 @@ export default function FAQ() {
         </div>
 
         <div className="space-y-4">
-          {faqItems.map((faq, index) => (
+          {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+          {(Array.isArray(t('faq.items')) ? t('faq.items') : []).map((faq: any, index: number) => (
             <div key={index} className="bg-white rounded-2xl border border-neutral-300 overflow-hidden">
               <button
                 className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-neutral-50 transition-colors"

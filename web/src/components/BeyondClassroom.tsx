@@ -53,7 +53,7 @@ export default function BeyondClassroom() {
           {/* Academic/Intellectual Photo */}
           <div className="relative group">
             <Image
-              src="/igor-eating-rectangle.png"
+              src="/igor-at-the-cafe-with-book-smiling-with-stripes-square-2.jpg"
               alt="Igor reading and studying at a cafe"
               width={400}
               height={300}

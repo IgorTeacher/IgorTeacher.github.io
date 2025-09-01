@@ -141,6 +141,15 @@ export const it = {
   faq: {
     heading: "Domande frequenti",
     subheading: "Hai domande? Ho le risposte. Ecco le domande più comuni sul mio approccio di insegnamento e la struttura delle lezioni.",
+    items: [
+      { question: "Quali livelli insegni?", answer: "Insegno tutti i livelli dai principianti agli avanzati (A2–C1). Ogni lezione è personalizzata in base al tuo livello e ai tuoi obiettivi." },
+      { question: "Come si svolgono le lezioni?", answer: "Tutte le lezioni si tengono online tramite Zoom o Google Meet. Riceverai un link prima di ogni sessione." },
+      { question: "Quali lingue insegni?", answer: "Sono specializzato in inglese e tedesco. Conoscenze di altre lingue aiutano quando necessario." },
+      { question: "Quanto durano le lezioni?", answer: "Le lezioni standard durano 60 minuti. La lezione di prova gratuita è di 30 minuti per discutere gli obiettivi e provare il mio approccio." },
+      { question: "Fornisci materiali?", answer: "Sì. Fornisco materiali strutturati, esercizi e risorse pratiche in base al tuo livello." },
+      { question: "Aiuti nella preparazione agli esami?", answer: "Certamente. Offro preparazione per i principali esami di inglese e tedesco con un piano chiaro e feedback." },
+      { question: "Quanto è flessibile la programmazione?", answer: "Molto flessibile. Troveremo insieme orari che si adattano al tuo calendario e fuso orario." }
+    ],
     stillHaveQuestions: "Hai ancora domande?",
     contactDirectly: "Contattami direttamente"
   },
@@ -228,6 +237,11 @@ export const it = {
       title: "Professional Certifications",
       subtitle: "Recognized qualifications in language teaching and education",
       items: [
+        {
+          name: "Certificato CELTA",
+          description: "Certificato in Insegnamento della Lingua Inglese agli Adulti (Cambridge CELTA)",
+          image: "/certificates/Certificate_CELTA.pdf"
+        },
         {
           name: "TESOL Certificate",
           description: "Teaching English to Speakers of Other Languages",

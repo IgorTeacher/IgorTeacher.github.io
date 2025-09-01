@@ -52,7 +52,7 @@ export default function Hero() {
               />
               <div className="absolute bottom-4 left-4 bg-white rounded-xl px-3 py-2 shadow-lg border">
                 <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                   <span className="text-sm font-medium text-neutral-800">{t('hero.availabilityBadge')}</span>
                 </div>
               </div>
