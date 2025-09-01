@@ -5,7 +5,8 @@ import AnimatedCounter, { calculateYearsFromDate } from "@/components/AnimatedCo
 // Constants for easy modification
 const BUSINESS_STATS = {
   companiesCollaborations: 20,
-  studentsCertifications: 40
+  studentsCertifications: 40,
+  learnersGuidedWorldwide: 150
 } as const;
 
 export default function TeachingStats() {
@@ -53,7 +54,7 @@ export default function TeachingStats() {
             <div className="text-4xl font-bold text-blue-600 mb-3">
               <AnimatedCounter 
                 startValue={0} 
-                endValue={100} 
+                endValue={BUSINESS_STATS.learnersGuidedWorldwide} 
                 suffix="+" 
                 duration={3500}
               />

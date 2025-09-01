@@ -43,7 +43,7 @@ export default function Hero() {
           <div className="order-1 lg:order-2 text-center">
             <div className="relative inline-block">
               <Image
-                src="/igor-profile.jpeg"
+                src="/igor-eating-face-close-up-square.png"
                 alt="Igor Ausiany - Professional Language Teacher"
                 width={400}
                 height={400}

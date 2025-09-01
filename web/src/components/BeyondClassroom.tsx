@@ -21,7 +21,7 @@ export default function BeyondClassroom() {
           {/* Travel/Explorer Photo */}
           <div className="relative group">
             <Image
-              src="/igor-explorer-selfie-with-mountains-in-red-hat.jpg"
+              src="/igor-explorer-selfie-with-mountains-in-red-hat-rectangle.png"
               alt="Igor exploring mountains and traveling"
               width={400}
               height={300}
