@@ -43,16 +43,16 @@ export default function SocialProof() {
                 data-active={i === selected}
                 className="relative min-w-[80%] md:min-w-[45%] lg:min-w-[30%]
                            rounded-2xl border bg-white dark:bg-neutral-800 border-neutral-200 dark:border-neutral-600 p-5 shadow-sm transition
-                           will-change-transform data-[active=true]:scale-[1.01] mt-8"
+                           will-change-transform data-[active=true]:scale-[1.01] mt-8 mb-3"
               >
                 {/* avatar */}
                 {t.avatar && (
-                  <div className="absolute -top-8 -left-6 h-16 w-16 rounded-full ring-4 ring-white overflow-hidden shadow">
+                  <div className="absolute -top-6 -left-4 h-12 w-12 rounded-full ring-4 ring-white overflow-hidden shadow">
                     <Image 
                       src={t.avatar} 
                       alt={t.name} 
-                      width={64} 
-                      height={64} 
+                      width={48} 
+                      height={48} 
                       className="object-cover w-full h-full"
                     />
                   </div>
