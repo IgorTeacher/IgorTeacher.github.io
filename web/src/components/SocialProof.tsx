@@ -9,7 +9,7 @@ import { useTranslation } from "@/hooks/useTranslation";
 
 export default function SocialProof() {
   const { t } = useTranslation();
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "center", slidesToScroll: 1 });
   const [selected, setSelected] = useState(0);
 
   // gentle autoplay
@@ -33,48 +33,48 @@ export default function SocialProof() {
   return (
             <section className="mt-24">
           <div className="mx-auto max-w-6xl px-4">
-            <h2 className="text-xl font-semibold">{t('socialProof.heading')}</h2>
+            <h2 className="text-xl font-semibold text-neutral-900 dark:text-white">{t('socialProof.heading')}</h2>
 
-        <div className="mt-10 overflow-hidden px-4" ref={emblaRef}>
-          <div className="flex gap-6">
+        <div className="mt-10 overflow-hidden px-8" ref={emblaRef}>
+          <div className="flex gap-8">
             {testimonials.map((t, i) => (
               <figure
                 key={i}
                 data-active={i === selected}
                 className="relative min-w-[80%] md:min-w-[45%] lg:min-w-[30%]
-                           rounded-2xl border bg-white p-5 shadow-sm transition
-                           will-change-transform data-[active=true]:scale-[1.01] mt-4"
+                           rounded-2xl border bg-white dark:bg-neutral-800 border-neutral-200 dark:border-neutral-600 p-5 shadow-sm transition
+                           will-change-transform data-[active=true]:scale-[1.01] mt-8"
               >
                 {/* avatar */}
                 {t.avatar && (
-                  <div className="absolute -top-6 -left-4 h-12 w-12 rounded-full ring-4 ring-white overflow-hidden shadow">
+                  <div className="absolute -top-8 -left-6 h-16 w-16 rounded-full ring-4 ring-white overflow-hidden shadow">
                     <Image 
                       src={t.avatar} 
                       alt={t.name} 
-                      width={48} 
-                      height={48} 
+                      width={64} 
+                      height={64} 
                       className="object-cover w-full h-full"
                     />
                   </div>
                 )}
 
                 {/* quote */}
-                <blockquote className="text-neutral-800">
+                <blockquote className="text-neutral-800 dark:text-neutral-200">
                   &ldquo;{t.quote}&rdquo;
                 </blockquote>
 
                 {/* name / location / link */}
-                <figcaption className="mt-4 flex items-center justify-between text-sm text-neutral-600">
+                <figcaption className="mt-4 flex items-center justify-between text-sm text-neutral-600 dark:text-neutral-400">
                   <div>
-                    <span className="font-medium text-neutral-800">{t.name}</span>
-                    {t.location ? <span>, {t.location}</span> : null}
+                    <span className="font-medium text-neutral-800 dark:text-white">{t.name}</span>
+                    {t.location ? <span className="text-neutral-600 dark:text-neutral-400">, {t.location}</span> : null}
                   </div>
                   {t.profileUrl && (
                     <a
                       href={t.profileUrl}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center gap-1 text-neutral-500 hover:text-neutral-800 transition-colors"
+                      className="inline-flex items-center gap-1 text-neutral-500 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-white transition-colors"
                       aria-label={`${t.name} profile`}
                     >
                       {t.platform === "linkedin" ? (
