@@ -8,9 +8,9 @@ export const en = {
   
   consent: {
     title: "We value your privacy",
-    description: "We use cookies to understand how you use our site and improve your experience. This helps us provide better language lessons and track what's working.",
-    accept: "Accept all",
-    decline: "Decline"
+    description: "This website uses cookies and similar technologies to provide you with the best possible experience. We use analytics to understand how our site is used and improve our language learning services. You can choose which types of cookies to allow.",
+    accept: "Accept all cookies",
+    decline: "Essential cookies only"
   },
   
   hero: {

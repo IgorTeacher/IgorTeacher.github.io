@@ -26,10 +26,13 @@ export function ConsentProvider({ children }: { children: ReactNode }) {
     setConsentGivenState(consent);
     localStorage.setItem('analytics-consent', consent.toString());
     
-    // Update GA consent
+    // Update GA consent with granular storage controls
     if (window.gtag) {
       window.gtag('consent', 'update', {
-        'analytics_storage': consent ? 'granted' : 'denied'
+        'analytics_storage': consent ? 'granted' : 'denied',
+        'ad_storage': consent ? 'granted' : 'denied',
+        'security_storage': 'granted', // Always granted for basic functionality
+        'functionality_storage': 'granted' // Always granted for basic functionality
       });
     }
   };

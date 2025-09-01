@@ -18,12 +18,7 @@ export default function GoogleAnalytics() {
       />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('consent', 'default', {
-            'analytics_storage': 'granted'
-          });
           gtag('config', 'G-5REG4P4H91', {
             page_path: window.location.pathname,
           });

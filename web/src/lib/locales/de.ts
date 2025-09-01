@@ -8,9 +8,9 @@ export const de = {
   
   consent: {
     title: "Wir schätzen Ihre Privatsphäre",
-    description: "Wir verwenden Cookies, um zu verstehen, wie Sie unsere Website nutzen und Ihre Erfahrung zu verbessern. Dies hilft uns, bessere Sprachunterrichte zu bieten und zu verfolgen, was funktioniert.",
-    accept: "Alle akzeptieren",
-    decline: "Ablehnen"
+    description: "Diese Website verwendet Cookies und ähnliche Technologien, um Ihnen die bestmögliche Erfahrung zu bieten. Wir verwenden Analysen, um zu verstehen, wie unsere Website genutzt wird und unsere Sprachlernservices zu verbessern. Sie können wählen, welche Arten von Cookies Sie zulassen möchten.",
+    accept: "Alle Cookies akzeptieren",
+    decline: "Nur essentielle Cookies"
   },
   hero: {
     headline: "Englisch & Deutsch Unterricht, persönlich gestaltet.",
