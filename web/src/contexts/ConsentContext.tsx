@@ -1,6 +1,7 @@
 "use client";
 
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, ReactNode } from "react";
+import ConsentBanner from "@/components/ConsentBanner";
 
 interface ConsentContextType {
   consentGiven: boolean;
@@ -15,37 +16,38 @@ export function ConsentProvider({ children }: { children: ReactNode }) {
   const [showBanner, setShowBanner] = useState(false);
 
   useEffect(() => {
-    // Check localStorage on mount
-    const savedConsent = localStorage.getItem('analytics-consent');
-    if (savedConsent !== null) {
-      setConsentGivenState(savedConsent === 'true');
+    // Only runs in the browser
+    const saved = localStorage.getItem("analytics-consent");
+    if (saved === null) {
+      // First visit → open the banner
+      setShowBanner(true);
+    } else {
+      setConsentGivenState(saved === "true");
     }
   }, []);
 
   const setConsentGiven = (consent: boolean) => {
     setConsentGivenState(consent);
-    localStorage.setItem('analytics-consent', consent.toString());
-    
-    // Update GA consent with granular storage controls
-    if (window.gtag) {
-      window.gtag('consent', 'update', {
-        'analytics_storage': consent ? 'granted' : 'denied',
-        'ad_storage': consent ? 'granted' : 'denied',
-        'security_storage': 'granted', // Always granted for basic functionality
-        'functionality_storage': 'granted' // Always granted for basic functionality
-      });
-    }
+    localStorage.setItem("analytics-consent", String(consent));
+
+    // Update Consent Mode
+    window.gtag?.("consent", "update", {
+      analytics_storage: consent ? "granted" : "denied",
+      ad_storage: consent ? "granted" : "denied",
+      security_storage: "granted",
+      functionality_storage: "granted",
+    });
+
+    setShowBanner(false);
   };
 
-  const showConsentBanner = () => {
-    setShowBanner(true);
-  };
+  const showConsentBanner = () => setShowBanner(true);
 
   return (
     <ConsentContext.Provider value={{ consentGiven, setConsentGiven, showConsentBanner }}>
       {children}
       {showBanner && (
-        <ConsentBanner 
+        <ConsentBanner
           onAccept={() => setConsentGiven(true)}
           onDecline={() => setConsentGiven(false)}
           onClose={() => setShowBanner(false)}
@@ -56,12 +58,7 @@ export function ConsentProvider({ children }: { children: ReactNode }) {
 }
 
 export function useConsent() {
-  const context = useContext(ConsentContext);
-  if (context === undefined) {
-    throw new Error('useConsent must be used within a ConsentProvider');
-  }
-  return context;
+  const ctx = useContext(ConsentContext);
+  if (!ctx) throw new Error("useConsent must be used within a ConsentProvider");
+  return ctx;
 }
-
-// Import the ConsentBanner component
-import ConsentBanner from '@/components/ConsentBanner';
