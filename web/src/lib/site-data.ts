@@ -41,16 +41,16 @@ export const siteConfig: SiteConfig = {
   // Pricing
   pricing: {
     individual: {
-      price: 45,
+      price: 30,
       currency: "€",
       duration: "60-min",
       unit: "lesson"
     },
     package: {
-      lessons: 5,
+      lessons: 8,
       price: 200,
       currency: "€",
-      savings: "11%"
+      savings: "16%"
     },
     trial: {
       price: 0,

@@ -9,10 +9,10 @@ export default function HowItWorks() {
     <section id="offer" className="mt-24">
       <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-16">
-          <h2 className="text-xl font-semibold">
+          <h2 className="text-xl font-semibold text-neutral-900 dark:text-white">
             {t('howItWorks.heading')}
           </h2>
-          <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
+          <p className="text-xl text-neutral-600 dark:text-neutral-300 max-w-3xl mx-auto">
             {t('howItWorks.subheading')}
           </p>
         </div>
@@ -22,17 +22,17 @@ export default function HowItWorks() {
           {(Array.isArray(t('howItWorks.steps')) ? t('howItWorks.steps') : howItWorksSteps).map((step: any, index: number) => (
             <div key={index} className="text-center">
               <div className="relative mb-6">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">{howItWorksSteps[index].icon}</span>
                 </div>
                 <div className="absolute -top-2 -right-2 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
                   {howItWorksSteps[index].step}
                 </div>
               </div>
-              <h3 className="text-xl font-semibold text-neutral-900 mb-3">
+              <h3 className="text-xl font-semibold text-neutral-900 dark:text-white mb-3">
                 {step.title}
               </h3>
-              <p className="text-neutral-600 leading-relaxed">
+              <p className="text-neutral-600 dark:text-neutral-300 leading-relaxed">
                 {step.description}
               </p>
             </div>
