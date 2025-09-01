@@ -8,9 +8,9 @@ export default function SiteHeader() {
   const { t, locale } = useTranslation();
   
   return (
-    <header className="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-neutral-200">
+    <header className="sticky top-0 z-40 bg-white/80 dark:bg-neutral-900/80 backdrop-blur border-b border-neutral-200 dark:border-neutral-700">
       <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
-        <Link href={`/${locale}`} className="font-semibold text-lg text-neutral-900">
+        <Link href={`/${locale}`} className="font-semibold text-lg text-neutral-900 dark:text-white">
           <span className="font-bold">{siteConfig.author.split(' ')[0]}</span> — {siteConfig.teaching.languages.join(' & ')}
         </Link>
         <div className="flex items-center gap-4">
@@ -19,16 +19,16 @@ export default function SiteHeader() {
           
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-6">
-            <Link href={`/${locale}#offer`} className="text-neutral-600 hover:text-neutral-900 hover:underline">
+            <Link href={`/${locale}#offer`} className="text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white hover:underline">
               {t('nav.offer')}
             </Link>
-            <Link href={`/${locale}#pricing`} className="text-neutral-600 hover:text-neutral-900 hover:underline">
+            <Link href={`/${locale}#pricing`} className="text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white hover:underline">
               {t('nav.pricing')}
             </Link>
-            <Link href={`/${locale}#faq`} className="text-neutral-600 hover:text-neutral-900 hover:underline">
+            <Link href={`/${locale}#faq`} className="text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white hover:underline">
               {t('nav.faq')}
             </Link>
-            <Link href={`/${locale}/cv`} className="text-neutral-600 hover:text-neutral-900 hover:underline">
+            <Link href={`/${locale}/cv`} className="text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white hover:underline">
               {t('nav.cv')}
             </Link>
             <a
@@ -42,7 +42,7 @@ export default function SiteHeader() {
           </nav>
         </div>
         {/* Mobile menu button */}
-        <button className="md:hidden p-2">
+        <button className="md:hidden p-2 text-neutral-600 dark:text-neutral-300">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
           </svg>

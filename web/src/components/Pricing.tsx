@@ -10,20 +10,20 @@ export default function Pricing() {
     <section id="pricing" className="mt-24">
       <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-16">
-          <h2 className="text-xl font-semibold mb-6">
+          <h2 className="text-xl font-semibold mb-6 text-neutral-900 dark:text-white">
             {t('pricing.heading')}
           </h2>
-          <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
+          <p className="text-xl text-neutral-600 dark:text-neutral-300 max-w-3xl mx-auto">
             {t('pricing.subheading')}
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {/* Individual Lessons */}
-          <div className="bg-neutral-50 p-8 rounded-2xl border border-neutral-300">
+          <div className="bg-neutral-50 dark:bg-neutral-800 p-8 rounded-2xl border border-neutral-300 dark:border-neutral-600">
             <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold text-neutral-900 mb-2">{t('pricing.individual.title')}</h3>
-              <p className="text-neutral-600">{t('pricing.individual.subtitle')}</p>
+              <h3 className="text-2xl font-bold text-neutral-900 dark:text-white mb-2">{t('pricing.individual.title')}</h3>
+              <p className="text-neutral-600 dark:text-neutral-300">{t('pricing.individual.subtitle')}</p>
             </div>
             
             <div className="text-center mb-6">
@@ -81,10 +81,10 @@ export default function Pricing() {
           </div>
 
           {/* 5-Lesson Package */}
-          <div className="bg-neutral-50 p-8 rounded-2xl border border-neutral-300">
+          <div className="bg-neutral-50 dark:bg-neutral-800 p-8 rounded-2xl border border-neutral-300 dark:border-neutral-600">
             <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold text-neutral-900 mb-2">{t('pricing.package.title')}</h3>
-              <p className="text-neutral-600">{t('pricing.package.subtitle')}</p>
+              <h3 className="text-2xl font-bold text-neutral-900 dark:text-white mb-2">{t('pricing.package.title')}</h3>
+              <p className="text-neutral-600 dark:text-neutral-300">{t('pricing.package.subtitle')}</p>
             </div>
             
             <div className="text-center mb-6">
@@ -148,8 +148,8 @@ export default function Pricing() {
             </div>
             
             <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold text-neutral-900 mb-2">{t('pricing.trial.title')}</h3>
-              <p className="text-neutral-600">{t('pricing.trial.subtitle')}</p>
+              <h3 className="text-2xl font-bold text-neutral-900 dark:text-white mb-2">{t('pricing.trial.title')}</h3>
+              <p className="text-neutral-600 dark:text-neutral-300">{t('pricing.trial.subtitle')}</p>
             </div>
             
             <div className="text-center mb-6">

@@ -20,10 +20,10 @@ export default function About() {
       <div className="mx-auto max-w-6xl px-4">
         {/* Header */}
         <div className="text-center mb-20">
-          <h2 className="text-4xl font-bold text-neutral-900 mb-6">
+          <h2 className="text-4xl font-bold text-neutral-900 dark:text-white mb-6">
             {t('about.heading')}
           </h2>
-          <p className="text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-neutral-600 dark:text-neutral-300 max-w-3xl mx-auto leading-relaxed">
             {t('about.subtitle')}
           </p>
         </div>
@@ -49,38 +49,35 @@ export default function About() {
 
           {/* Right: Text Content */}
           <div className="order-1 lg:order-2 space-y-8">
-            <div className="space-y-6 text-lg text-neutral-600 leading-relaxed">
+            <div className="space-y-6 text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed">
               <p dangerouslySetInnerHTML={{ __html: t('about.introduction.greeting')
                 .replace('[YEARS]', yearsTeaching.toString())
-                .replace('Ihar (Igor) Ausiany', '<strong class="text-neutral-900">Ihar (Igor) Ausiany</strong>')
-                .replace(`${yearsTeaching} years`, `<strong class="text-neutral-900">${yearsTeaching} years</strong>`)
-                .replace('Farsi, Polish, French, and even a bit of Chinese', '<strong class="text-neutral-900">Farsi, Polish, French, and even a bit of Chinese</strong>')
+                .replace('Ihar (Igor) Ausiany', '<strong class="text-neutral-900 dark:text-white">Ihar (Igor) Ausiany</strong>')
+                .replace(`${yearsTeaching} years`, `<strong class="text-neutral-900 dark:text-white">${yearsTeaching} years</strong>`)
+                .replace('Farsi, Polish, French, and even a bit of Chinese', '<strong class="text-neutral-900 dark:text-white">Farsi, Polish, French, and even a bit of Chinese</strong>')
               }} />
               <p dangerouslySetInnerHTML={{ __html: t('about.introduction.certifications')
-                .replace('CELTA-certified', '<strong class="text-neutral-900">CELTA-certified</strong>')
-                .replace('DELTA Cambridge exams', '<strong class="text-neutral-900">DELTA Cambridge exams</strong>')
-                .replace('three language-focused university diplomas', '<strong class="text-neutral-900">three language-focused university diplomas</strong>')
+                .replace('CELTA-certified', '<strong class="text-neutral-900 dark:text-white">CELTA-certified</strong>')
+                .replace('DELTA Cambridge exams', '<strong class="text-neutral-900 dark:text-white">DELTA Cambridge exams</strong>')
+                .replace('three language-focused university diplomas', '<strong class="text-neutral-900 dark:text-white">three language-focused university diplomas</strong>')
                 
               }} />
               <p dangerouslySetInnerHTML={{ __html: t('about.introduction.experience')
-                .replace('50 countries', '<strong class="text-neutral-900">50 countries</strong>')
-                .replace('practical, friendly, and tailored to you', '<strong class="text-neutral-900">practical, friendly, and tailored to you</strong>')
-                .replace('your personal goals', '<strong class="text-neutral-900">your personal goals</strong>')
+                .replace('50 countries', '<strong class="text-neutral-900 dark:text-white">50 countries</strong>')
+                .replace('practical, friendly, and tailored to you', '<strong class="text-neutral-900 dark:text-white">practical, friendly, and tailored to you</strong>')
+                .replace('your personal goals', '<strong class="text-neutral-900 dark:text-white">your personal goals</strong>')
               }} />
             </div>
 
             {/* Teaching Philosophy */}
-            <div className="bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 p-8 rounded-3xl border border-blue-200 shadow-sm">
-              <h3 className="font-semibold text-neutral-900 mb-4 text-xl">{t('about.philosophy.heading')}</h3>
-              <blockquote className="text-neutral-700 italic text-lg leading-relaxed">
+            <div className="bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-neutral-800 dark:via-neutral-700 dark:to-neutral-800 p-8 rounded-3xl border border-blue-200 dark:border-neutral-600 shadow-sm">
+              <h3 className="font-semibold text-neutral-900 dark:text-white mb-4 text-xl">{t('about.philosophy.heading')}</h3>
+              <blockquote className="text-neutral-700 dark:text-neutral-300 italic text-lg leading-relaxed">
                 &ldquo;{t('about.philosophy.quote')}&rdquo;
               </blockquote>
             </div>
           </div>
         </div>
-
-
-
       </div>
     </section>
   );

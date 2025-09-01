@@ -8,13 +8,13 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="mt-24 bg-neutral-50">
+    <section id="faq" className="mt-24 bg-neutral-50 dark:bg-neutral-800">
       <div className="mx-auto max-w-4xl px-4 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-xl font-semibold mb-6">
+          <h2 className="text-xl font-semibold mb-6 text-neutral-900 dark:text-white">
             {t('faq.heading')}
           </h2>
-          <p className="text-xl text-neutral-600">
+          <p className="text-xl text-neutral-600 dark:text-neutral-300">
             {t('faq.subheading')}
           </p>
         </div>
@@ -22,14 +22,14 @@ export default function FAQ() {
         <div className="space-y-4">
           {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
           {(Array.isArray(t('faq.items')) ? t('faq.items') : []).map((faq: any, index: number) => (
-            <div key={index} className="bg-white rounded-2xl border border-neutral-300 overflow-hidden">
+            <div key={index} className="bg-white dark:bg-neutral-700 rounded-2xl border border-neutral-300 dark:border-neutral-600 overflow-hidden">
               <button
-                className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-neutral-50 transition-colors"
+                className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-neutral-50 dark:hover:bg-neutral-600 transition-colors"
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
               >
-                <span className="font-semibold text-neutral-900">{faq.question}</span>
+                <span className="font-semibold text-neutral-900 dark:text-white">{faq.question}</span>
                 <svg 
-                  className={`w-5 h-5 text-neutral-500 transition-transform ${
+                  className={`w-5 h-5 text-neutral-500 dark:text-neutral-400 transition-transform ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                   fill="none" 
@@ -41,7 +41,7 @@ export default function FAQ() {
               </button>
               {openIndex === index && (
                 <div className="px-6 pb-4">
-                  <p className="text-neutral-600 leading-relaxed">{faq.answer}</p>
+                  <p className="text-neutral-600 dark:text-neutral-300 leading-relaxed">{faq.answer}</p>
                 </div>
               )}
             </div>
@@ -49,13 +49,13 @@ export default function FAQ() {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-neutral-600 mb-4">
+          <p className="text-neutral-600 dark:text-neutral-300 mb-4">
             {t('faq.stillHaveQuestions')}
           </p>
-                      <a 
-              href={ctas.secondary.href}
-              className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold"
-            >
+          <a 
+            href={ctas.secondary.href}
+            className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold"
+          >
               {t('faq.contactDirectly')}
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
