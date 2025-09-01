@@ -1,9 +1,11 @@
 "use client";
 import { siteConfig, ctas } from "@/lib/site-data";
 import { useTranslation } from "@/hooks/useTranslation";
+import { useConsent } from "@/contexts/ConsentContext";
 
 export default function SiteFooter() {
   const { t } = useTranslation();
+  const { showConsentBanner } = useConsent();
   
   return (
     <footer className="border-t border-neutral-200 dark:border-neutral-700 mt-16 bg-white dark:bg-neutral-900">
@@ -33,6 +35,12 @@ export default function SiteFooter() {
             >
               Support
             </a>
+            <button
+              onClick={showConsentBanner}
+              className="hover:text-neutral-900 dark:hover:text-white hover:underline"
+            >
+              {t('footer.cookieSettings')}
+            </button>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-neutral-100 dark:border-neutral-700 text-center text-xs text-neutral-500 dark:text-neutral-400">

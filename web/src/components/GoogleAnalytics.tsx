@@ -1,8 +1,15 @@
 "use client";
 
 import Script from 'next/script';
+import { useConsent } from '@/contexts/ConsentContext';
 
 export default function GoogleAnalytics() {
+  const { consentGiven } = useConsent();
+
+  if (!consentGiven) {
+    return null; // Don't load GA if consent not given
+  }
+
   return (
     <>
       <Script
@@ -14,6 +21,9 @@ export default function GoogleAnalytics() {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
+          gtag('consent', 'default', {
+            'analytics_storage': 'granted'
+          });
           gtag('config', 'G-5REG4P4H91', {
             page_path: window.location.pathname,
           });

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { ConsentProvider } from '@/contexts/ConsentContext';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import AnalyticsRouteTracker from '@/components/AnalyticsRouteTracker';
 
@@ -16,9 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <GoogleAnalytics />
-        <AnalyticsRouteTracker />
-        {children}
+        <ConsentProvider>
+          <GoogleAnalytics />
+          <AnalyticsRouteTracker />
+          {children}
+        </ConsentProvider>
       </body>
     </html>
   );

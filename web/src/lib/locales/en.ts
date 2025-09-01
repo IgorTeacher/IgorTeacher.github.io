@@ -6,6 +6,13 @@ export const en = {
     cv: "CV"
   },
   
+  consent: {
+    title: "We value your privacy",
+    description: "We use cookies to understand how you use our site and improve your experience. This helps us provide better language lessons and track what's working.",
+    accept: "Accept all",
+    decline: "Decline"
+  },
+  
   hero: {
     headline: "English & German lessons, made personal.",
     subheadline: "CELTA-certified teacher. Practical speaking, clear structure, friendly guidance.",
@@ -182,7 +189,8 @@ export const en = {
   
   footer: {
     allRightsReserved: "All rights reserved",
-    quote: "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less."
+    quote: "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+    cookieSettings: "Cookie settings"
   },
   
   structuredData: {

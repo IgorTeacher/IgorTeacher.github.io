@@ -5,6 +5,13 @@ export const de = {
     faq: "FAQ",
     cv: "CV"
   },
+  
+  consent: {
+    title: "Wir schätzen Ihre Privatsphäre",
+    description: "Wir verwenden Cookies, um zu verstehen, wie Sie unsere Website nutzen und Ihre Erfahrung zu verbessern. Dies hilft uns, bessere Sprachunterrichte zu bieten und zu verfolgen, was funktioniert.",
+    accept: "Alle akzeptieren",
+    decline: "Ablehnen"
+  },
   hero: {
     headline: "Englisch & Deutsch Unterricht, persönlich gestaltet.",
     subheadline: "CELTA-zertifizierter Lehrer. Praktisches Sprechen, klare Struktur, freundliche Anleitung.",
@@ -181,7 +188,8 @@ export const de = {
   
   footer: {
     allRightsReserved: "Alle Rechte vorbehalten",
-    quote: "Nichts im Leben ist zu fürchten, es ist nur zu verstehen. Jetzt ist die Zeit, mehr zu verstehen, damit wir weniger fürchten müssen."
+    quote: "Nichts im Leben ist zu fürchten, es ist nur zu verstehen. Jetzt ist die Zeit, mehr zu verstehen, damit wir weniger fürchten müssen.",
+    cookieSettings: "Cookie-Einstellungen"
   },
 
   structuredData: {
