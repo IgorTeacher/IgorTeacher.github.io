@@ -15,7 +15,18 @@ export const de = {
   hero: {
     headline: "Englisch & Deutsch Unterricht, persönlich gestaltet.",
     subheadline: "CELTA-zertifizierter Lehrer. Praktisches Sprechen, klare Struktur, freundliche Anleitung.",
-    availabilityBadge: "Verfügbar für Unterricht"
+    availabilityBadge: "Verfügbar für Unterricht",
+    qualifications: {
+      heading: "International anerkannte Lehrqualifikationen",
+      tooltips: {
+        celta: "Zertifikat für den Unterricht von Englisch für Sprecher anderer Sprachen von Cambridge",
+        goethe: "Goethe-Zertifikat C2: Großes Deutsches Sprachdiplom vom Goethe-Institut",
+        tesol: "Unterricht von Englisch für Sprecher anderer Sprachen von der Arizona State University",
+        englishStudies: "MA-Abschluss in Anglistik, Lehramt von der SWPS-Universität Polen",
+        tkt: "Teaching Knowledge Test Module 1-3 von Cambridge",
+        technology: "Bildungstechnologie von der Iowa State University"
+      }
+    }
   },
   
   socialProof: {

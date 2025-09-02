@@ -15,7 +15,18 @@ export const it = {
   hero: {
     headline: "Lezioni di inglese e tedesco, personalizzate.",
     subheadline: "Insegnante certificato CELTA. Conversazione pratica, struttura chiara, guida amichevole.",
-    availabilityBadge: "Disponibile per lezioni"
+    availabilityBadge: "Disponibile per lezioni",
+    qualifications: {
+      heading: "Qualifiche di insegnamento riconosciute a livello internazionale",
+      tooltips: {
+        celta: "Certificato per l'insegnamento dell'inglese a parlanti di altre lingue da Cambridge",
+        goethe: "Goethe-Zertifikat C2: Grande Diploma di Lingua Tedesca dall'Istituto Goethe",
+        tesol: "Insegnamento dell'inglese a parlanti di altre lingue dall'Università dell'Arizona",
+        englishStudies: "Laurea Magistrale in Studi Inglesi, Indirizzo Insegnamento dall'Università SWPS Polonia",
+        tkt: "Test di Conoscenza dell'Insegnamento moduli 1-3 da Cambridge",
+        technology: "Tecnologia Educativa dall'Università dell'Iowa"
+      }
+    }
   },
   
   socialProof: {

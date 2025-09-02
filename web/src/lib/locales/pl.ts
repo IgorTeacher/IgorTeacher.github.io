@@ -15,7 +15,18 @@ export const pl = {
   hero: {
     headline: "Lekcje angielskiego i niemieckiego, spersonalizowane.",
     subheadline: "Nauczyciel z certyfikatem CELTA. Praktyczna rozmowa, przejrzysta struktura, przyjazne wskazówki.",
-    availabilityBadge: "Dostępny na lekcje"
+    availabilityBadge: "Dostępny na lekcje",
+    qualifications: {
+      heading: "Międzynarodowo uznane kwalifikacje nauczycielskie",
+      tooltips: {
+        celta: "Certyfikat nauczania języka angielskiego dla osób mówiących innymi językami od Cambridge",
+        goethe: "Goethe-Zertifikat C2: Wielki Dyplom Języka Niemieckiego od Instytutu Goethego",
+        tesol: "Nauczanie języka angielskiego dla osób mówiących innymi językami od Uniwersytetu Arizony",
+        englishStudies: "Magisterium z Filologii Angielskiej, Specjalność Nauczycielska od Uniwersytetu SWPS Polska",
+        tkt: "Test Wiedzy Nauczycielskiej moduły 1-3 od Cambridge",
+        technology: "Technologia Edukacyjna od Uniwersytetu Iowa"
+      }
+    }
   },
   
   socialProof: {

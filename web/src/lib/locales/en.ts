@@ -16,7 +16,18 @@ export const en = {
   hero: {
     headline: "English & German lessons, made personal.",
     subheadline: "CELTA-certified teacher. Practical speaking, clear structure, friendly guidance.",
-    availabilityBadge: "Available for lessons"
+    availabilityBadge: "Available for lessons",
+    qualifications: {
+      heading: "Internationally Recognized Teaching Qualifications",
+      tooltips: {
+        celta: "Certificate in Teaching English to Speakers of Other Languages by Cambridge",
+        goethe: "Goethe-Zertifikat C2: Großes Deutsches Sprachdiplom by Goethe Institute",
+        tesol: "Teaching English to Speakers of Other Languages by Arizona State University",
+        englishStudies: "MA Degree in English Studies, Teaching Track by SWPS University Poland",
+        tkt: "Teaching Knowledge Test modules 1-3 by Cambridge",
+        technology: "Educational Technology by Iowa State University"
+      }
+    }
   },
   
   socialProof: {

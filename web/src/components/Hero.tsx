@@ -27,7 +27,7 @@ export default function Hero() {
             {/* Qualifications Section */}
             <div className="mb-6 max-w-3xl">
               <h3 className="text-base font-bold text-neutral-900 dark:text-white mb-3">
-                Internationally Recognized Teaching Qualifications
+                {t('hero.qualifications.heading')}
               </h3>
               
               {/* Certification Badges - Professional Pill Design */}
@@ -43,7 +43,7 @@ export default function Hero() {
                   </div>
                   {/* Tooltip */}
                   <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-neutral-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-10">
-                    Certificate in Teaching English to Speakers of Other Languages by Cambridge
+                    {t('hero.qualifications.tooltips.celta')}
                     <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-900"></div>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ export default function Hero() {
                   </div>
                   {/* Tooltip */}
                   <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-neutral-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-10">
-                    Goethe-Zertifikat C2: Großes Deutsches Sprachdiplom by Goethe Institute
+                    {t('hero.qualifications.tooltips.goethe')}
                     <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-900"></div>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ export default function Hero() {
                   </div>
                   {/* Tooltip */}
                   <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-neutral-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-10">
-                    Teaching English to Speakers of Other Languages by Arizona State University
+                    {t('hero.qualifications.tooltips.tesol')}
                     <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-900"></div>
                   </div>
                 </div>
@@ -92,7 +92,7 @@ export default function Hero() {
                   </div>
                   {/* Tooltip */}
                   <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-neutral-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-10">
-                    MA Degree in English Studies, Teaching Track by SWPS University Poland
+                    {t('hero.qualifications.tooltips.englishStudies')}
                     <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-900"></div>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ export default function Hero() {
                   </div>
                   {/* Tooltip */}
                   <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-neutral-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-10">
-                    Teaching Knowledge Test modules 1-3 by Cambridge
+                    {t('hero.qualifications.tooltips.tkt')}
                     <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-900"></div>
                   </div>
                 </div>
@@ -118,14 +118,14 @@ export default function Hero() {
                 <div className="group relative">
                 <div className="flex items-center gap-2 px-3 py-2.5 bg-neutral-50 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-600 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
                     <div className="flex-1">
-                      <div className="font-semibold text-neutral-900 dark:text-white text-sm tracking-wide">Edu. Technology</div>
+                      <div className="font-semibold text-neutral-900 dark:text-white text-sm tracking-wide">Education Tech.</div>
                       <div className="text-xs text-neutral-500 dark:text-neutral-400">ISU</div>
                     </div>
                     <div className="text-green-500 text-lg" title="Verified">✓</div>
                   </div>
                   {/* Tooltip */}
                   <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-neutral-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-10">
-                    Educational Technology by Iowa State University
+                    {t('hero.qualifications.tooltips.technology')}
                     <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-900"></div>
                   </div>
                 </div>
