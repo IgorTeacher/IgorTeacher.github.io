@@ -25,81 +25,81 @@ export default function Hero() {
             </p>
             
             {/* Qualifications Section */}
-            <div className="mb-8">
+            <div className="mb-8 max-w-4xl">
               <h3 className="text-lg font-semibold text-neutral-800 dark:text-neutral-200 mb-4">
                 Internationally Recognized Teaching Qualifications
               </h3>
               
-              {/* Institution Logos */}
-              <div className="flex flex-wrap items-center gap-4 mb-6">
-                {/* Cambridge English */}
-                <div className="flex flex-col items-center group">
-                  <div className="bg-white dark:bg-neutral-800 p-3 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-600 hover:shadow-md transition-all duration-300">
-                    <Image
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9m1e4QfbxZJgQNXYWHNqi7EsJg1Ts6ysZcg&s"
-                      alt="Cambridge English"
-                      width={60}
-                      height={30}
-                      className="h-8 w-auto object-contain opacity-80 group-hover:opacity-100 transition-opacity"
-                    />
+              {/* Certification Badges */}
+              <div className="grid gap-3">
+                {/* CELTA Certificate */}
+                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300">
+                  <div className="flex items-center gap-3">
+                    <div className="text-blue-600 dark:text-blue-400 text-lg">🎓</div>
+                    <div className="flex-1">
+                      <div className="font-bold text-neutral-900 dark:text-white">CELTA Certificate</div>
+                      <div className="text-sm text-neutral-600 dark:text-neutral-400">Cambridge English Language Assessment</div>
+                    </div>
+                    <div className="text-xs text-neutral-500 dark:text-neutral-400 px-2 py-1 border border-neutral-200 dark:border-neutral-600 rounded-lg">
+                      Teaching English
+                    </div>
                   </div>
-                  <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1 text-center">CELTA</p>
                 </div>
 
-                {/* TESOL International */}
-                <div className="flex flex-col items-center group">
-                  <div className="bg-white dark:bg-neutral-800 p-3 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-600 hover:shadow-md transition-all duration-300">
-                    <Image
-                      src="https://www.tesol.org/images/tesol-logo.png"
-                      alt="TESOL International"
-                      width={60}
-                      height={30}
-                      className="h-8 w-auto object-contain opacity-80 group-hover:opacity-100 transition-opacity"
-                    />
+                {/* TESOL Certificate */}
+                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300">
+                  <div className="flex items-center gap-3">
+                    <div className="text-green-600 dark:text-green-400 text-lg">🌍</div>
+                    <div className="flex-1">
+                      <div className="font-bold text-neutral-900 dark:text-white">TESOL Certificate</div>
+                      <div className="text-sm text-neutral-600 dark:text-neutral-400">Teaching English to Speakers of Other Languages</div>
+                    </div>
+                    <div className="text-xs text-neutral-500 dark:text-neutral-400 px-2 py-1 border border-neutral-200 dark:border-neutral-600 rounded-lg">
+                      International
+                    </div>
                   </div>
-                  <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1 text-center">TESOL</p>
                 </div>
 
                 {/* SWPS University */}
-                <div className="flex flex-col items-center group">
-                  <div className="bg-white dark:bg-neutral-800 p-3 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-600 hover:shadow-md transition-all duration-300">
-                    <Image
-                      src="https://www.standyou.com/uploads/20230717150120_file_SW.png"
-                      alt="SWPS University"
-                      width={60}
-                      height={30}
-                      className="h-8 w-auto object-contain opacity-80 group-hover:opacity-100 transition-opacity"
-                    />
+                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300">
+                  <div className="flex items-center gap-3">
+                    <div className="text-purple-600 dark:text-purple-400 text-lg">🎯</div>
+                    <div className="flex-1">
+                      <div className="font-bold text-neutral-900 dark:text-white">English Studies (Teaching Track)</div>
+                      <div className="text-sm text-neutral-600 dark:text-neutral-400">SWPS University, Poland</div>
+                    </div>
+                    <div className="text-xs text-neutral-500 dark:text-neutral-400 px-2 py-1 border border-neutral-200 dark:border-neutral-600 rounded-lg">
+                      Academic
+                    </div>
                   </div>
-                  <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1 text-center">SWPS</p>
                 </div>
 
                 {/* Arizona State University */}
-                <div className="flex flex-col items-center group">
-                  <div className="bg-white dark:bg-neutral-800 p-3 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-600 hover:shadow-md transition-all duration-300">
-                    <Image
-                      src="https://www.asu.edu/images/asu-logo.png"
-                      alt="Arizona State University"
-                      width={60}
-                      height={30}
-                      className="h-8 w-auto object-contain opacity-80 group-hover:opacity-100 transition-opacity"
-                    />
+                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300">
+                  <div className="flex items-center gap-3">
+                    <div className="text-orange-600 dark:text-orange-400 text-lg">💻</div>
+                    <div className="flex-1">
+                      <div className="font-bold text-neutral-900 dark:text-white">Educational Technology</div>
+                      <div className="text-sm text-neutral-600 dark:text-neutral-400">Arizona State University, USA</div>
+                    </div>
+                    <div className="text-xs text-neutral-500 dark:text-neutral-400 px-2 py-1 border border-neutral-200 dark:border-neutral-600 rounded-lg">
+                      Technology
+                    </div>
                   </div>
-                  <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1 text-center">ASU</p>
                 </div>
 
                 {/* Goethe Institute */}
-                <div className="flex flex-col items-center group">
-                  <div className="bg-white dark:bg-neutral-800 p-3 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-600 hover:shadow-md transition-all duration-300">
-                    <Image
-                      src="https://www.goethe.de/images/goethe-logo.png"
-                      alt="Goethe Institute"
-                      width={60}
-                      height={30}
-                      className="h-8 w-auto object-contain opacity-80 group-hover:opacity-100 transition-opacity"
-                    />
+                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300">
+                  <div className="flex items-center gap-3">
+                    <div className="text-red-600 dark:text-red-400 text-lg">🇩🇪</div>
+                    <div className="flex-1">
+                      <div className="font-bold text-neutral-900 dark:text-white">German Language Certification</div>
+                      <div className="text-sm text-neutral-600 dark:text-neutral-400">Goethe Institute</div>
+                    </div>
+                    <div className="text-xs text-neutral-500 dark:text-neutral-400 px-2 py-1 border border-neutral-200 dark:border-neutral-600 rounded-lg">
+                      German
+                    </div>
                   </div>
-                  <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1 text-center">Goethe</p>
                 </div>
               </div>
             </div>
