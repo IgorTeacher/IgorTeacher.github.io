@@ -142,7 +142,14 @@ export const pl = {
       ]
     },
     contactInfo: "Skontaktuj się po więcej informacji",
-    bottomText: "Wszystkie lekcje są prowadzone przez Zoom. Opcje płatności i konkretne ceny będą omówione podczas twojej lekcji próbnej."
+    bottomText: "Wszystkie lekcje są prowadzone przez Zoom. Opcje płatności i konkretne ceny będą omówione podczas twojej lekcji próbnej.",
+    // Additional pricing translations
+    perLesson: "za 60-minutową lekcję",
+    savePercentage: "oszczędź 16% vs indywidualne",
+    fromLabel: "od",
+    freeLabel: "Za darmo",
+    sessionDuration: "30-minutowa sesja",
+    mostPopular: "Najpopularniejsze"
   },
   
   faq: {

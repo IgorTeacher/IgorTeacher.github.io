@@ -142,7 +142,14 @@ export const it = {
       ]
     },
     contactInfo: "Contatta per maggiori informazioni",
-    bottomText: "Tutte le lezioni sono condotte tramite Zoom. Le opzioni di pagamento e i prezzi specifici saranno discussi durante la tua lezione di prova."
+    bottomText: "Tutte le lezioni sono condotte tramite Zoom. Le opzioni di pagamento e i prezzi specifici saranno discussi durante la tua lezione di prova.",
+    // Additional pricing translations
+    perLesson: "per lezione di 60 min",
+    savePercentage: "risparmia 16% vs individuale",
+    fromLabel: "da",
+    freeLabel: "Gratis",
+    sessionDuration: "sessione di 30 minuti",
+    mostPopular: "Più Popolare"
   },
   
   faq: {

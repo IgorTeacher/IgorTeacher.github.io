@@ -142,7 +142,14 @@ export const de = {
       ]
     },
     contactInfo: "Kontakt für weitere Infos",
-    bottomText: "Alle Stunden werden über Zoom durchgeführt. Zahlungsoptionen und spezifische Preise werden während Ihrer Probestunde besprochen."
+    bottomText: "Alle Stunden werden über Zoom durchgeführt. Zahlungsoptionen und spezifische Preise werden während Ihrer Probestunde besprochen.",
+    // Additional pricing translations
+    perLesson: "pro 60-min Lektion",
+    savePercentage: "16% sparen vs Einzelstunden",
+    fromLabel: "ab",
+    freeLabel: "Kostenlos",
+    sessionDuration: "30-minütige Sitzung",
+    mostPopular: "Am beliebtesten"
   },
   
   faq: {

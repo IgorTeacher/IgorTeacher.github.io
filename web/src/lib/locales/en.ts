@@ -144,7 +144,14 @@ export const en = {
       ]
     },
     contactInfo: "Contact for more info",
-    bottomText: "All lessons are conducted via Zoom. Payment options and specific pricing will be discussed during your trial lesson."
+    bottomText: "All lessons are conducted via Zoom. Payment options and specific pricing will be discussed during your trial lesson.",
+    // Additional pricing translations
+    perLesson: "per 60-min lesson",
+    savePercentage: "save 16% vs individual",
+    fromLabel: "from",
+    freeLabel: "Free",
+    sessionDuration: "30-minute session",
+    mostPopular: "Most Popular"
   },
   
   faq: {
