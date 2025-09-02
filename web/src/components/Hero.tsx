@@ -30,12 +30,12 @@ export default function Hero() {
                 Internationally Recognized Teaching Qualifications
               </h3>
               
-              {/* Certification Badges - Compact 3+3 Grid Layout */}
-              <div className="grid grid-cols-3 gap-2 mb-2">
-                {/* CELTA Certificate */}
-                <div className="border border-neutral-200 dark:border-neutral-600 rounded-lg p-2 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center">
-                  <div className="font-semibold text-neutral-900 dark:text-white text-xs">CELTA</div>
-                  <div className="text-xs text-neutral-500 dark:text-neutral-400">Cambridge</div>
+              {/* Certification Badges - Compact Layout with Top-Tier Emphasis */}
+              <div className="flex justify-center gap-2">
+                {/* CELTA Certificate - Top Tier */}
+                <div className="border-2 border-red-600 dark:border-red-500 rounded-lg p-2 bg-gradient-to-br from-white to-red-50 dark:from-neutral-800 dark:to-red-900/20 shadow-md hover:shadow-lg transition-all duration-300 text-center">
+                  <div className="font-bold text-red-700 dark:text-red-300 text-xs">CELTA</div>
+                  <div className="text-xs text-red-600 dark:text-red-400 font-medium">Cambridge</div>
                 </div>
 
                 {/* German Certificate */}
@@ -49,26 +49,26 @@ export default function Hero() {
                   <div className="font-semibold text-neutral-900 dark:text-white text-xs">English Studies</div>
                   <div className="text-xs text-neutral-500 dark:text-neutral-400">SWPS Poland</div>
                 </div>
+
+                {/* TKT 1-3 Teaching Knowledge Tests - Top Tier */}
+                <div className="border-2 border-red-600 dark:border-red-500 rounded-lg p-2 bg-gradient-to-br from-white to-red-50 dark:from-neutral-800 dark:to-red-900/20 shadow-md hover:shadow-lg transition-all duration-300 text-center">
+                  <div className="font-bold text-red-700 dark:text-red-300 text-xs">TKT 1-3</div>
+                  <div className="text-xs text-red-600 dark:text-red-400 font-medium">Cambridge</div>
+                </div>
               </div>
 
-              {/* Bottom Row - 3 Badges */}
-              <div className="flex justify-center gap-2">
-                {/* TKT 1-3 Teaching Knowledge Tests */}
-                <div className="border border-neutral-200 dark:border-neutral-600 rounded-lg p-2 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center">
-                  <div className="font-semibold text-neutral-900 dark:text-white text-xs">TK-Test 1-3</div>
-                  <div className="text-xs text-neutral-500 dark:text-neutral-400">Cambridge</div>
-                </div>
-
+              {/* Bottom Row - 2 Badges */}
+              <div className="flex justify-center gap-2 mt-2">
                 {/* Educational Technology */}
                 <div className="border border-neutral-200 dark:border-neutral-600 rounded-lg p-2 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center">
-                  <div className="font-semibold text-neutral-900 dark:text-white text-xs">Educational Technology</div>
-                  <div className="text-xs text-neutral-500 dark:text-neutral-400">Iowa State University</div>
+                  <div className="font-semibold text-neutral-900 dark:text-white text-xs">Technology</div>
+                  <div className="text-xs text-neutral-500 dark:text-neutral-400">ISU</div>
                 </div>
 
-                {/* TESOL Certificate */}
-                <div className="border border-neutral-200 dark:border-neutral-600 rounded-lg p-2 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center">
-                  <div className="font-semibold text-neutral-900 dark:text-white text-xs">TESOL</div>
-                  <div className="text-xs text-neutral-500 dark:text-neutral-400">Arizona State University</div>
+                {/* TESOL Certificate - Top Tier */}
+                <div className="border-2 border-red-600 dark:border-red-500 rounded-lg p-2 bg-gradient-to-br from-white to-red-50 dark:from-neutral-800 dark:to-red-900/20 shadow-md hover:shadow-lg transition-all duration-300 text-center">
+                  <div className="font-bold text-red-700 dark:text-red-300 text-xs">TESOL</div>
+                  <div className="text-xs text-red-600 dark:text-red-400 font-medium">ASU</div>
                 </div>
               </div>
             </div>
