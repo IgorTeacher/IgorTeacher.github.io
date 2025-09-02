@@ -34,42 +34,75 @@ export default function Hero() {
               <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                 {/* CELTA Certificate - Primary Badge */}
                 <div className="group relative">
-                  <div className="flex items-center gap-2 px-3 py-2.5 bg-gradient-to-r from-white to-red-50 dark:from-neutral-800 dark:to-red-900/20 border border-red-200 dark:border-red-700 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-pointer">
+                <div className="flex items-center gap-2 px-3 py-2.5 bg-neutral-50 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-600 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
                     <div className="flex-1">
-                      <div className="font-bold text-red-700 dark:text-red-300 text-sm tracking-wide">CELTA</div>
-                      <div className="text-xs text-red-600 dark:text-red-400 font-medium">Cambridge</div>
+                      <div className="font-semibold text-neutral-900 dark:text-white text-sm tracking-wide">CELTA</div>
+                      <div className="text-xs text-neutral-500 dark:text-neutral-400">Cambridge</div>
                     </div>
                     <div className="text-green-500 text-lg" title="Verified">✓</div>
                   </div>
                   {/* Tooltip */}
                   <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-neutral-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-10">
-                    Cambridge English teaching certificate for adult learners
+                    Certificate in Teaching English to Speakers of Other Languages by Cambridge
                     <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-900"></div>
                   </div>
                 </div>
 
                 {/* German Certificate */}
-                <div className="flex items-center gap-2 px-3 py-2.5 bg-neutral-50 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-600 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
-                  <div className="flex-1">
-                    <div className="font-semibold text-neutral-900 dark:text-white text-sm tracking-wide">German Certificate</div>
-                    <div className="text-xs text-neutral-500 dark:text-neutral-400">Goethe Institute</div>
+                <div className="group relative">
+                  <div className="flex items-center gap-2 px-3 py-2.5 bg-neutral-50 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-600 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+                    <div className="flex-1">
+                      <div className="font-semibold text-neutral-900 dark:text-white text-sm tracking-wide">Goethe Cert.</div>
+                      <div className="text-xs text-neutral-500 dark:text-neutral-400">Goethe Institute</div>
+                    </div>
+                    <div className="text-green-500 text-lg" title="Verified">✓</div>
+                  </div>
+                  {/* Tooltip */}
+                  <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-neutral-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-10">
+                    Goethe-Zertifikat C2: Großes Deutsches Sprachdiplom by Goethe Institute
+                    <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-900"></div>
                   </div>
                 </div>
 
-                {/* SWPS University */}
+                {/* TESOL Certificate - Primary Badge */}
+                <div className="group relative">
                 <div className="flex items-center gap-2 px-3 py-2.5 bg-neutral-50 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-600 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
-                  <div className="flex-1">
-                    <div className="font-semibold text-neutral-900 dark:text-white text-sm tracking-wide">English Studies</div>
-                    <div className="text-xs text-neutral-500 dark:text-neutral-400">SWPS Poland</div>
+                    <div className="flex-1">
+                      <div className="font-semibold text-neutral-900 dark:text-white text-sm tracking-wide">TESOL</div>
+                      <div className="text-xs text-neutral-500 dark:text-neutral-400">ASU</div>
+                    </div>
+                    <div className="text-green-500 text-lg" title="Verified">✓</div>
+                  </div>
+                  {/* Tooltip */}
+                  <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-neutral-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-10">
+                    Teaching English to Speakers of Other Languages by Arizona State University
+                    <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-900"></div>
+                  </div>
+                </div>
+
+
+                {/* SWPS University */}
+                <div className="group relative">
+                  <div className="flex items-center gap-2 px-3 py-2.5 bg-neutral-50 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-600 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+                    <div className="flex-1">
+                      <div className="font-semibold text-neutral-900 dark:text-white text-sm tracking-wide">English Studies</div>
+                      <div className="text-xs text-neutral-500 dark:text-neutral-400">SWPS Poland</div>
+                    </div>
+                    <div className="text-green-500 text-lg" title="Verified">✓</div>
+                  </div>
+                  {/* Tooltip */}
+                  <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-neutral-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-10">
+                    MA Degree in English Studies, Teaching Track by SWPS University Poland
+                    <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-900"></div>
                   </div>
                 </div>
 
                 {/* TKT 1-3 Teaching Knowledge Tests - Primary Badge */}
                 <div className="group relative">
-                  <div className="flex items-center gap-2 px-3 py-2.5 bg-gradient-to-r from-white to-red-50 dark:from-neutral-800 dark:to-red-900/20 border border-red-200 dark:border-red-700 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-pointer">
+                <div className="flex items-center gap-2 px-3 py-2.5 bg-neutral-50 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-600 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
                     <div className="flex-1">
-                      <div className="font-bold text-red-700 dark:text-red-300 text-sm tracking-wide">TKT 1-3</div>
-                      <div className="text-xs text-red-600 dark:text-red-400 font-medium">Cambridge</div>
+                      <div className="font-semibold text-neutral-900 dark:text-white text-sm tracking-wide">TKT 1-3</div>
+                      <div className="text-xs text-neutral-500 dark:text-neutral-400">Cambridge</div>
                     </div>
                     <div className="text-green-500 text-lg" title="Verified">✓</div>
                   </div>
@@ -80,29 +113,23 @@ export default function Hero() {
                   </div>
                 </div>
 
-                {/* Educational Technology */}
-                <div className="flex items-center gap-2 px-3 py-2.5 bg-neutral-50 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-600 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
-                  <div className="flex-1">
-                    <div className="font-semibold text-neutral-900 dark:text-white text-sm tracking-wide">Technology</div>
-                    <div className="text-xs text-neutral-500 dark:text-neutral-400">ISU</div>
-                  </div>
-                </div>
 
-                {/* TESOL Certificate - Primary Badge */}
+                {/* Educational Technology */}
                 <div className="group relative">
-                  <div className="flex items-center gap-2 px-3 py-2.5 bg-gradient-to-r from-white to-red-50 dark:from-neutral-800 dark:to-red-900/20 border border-red-200 dark:border-red-700 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 cursor-pointer">
+                <div className="flex items-center gap-2 px-3 py-2.5 bg-neutral-50 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-600 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
                     <div className="flex-1">
-                      <div className="font-bold text-red-700 dark:text-red-300 text-sm tracking-wide">TESOL</div>
-                      <div className="text-xs text-red-600 dark:text-red-400 font-medium">ASU</div>
+                      <div className="font-semibold text-neutral-900 dark:text-white text-sm tracking-wide">Edu. Technology</div>
+                      <div className="text-xs text-neutral-500 dark:text-neutral-400">ISU</div>
                     </div>
                     <div className="text-green-500 text-lg" title="Verified">✓</div>
                   </div>
                   {/* Tooltip */}
                   <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-neutral-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap z-10">
-                    Teaching English to Speakers of Other Languages
+                    Educational Technology by Iowa State University
                     <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-neutral-900"></div>
                   </div>
                 </div>
+
               </div>
             </div>
             
