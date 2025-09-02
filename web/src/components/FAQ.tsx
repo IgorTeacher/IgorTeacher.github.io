@@ -8,10 +8,10 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="mt-24 bg-neutral-50 dark:bg-neutral-800">
-      <div className="mx-auto max-w-4xl px-4 py-20">
+    <section id="faq" className="py-20 bg-neutral-50 dark:bg-neutral-800">
+      <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-16">
-          <h2 className="text-xl font-semibold mb-6 text-neutral-900 dark:text-white">
+          <h2 className="text-3xl font-bold mb-6 text-neutral-900 dark:text-white">
             {t('faq.heading')}
           </h2>
           <p className="text-xl text-neutral-600 dark:text-neutral-300">

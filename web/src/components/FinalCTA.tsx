@@ -6,9 +6,9 @@ export default function FinalCTA() {
   const { t } = useTranslation();
   
   return (
-    <section className="mt-24 bg-igor-blue py-20">
-      <div className="mx-auto max-w-4xl px-4 text-center">
-        <h2 className="text-xl font-semibold text-white mb-6">
+    <section className="py-20 bg-igor-blue">
+      <div className="mx-auto max-w-6xl px-4 text-center">
+        <h2 className="text-3xl font-bold text-white mb-6">
           {t('finalCTA.heading')}
         </h2>
         <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">

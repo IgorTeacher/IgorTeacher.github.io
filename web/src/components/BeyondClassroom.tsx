@@ -6,7 +6,7 @@ export default function BeyondClassroom() {
   const { t } = useTranslation();
 
   return (
-    <section className="py-20 bg-gradient-to-br from-neutral-50 to-blue-50">
+    <section className="py-20 bg-gradient-to-br from-neutral-50 to-blue-50 dark:from-neutral-800 dark:to-neutral-700">
       <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-neutral-900 mb-6">

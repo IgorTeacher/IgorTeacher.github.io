@@ -16,7 +16,7 @@ export default function About() {
   console.log('Hours from 2013:', teachingHours);
   
   return (
-    <section className="mt-24">
+    <section className="py-20 bg-gradient-to-b from-neutral-50/20 via-transparent to-transparent dark:from-neutral-800/20">
       <div className="mx-auto max-w-6xl px-4">
         {/* Header */}
         <div className="text-center mb-20">

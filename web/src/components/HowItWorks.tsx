@@ -6,10 +6,10 @@ export default function HowItWorks() {
   const { t } = useTranslation();
 
   return (
-    <section id="offer" className="mt-24">
+    <section id="offer" className="py-20 bg-gradient-to-b from-blue-50/20 via-transparent to-transparent dark:from-blue-900/20">
       <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-16">
-          <h2 className="text-xl font-semibold text-neutral-900 dark:text-white">
+          <h2 className="text-3xl font-bold text-neutral-900 dark:text-white mb-6">
             {t('howItWorks.heading')}
           </h2>
           <p className="text-xl text-neutral-600 dark:text-neutral-300 max-w-3xl mx-auto">

@@ -14,11 +14,11 @@ export default function Offer() {
   const { t } = useTranslation();
   
   return (
-    <section className="mt-24 relative">
+    <section className="py-20 relative">
       {/* gentle backdrop to separate sections */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-blue-50/40 via-transparent to-transparent dark:from-blue-900/20" />
       <div className="mx-auto max-w-6xl px-4">
-        <h2 className="text-xl font-semibold text-neutral-900 dark:text-white">{t('offer.heading')}</h2>
+        <h2 className="text-3xl font-bold text-neutral-900 dark:text-white mb-6">{t('offer.heading')}</h2>
 
         <div className="mt-6 grid gap-6 md:grid-cols-3">
           {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}

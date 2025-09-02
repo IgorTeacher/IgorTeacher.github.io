@@ -31,9 +31,9 @@ export default function SocialProof() {
   }, [emblaApi, onSelect]);
 
   return (
-            <section className="mt-24">
+            <section className="py-20 bg-gradient-to-b from-neutral-50/30 via-transparent to-transparent dark:from-neutral-800/30">
           <div className="mx-auto max-w-6xl px-4">
-            <h2 className="text-xl font-semibold text-neutral-900 dark:text-white">{t('socialProof.heading')}</h2>
+            <h2 className="text-3xl font-bold text-neutral-900 dark:text-white mb-6">{t('socialProof.heading')}</h2>
 
         <div className="mt-10 overflow-hidden px-8" ref={emblaRef}>
           <div className="flex gap-8">
