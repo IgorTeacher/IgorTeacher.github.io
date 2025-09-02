@@ -37,11 +37,11 @@ export const siteConfig: SiteConfig = {
   },
   pricing: {
     individual: {
-      price: 50,        // ← Change price
+      price: 30,        // ← Change price
       currency: "€",    // ← Change currency
     },
     package: {
-      lessons: 5,       // ← Change number of lessons
+      lessons: 8,       // ← Change number of lessons
       price: 220,       // ← Change package price
       savings: "12%",   // ← Change savings percentage
     }

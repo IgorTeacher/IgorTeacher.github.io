@@ -123,10 +123,10 @@ export const en = {
       ]
     },
     package: {
-      title: "5-Lesson Package",
+      title: "8-Lesson Package",
       subtitle: "Save with multiple lessons",
       features: [
-        "5 × 60-minute lessons",
+        "8 × 60-minute lessons",
         "Flexible scheduling",
         "Better value"
       ]

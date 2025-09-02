@@ -122,10 +122,10 @@ export const de = {
       ]
     },
     package: {
-      title: "5-Stunden-Paket",
+      title: "8-Stunden-Paket",
       subtitle: "Sparen Sie mit mehreren Stunden",
       features: [
-        "5 × 60-Minuten-Stunden",
+        "8 × 60-Minuten-Stunden",
         "Flexible Terminplanung",
         "Besserer Wert"
       ]

@@ -122,10 +122,10 @@ export const it = {
       ]
     },
     package: {
-      title: "Pacchetto 5 lezioni",
+      title: "Pacchetto 8 lezioni",
       subtitle: "Risparmia con più lezioni",
       features: [
-        "5 × lezioni di 60 minuti",
+        "8 × lezioni di 60 minuti",
         "Programmazione flessibile",
         "Miglior valore"
       ]
