@@ -33,25 +33,31 @@ export default function Hero() {
               {/* Certification Badges - 3+3 Grid Layout */}
               <div className="grid grid-cols-3 gap-3 mb-3">
                 {/* CELTA Certificate */}
-                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative">
-                  {/* Cambridge Ribbon */}
-                  <div className="absolute -top-1 -right-1 w-8 h-3 bg-gradient-to-r from-blue-600 to-blue-800 rounded-full opacity-80"></div>
+                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative overflow-hidden">
+                  {/* Cambridge Ribbon - Bookmark Style */}
+                  <div className="absolute -top-2 -left-2 w-6 h-8 bg-gradient-to-b from-red-500 via-red-600 to-red-800 transform rotate-12 shadow-sm">
+                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-red-300 rounded-full"></div>
+                  </div>
                   <div className="font-bold text-neutral-900 dark:text-white text-sm">CELTA</div>
                   <div className="text-xs text-neutral-600 dark:text-neutral-400 mt-1">Cambridge</div>
                 </div>
 
                 {/* German Certificate */}
-                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative">
-                  {/* Goethe Institute Ribbon */}
-                  <div className="absolute -top-1 -right-1 w-8 h-3 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full opacity-80"></div>
+                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative overflow-hidden">
+                  {/* Goethe Institute Ribbon - German Flag Colors */}
+                  <div className="absolute -top-2 -left-2 w-6 h-8 bg-gradient-to-b from-yellow-400 via-red-500 to-black transform rotate-12 shadow-sm">
+                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-yellow-200 rounded-full"></div>
+                  </div>
                   <div className="font-bold text-neutral-900 dark:text-white text-sm">German Certificate</div>
                   <div className="text-xs text-neutral-600 dark:text-neutral-400 mt-1">Goethe Institute</div>
                 </div>
 
                 {/* SWPS University */}
-                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative">
-                  {/* SWPS Ribbon */}
-                  <div className="absolute -top-1 -right-1 w-8 h-3 bg-gradient-to-r from-neutral-700 to-neutral-900 rounded-full opacity-80"></div>
+                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative overflow-hidden">
+                  {/* SWPS Ribbon - Black & White */}
+                  <div className="absolute -top-2 -left-2 w-6 h-8 bg-gradient-to-b from-neutral-300 via-neutral-600 to-neutral-900 transform rotate-12 shadow-sm">
+                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-neutral-200 rounded-full"></div>
+                  </div>
                   <div className="font-bold text-neutral-900 dark:text-white text-sm">English Studies</div>
                   <div className="text-xs text-neutral-600 dark:text-neutral-400 mt-1">SWPS Poland</div>
                 </div>
@@ -60,26 +66,32 @@ export default function Hero() {
               {/* Bottom Row - 3 Badges */}
               <div className="flex justify-center gap-3">
                 {/* TKT 1-3 Teaching Knowledge Tests */}
-                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative">
-                  {/* Cambridge Ribbon */}
-                  <div className="absolute -top-1 -right-1 w-8 h-3 bg-gradient-to-r from-blue-600 to-blue-800 rounded-full opacity-80"></div>
+                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative overflow-hidden">
+                  {/* Cambridge Ribbon - Bookmark Style */}
+                  <div className="absolute -top-2 -left-2 w-6 h-8 bg-gradient-to-b from-blue-500 via-blue-600 to-blue-800 transform rotate-12 shadow-sm">
+                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-blue-300 rounded-full"></div>
+                  </div>
                   <div className="font-bold text-neutral-900 dark:text-white text-sm">TKT 1-3</div>
                   <div className="text-xs text-neutral-600 dark:text-neutral-400 mt-1">Teaching Knowledge Tests</div>
                   <div className="text-xs text-neutral-500 dark:text-neutral-400">Cambridge</div>
                 </div>
 
                 {/* Educational Technology */}
-                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative">
-                  {/* Iowa State Ribbon */}
-                  <div className="absolute -top-1 -right-1 w-8 h-3 bg-gradient-to-r from-red-600 to-red-800 rounded-full opacity-80"></div>
+                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative overflow-hidden">
+                  {/* Iowa State Ribbon - Red Gradient */}
+                  <div className="absolute -top-2 -left-2 w-6 h-8 bg-gradient-to-b from-red-400 via-red-600 to-red-800 transform rotate-12 shadow-sm">
+                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-red-200 rounded-full"></div>
+                  </div>
                   <div className="font-bold text-neutral-900 dark:text-white text-sm">Educational Technology</div>
                   <div className="text-xs text-neutral-600 dark:text-neutral-400 mt-1">Iowa State University</div>
                 </div>
 
                 {/* TESOL Certificate */}
-                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative">
-                  {/* Arizona State Ribbon */}
-                  <div className="absolute -top-1 -right-1 w-8 h-3 bg-gradient-to-r from-yellow-500 to-orange-600 rounded-full opacity-80"></div>
+                <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative overflow-hidden">
+                  {/* Arizona State Ribbon - Desert Colors */}
+                  <div className="absolute -top-2 -left-2 w-6 h-8 bg-gradient-to-b from-yellow-400 via-orange-500 to-orange-700 transform rotate-12 shadow-sm">
+                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-yellow-200 rounded-full"></div>
+                  </div>
                   <div className="font-bold text-neutral-900 dark:text-white text-sm">TESOL</div>
                   <div className="text-xs text-neutral-600 dark:text-neutral-400 mt-1">Arizona State University</div>
                 </div>
