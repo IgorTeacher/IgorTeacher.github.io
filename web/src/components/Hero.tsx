@@ -30,34 +30,148 @@ export default function Hero() {
                 Internationally Recognized Teaching Qualifications
               </h3>
               
+              {/* Predefined Bookmark Classes */}
+              <style jsx>{`
+                .bookmark-cambridge {
+                  position: absolute;
+                  top: -3px;
+                  left: -3px;
+                  width: 28px;
+                  height: 36px;
+                  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 50%, #991b1b 100%);
+                  transform: rotate(15deg);
+                  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+                  clip-path: polygon(0 0, 100% 0, 85% 100%, 50% 85%, 15% 100%);
+                }
+                .bookmark-cambridge::after {
+                  content: '';
+                  position: absolute;
+                  top: 2px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  width: 6px;
+                  height: 6px;
+                  background: #fca5a5;
+                  border-radius: 50%;
+                  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+                }
+                
+                .bookmark-goethe {
+                  position: absolute;
+                  top: -3px;
+                  left: -3px;
+                  width: 28px;
+                  height: 36px;
+                  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 25%, #dc2626 50%, #7c2d12 75%, #1f2937 100%);
+                  transform: rotate(15deg);
+                  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+                  clip-path: polygon(0 0, 100% 0, 85% 100%, 50% 85%, 15% 100%);
+                }
+                .bookmark-goethe::after {
+                  content: '';
+                  position: absolute;
+                  top: 2px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  width: 6px;
+                  height: 6px;
+                  background: #fef3c7;
+                  border-radius: 50%;
+                  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+                }
+                
+                .bookmark-swps {
+                  position: absolute;
+                  top: -3px;
+                  left: -3px;
+                  width: 28px;
+                  height: 36px;
+                  background: linear-gradient(135deg, #d1d5db 0%, #9ca3af 50%, #374151 100%);
+                  transform: rotate(15deg);
+                  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+                  clip-path: polygon(0 0, 100% 0, 85% 100%, 50% 85%, 15% 100%);
+                }
+                .bookmark-swps::after {
+                  content: '';
+                  position: absolute;
+                  top: 2px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  width: 6px;
+                  height: 6px;
+                  background: #f3f4f6;
+                  border-radius: 50%;
+                  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+                }
+                
+                .bookmark-iowa {
+                  position: absolute;
+                  top: -3px;
+                  left: -3px;
+                  width: 28px;
+                  height: 36px;
+                  background: linear-gradient(135deg, #f87171 0%, #dc2626 50%, #b91c1c 100%);
+                  transform: rotate(15deg);
+                  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+                  clip-path: polygon(0 0, 100% 0, 85% 100%, 50% 85%, 15% 100%);
+                }
+                .bookmark-iowa::after {
+                  content: '';
+                  position: absolute;
+                  top: 2px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  width: 6px;
+                  height: 6px;
+                  background: #fecaca;
+                  border-radius: 50%;
+                  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+                }
+                
+                .bookmark-arizona {
+                  position: absolute;
+                  top: -3px;
+                  left: -3px;
+                  width: 28px;
+                  height: 36px;
+                  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #ea580c 100%);
+                  transform: rotate(15deg);
+                  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+                  clip-path: polygon(0 0, 100% 0, 85% 100%, 50% 85%, 15% 100%);
+                }
+                .bookmark-arizona::after {
+                  content: '';
+                  position: absolute;
+                  top: 2px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  width: 6px;
+                  height: 6px;
+                  background: #fef3c7;
+                  border-radius: 50%;
+                  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+                }
+              `}</style>
+              
               {/* Certification Badges - 3+3 Grid Layout */}
               <div className="grid grid-cols-3 gap-3 mb-3">
                 {/* CELTA Certificate */}
                 <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative overflow-hidden">
-                  {/* Cambridge Ribbon - Bookmark Style */}
-                  <div className="absolute -top-2 -left-2 w-6 h-8 bg-gradient-to-b from-red-500 via-red-600 to-red-800 transform rotate-12 shadow-sm">
-                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-red-300 rounded-full"></div>
-                  </div>
+                  <div className="bookmark-cambridge"></div>
                   <div className="font-bold text-neutral-900 dark:text-white text-sm">CELTA</div>
                   <div className="text-xs text-neutral-600 dark:text-neutral-400 mt-1">Cambridge</div>
                 </div>
 
                 {/* German Certificate */}
                 <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative overflow-hidden">
-                  {/* Goethe Institute Ribbon - German Flag Colors */}
-                  <div className="absolute -top-2 -left-2 w-6 h-8 bg-gradient-to-b from-yellow-400 via-red-500 to-black transform rotate-12 shadow-sm">
-                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-yellow-200 rounded-full"></div>
-                  </div>
+                  <div className="bookmark-goethe"></div>
                   <div className="font-bold text-neutral-900 dark:text-white text-sm">German Certificate</div>
                   <div className="text-xs text-neutral-600 dark:text-neutral-400 mt-1">Goethe Institute</div>
                 </div>
 
                 {/* SWPS University */}
                 <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative overflow-hidden">
-                  {/* SWPS Ribbon - Black & White */}
-                  <div className="absolute -top-2 -left-2 w-6 h-8 bg-gradient-to-b from-neutral-300 via-neutral-600 to-neutral-900 transform rotate-12 shadow-sm">
-                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-neutral-200 rounded-full"></div>
-                  </div>
+                  <div className="bookmark-swps"></div>
                   <div className="font-bold text-neutral-900 dark:text-white text-sm">English Studies</div>
                   <div className="text-xs text-neutral-600 dark:text-neutral-400 mt-1">SWPS Poland</div>
                 </div>
@@ -67,31 +181,21 @@ export default function Hero() {
               <div className="flex justify-center gap-3">
                 {/* TKT 1-3 Teaching Knowledge Tests */}
                 <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative overflow-hidden">
-                  {/* Cambridge Ribbon - Bookmark Style */}
-                  <div className="absolute -top-2 -left-2 w-6 h-8 bg-gradient-to-b from-blue-500 via-blue-600 to-blue-800 transform rotate-12 shadow-sm">
-                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-blue-300 rounded-full"></div>
-                  </div>
-                  <div className="font-bold text-neutral-900 dark:text-white text-sm">TKT 1-3</div>
-                  <div className="text-xs text-neutral-600 dark:text-neutral-400 mt-1">Teaching Knowledge Tests</div>
+                  <div className="bookmark-cambridge"></div>
+                  <div className="font-bold text-neutral-900 dark:text-white text-sm">Teaching Knowledge Test 1-3</div>
                   <div className="text-xs text-neutral-500 dark:text-neutral-400">Cambridge</div>
                 </div>
 
                 {/* Educational Technology */}
                 <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative overflow-hidden">
-                  {/* Iowa State Ribbon - Red Gradient */}
-                  <div className="absolute -top-2 -left-2 w-6 h-8 bg-gradient-to-b from-red-400 via-red-600 to-red-800 transform rotate-12 shadow-sm">
-                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-red-200 rounded-full"></div>
-                  </div>
+                  <div className="bookmark-iowa"></div>
                   <div className="font-bold text-neutral-900 dark:text-white text-sm">Educational Technology</div>
                   <div className="text-xs text-neutral-600 dark:text-neutral-400 mt-1">Iowa State University</div>
                 </div>
 
                 {/* TESOL Certificate */}
                 <div className="border border-neutral-200 dark:border-neutral-600 rounded-xl p-3 bg-white dark:bg-neutral-800 shadow-sm hover:shadow-md transition-all duration-300 text-center relative overflow-hidden">
-                  {/* Arizona State Ribbon - Desert Colors */}
-                  <div className="absolute -top-2 -left-2 w-6 h-8 bg-gradient-to-b from-yellow-400 via-orange-500 to-orange-700 transform rotate-12 shadow-sm">
-                    <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-yellow-200 rounded-full"></div>
-                  </div>
+                  <div className="bookmark-arizona"></div>
                   <div className="font-bold text-neutral-900 dark:text-white text-sm">TESOL</div>
                   <div className="text-xs text-neutral-600 dark:text-neutral-400 mt-1">Arizona State University</div>
                 </div>
