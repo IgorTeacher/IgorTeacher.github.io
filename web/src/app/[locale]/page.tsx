@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import Qualifications from "@/components/Qualifications";
 import SocialProof from "@/components/SocialProof";
 import TeachingStats from "@/components/TeachingStats";
 import HowItWorks from "@/components/HowItWorks";
@@ -14,7 +13,6 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Qualifications />
       <TeachingStats />
       <SocialProof />
       <HowItWorks />

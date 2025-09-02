@@ -20,11 +20,89 @@ export default function Hero() {
             >
               {t('hero.headline')}
             </motion.h1>
-            <p className="text-lg text-neutral-700 dark:text-neutral-300 mb-6">
+                        <p className="text-lg text-neutral-700 dark:text-neutral-300 mb-6">
               {t('hero.subheadline')}
             </p>
             
+            {/* Qualifications Section */}
+            <div className="mb-8">
+              <h3 className="text-lg font-semibold text-neutral-800 dark:text-neutral-200 mb-4">
+                Internationally Recognized Teaching Qualifications
+              </h3>
+              
+              {/* Institution Logos */}
+              <div className="flex flex-wrap items-center gap-4 mb-6">
+                {/* Cambridge English */}
+                <div className="flex flex-col items-center group">
+                  <div className="bg-white dark:bg-neutral-800 p-3 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-600 hover:shadow-md transition-all duration-300">
+                    <Image
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9m1e4QfbxZJgQNXYWHNqi7EsJg1Ts6ysZcg&s"
+                      alt="Cambridge English"
+                      width={60}
+                      height={30}
+                      className="h-8 w-auto object-contain opacity-80 group-hover:opacity-100 transition-opacity"
+                    />
+                  </div>
+                  <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1 text-center">CELTA</p>
+                </div>
 
+                {/* TESOL International */}
+                <div className="flex flex-col items-center group">
+                  <div className="bg-white dark:bg-neutral-800 p-3 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-600 hover:shadow-md transition-all duration-300">
+                    <Image
+                      src="https://www.tesol.org/images/tesol-logo.png"
+                      alt="TESOL International"
+                      width={60}
+                      height={30}
+                      className="h-8 w-auto object-contain opacity-80 group-hover:opacity-100 transition-opacity"
+                    />
+                  </div>
+                  <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1 text-center">TESOL</p>
+                </div>
+
+                {/* SWPS University */}
+                <div className="flex flex-col items-center group">
+                  <div className="bg-white dark:bg-neutral-800 p-3 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-600 hover:shadow-md transition-all duration-300">
+                    <Image
+                      src="https://www.standyou.com/uploads/20230717150120_file_SW.png"
+                      alt="SWPS University"
+                      width={60}
+                      height={30}
+                      className="h-8 w-auto object-contain opacity-80 group-hover:opacity-100 transition-opacity"
+                    />
+                  </div>
+                  <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1 text-center">SWPS</p>
+                </div>
+
+                {/* Arizona State University */}
+                <div className="flex flex-col items-center group">
+                  <div className="bg-white dark:bg-neutral-800 p-3 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-600 hover:shadow-md transition-all duration-300">
+                    <Image
+                      src="https://www.asu.edu/images/asu-logo.png"
+                      alt="Arizona State University"
+                      width={60}
+                      height={30}
+                      className="h-8 w-auto object-contain opacity-80 group-hover:opacity-100 transition-opacity"
+                    />
+                  </div>
+                  <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1 text-center">ASU</p>
+                </div>
+
+                {/* Goethe Institute */}
+                <div className="flex flex-col items-center group">
+                  <div className="bg-white dark:bg-neutral-800 p-3 rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-600 hover:shadow-md transition-all duration-300">
+                    <Image
+                      src="https://www.goethe.de/images/goethe-logo.png"
+                      alt="Goethe Institute"
+                      width={60}
+                      height={30}
+                      className="h-8 w-auto object-contain opacity-80 group-hover:opacity-100 transition-opacity"
+                    />
+                  </div>
+                  <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1 text-center">Goethe</p>
+                </div>
+              </div>
+            </div>
             
             <div className="flex gap-3">
               <a 
