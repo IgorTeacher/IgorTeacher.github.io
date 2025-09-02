@@ -156,14 +156,44 @@ export const de = {
     heading: "Häufig gestellte Fragen",
     subheading: "Haben Sie Fragen? Ich habe Antworten. Hier sind die häufigsten Fragen zu meinem Unterrichtsansatz und der Stundenstruktur.",
     items: [
-      { question: "Welche Niveaus unterrichten Sie?", answer: "Ich unterrichte alle Niveaus von Anfängern bis Fortgeschrittenen (A2–C1). Jede Stunde wird auf Ihr Niveau und Ihre Ziele zugeschnitten." },
-      { question: "Wie finden die Stunden statt?", answer: "Alle Stunden finden online über Zoom oder Google Meet statt. Sie erhalten vor jeder Stunde einen Link." },
-      { question: "Welche Sprachen unterrichten Sie?", answer: "Ich spezialisiere mich auf Englisch und Deutsch. Weitere Sprachkenntnisse helfen bei Bedarf." },
-      { question: "Wie lange dauern die Stunden?", answer: "Reguläre Stunden dauern 60 Minuten. Die kostenlose Probestunde (30 Minuten) dient zur Zielklärung und zum Kennenlernen." },
-      { question: "Stellen Sie Materialien bereit?", answer: "Ja. Ich stelle strukturierte Materialien, Übungen und praxisnahe Ressourcen bereit – passend zu Ihrem Niveau." },
-      { question: "Bereiten Sie auf Prüfungen vor?", answer: "Ja, ich biete gezielte Vorbereitung auf gängige Englisch- und Deutschprüfungen mit klarem Plan und Feedback." },
-      { question: "Wie flexibel ist die Terminplanung?", answer: "Sehr flexibel. Wir finden gemeinsam Zeiten, die zu Ihrem Kalender und Ihrer Zeitzone passen." }
+      { 
+        question: "Welche Niveaus unterrichten Sie?", 
+        answer: "Ich unterrichte alle Niveaus – von den ersten Schritten (A1) bis hin zur sicheren Sprachbeherrschung (C1) – in Deutsch und Englisch. Jede Stunde wird individuell auf Ihr aktuelles Niveau und Ihre Lernziele abgestimmt." 
+      },
+      { 
+        question: "Wie läuft der Unterricht ab?", 
+        answer: "Alle Unterrichtsstunden finden online über Zoom statt – praktisch für Lernende weltweit. Vor jeder Stunde erhalten Sie einen Zugangslink. Zusätzlich nutzen wir ein MIRO-Board, das alle Materialien aus dem Unterricht sowie die Hausaufgaben enthält. Auf dieses Board haben Sie rund um die Uhr Zugriff." 
+      },
+      { 
+        question: "Welche Sprachen unterrichten Sie?", 
+        answer: "Ich bin auf den Unterricht in Englisch und Deutsch spezialisiert. Außerdem spreche ich Russisch, Italienisch, Polnisch, Farsi und Chinesisch, was mir sehr hilft, die typischen Schwierigkeiten von Lernenden mit unterschiedlichen Muttersprachen zu verstehen." 
+      },
+      { 
+        question: "Wie lange dauern die Unterrichtsstunden?", 
+        answer: "Reguläre Unterrichtsstunden dauern 60 oder 90 Minuten. Die kostenlose Probestunde dauert 30 Minuten – ideal, um meinen Unterrichtsstil kennenzulernen und Ihre Ziele zu besprechen. Bei dringender Prüfungsvorbereitung oder Bewerbungsgesprächen können wir flexibel jede gewünschte Länge und Anzahl von Stunden vereinbaren."
+      },
+      { 
+        question: "Stellen Sie Lernmaterialien zur Verfügung?", 
+        answer: "Ja! Ich stelle alle notwendigen Lernmaterialien bereit, die an Ihr Niveau und Ihre Ziele angepasst sind. Dazu gehören Arbeitsblätter, Übungen und empfohlene Ressourcen. Es ist nicht nötig, zusätzlich etwas zu kaufen." 
+      },
+      { 
+        question: "Können Sie bei der Prüfungsvorbereitung helfen?", 
+        answer: "Auf jeden Fall! Ich biete gezielte Vorbereitung für verschiedene Englisch- und Deutschprüfungen an und greife dabei auf meine umfangreiche Zertifizierungserfahrung zurück. Bereits mehr als 50 meiner Lernenden haben ihre Sprachprüfungen erfolgreich bestanden." 
+      },
+      {
+        question: "Was macht Ihren Unterricht besonders?",
+        answer: "Wir beginnen mit einer Bedarfsanalyse, bei der wir gemeinsam Ihre Ziele, Wünsche und Ihren Lernstil besprechen. Danach wissen wir genau, wie wir diese Ziele erreichen. Das größte „Geheimnis“ meines Unterrichts ist: Nach einer Weile vergessen Sie, dass es Sprachunterricht ist – Sie genießen einfach Aufgaben, Spiele, Videos und Podcasts. Später stellen Sie fest, dass Sie die Sprache wirklich gemeistert haben."
+      },
+      {
+        question: "Haben Sie eine pädagogische Ausbildung?",
+        answer: "Ja. Ich habe eine abgeschlossene akademische Ausbildung mit Bachelor- und Masterabschluss im Bereich Lehren. Außerdem habe ich zahlreiche internationale Zertifikate erworben, darunter TESOL, TEFL, TKT 1–3 und CELTA. Dadurch unterrichte ich nicht nur intuitiv, sondern kombiniere wissenschaftlich fundierte und individuelle Ansätze, um effektiven Unterricht zu gestalten."
+      },
+      { 
+        question: "Wie flexibel ist die Terminplanung?", 
+        answer: "Sehr flexibel! Ich arbeite mit Lernenden in verschiedenen Zeitzonen und kann mich an unterschiedliche Zeitpläne anpassen. Wir finden immer eine Zeit, die für uns beide passt." 
+      }
     ],
+    
     stillHaveQuestions: "Haben Sie noch Fragen?",
     contactDirectly: "Kontaktieren Sie mich direkt"
   },

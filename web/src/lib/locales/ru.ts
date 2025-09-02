@@ -149,7 +149,7 @@ export const ru = {
     fromLabel: "от",
     freeLabel: "Бесплатно",
     sessionDuration: "30-минутная сессия",
-    mostPopular: "Самый популярный"
+    mostPopular: "Популярный"
   },
   
   faq: {

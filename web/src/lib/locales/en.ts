@@ -158,13 +158,41 @@ export const en = {
     heading: "Frequently Asked Questions",
     subheading: "Got questions? I've got answers. Here are the most common questions about my teaching approach and lesson structure.",
     items: [
-      { question: "What levels do you teach?", answer: "I teach all levels from complete beginners (A1) to advanced learners (A2–C1). Each lesson is tailored to your proficiency and goals." },
-      { question: "How are lessons conducted?", answer: "All lessons are online via Zoom or Google Meet. You'll receive a link before each session." },
-      { question: "What languages do you teach?", answer: "I specialize in English and German. I also speak other languages, which helps when needed." },
-      { question: "How long are the lessons?", answer: "Standard lessons are 60 minutes. The free trial is 30 minutes to discuss goals and try my approach." },
-      { question: "Do you provide materials?", answer: "Yes. I provide structured materials, exercises, and practical resources based on your level." },
-      { question: "Do you help with exams?", answer: "Absolutely. I offer preparation for common English and German exams with a clear plan and feedback." },
-      { question: "How flexible is scheduling?", answer: "Very flexible. We coordinate times that fit your calendar and time zone." }
+      { 
+        question: "What levels do you teach?", 
+        answer: "I teach all levels from first steps (A1) to confident fluency (C1) in both German and English languages. Each lesson is tailored to your current proficiency and learning goals" 
+      },
+      { 
+        question: "How are lessons conducted?", 
+        answer: "All lessons are conducted online via Zoom, making it convenient for students worldwide. You'll receive a meeting link before each session. Together with Zoom we use MIRO-board, which contains all the materials we take in the class, as well as homeworks. You have 24/7 access to this board." 
+      },
+      { 
+        question: "What languages do you teach?", 
+        answer: "I specialize in teaching English and German. I also speak Russian, Italian, Polish, Farsi and Chinese which significantly helps to understand what difficulties different mother tongue speakers can encounter." 
+      },
+      { 
+        question: "How long are the lessons?", 
+        answer: "Regular lessons are 60 or 90 minutes long. The free trial lesson is 30 minutes, perfect for getting to know my teaching style and assessing your needs. However, in case of urgent preparation for exams or interviews, we can choose any amount and length of classes you need."
+      },
+      { 
+        question: "Do you provide learning materials?", 
+        answer: "Yes! I provide all necessary learning materials tailored to your level and goals. This includes worksheets, exercises, and recommended resources. There is no need to purchase anything more." 
+      },
+      { 
+        question: "Can you help with exam preparation?", 
+        answer: "Absolutely! I offer specialized preparation for various English and German proficiency exams, drawing from my extensive certification background. There are already more than 50 learners of mine who successfully passes their language exams." 
+      },
+      {
+        question: "What makes your teaching different?",
+        answer: "We start classes with a needs analysis where we both find out what your goals are, as well as what format of classes you would like to have, your preferences and learning style. After that we know what to do to achieve these goals. The biggest “mystery” of classes with me is that at some point you forget that these are classes of the language, you just enjoy tasks, games, videos, podcasts, but later on you realise you mastered your language."
+      },
+      {
+        question: "Do you have any teaching education?",
+        answer: "I have a proper higher teaching education including Bachelor and Master degrees. I also successfully completed a plenty of international certifications, such as TESOL, TEFL, TKT 1-3, CELTA etc. which makes me a specialist who not just intuitively teaches languages, but uses both scientific and individual approaches to conduct effective classes."
+      },
+      { question: "How flexible is scheduling?", 
+        answer: "Very flexible! I work with students across different time zones and can accommodate various schedules. We'll find time that work for both of us." 
+      }
     ],
     stillHaveQuestions: "Still have questions?",
     contactDirectly: "Contact me directly"

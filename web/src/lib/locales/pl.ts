@@ -156,14 +156,44 @@ export const pl = {
     heading: "Często zadawane pytania",
     subheading: "Masz pytania? Mam odpowiedzi. Oto najczęstsze pytania o moje podejście do nauczania i strukturę lekcji.",
     items: [
-      { question: "Na jakich poziomach uczysz?", answer: "Uczę na wszystkich poziomach – od początkujących do zaawansowanych (A2–C1). Każda lekcja jest dostosowana do Twojego poziomu i celów." },
-      { question: "Jak odbywają się lekcje?", answer: "Wszystkie lekcje odbywają się online przez Zoom lub Google Meet. Przed każdą sesją otrzymasz link." },
-      { question: "Jakich języków uczysz?", answer: "Specjalizuję się w angielskim i niemieckim. Znajomość innych języków pomaga, gdy jest to potrzebne." },
-      { question: "Jak długo trwa lekcja?", answer: "Standardowa lekcja trwa 60 minut. Bezpłatna lekcja próbna trwa 30 minut – omawiamy cele i poznajesz mój styl." },
-      { question: "Czy zapewniasz materiały?", answer: "Tak. Zapewniam materiały, ćwiczenia i praktyczne zasoby dopasowane do Twojego poziomu." },
-      { question: "Czy przygotowujesz do egzaminów?", answer: "Oczywiście. Oferuję przygotowanie do popularnych egzaminów z angielskiego i niemieckiego z jasnym planem i informacją zwrotną." },
-      { question: "Jak elastyczne są terminy?", answer: "Bardzo elastyczne. Ustalimy terminy pasujące do Twojego kalendarza i strefy czasowej." }
+      { 
+        question: "Jakie poziomy nauczania oferujesz?", 
+        answer: "Uczę na wszystkich poziomach — od pierwszych kroków (A1) aż po swobodną biegłość (C1) — zarówno z języka niemieckiego, jak i angielskiego. Każda lekcja jest dopasowana do Twojego obecnego poziomu i celów językowych." 
+      },
+      { 
+        question: "W jaki sposób odbywają się zajęcia?", 
+        answer: "Wszystkie zajęcia odbywają się online przez Zoom, co jest wygodne dla uczniów na całym świecie. Przed każdą lekcją otrzymujesz link do spotkania. Równolegle korzystamy z tablicy MIRO, na której znajdują się wszystkie materiały z lekcji oraz prace domowe. Masz do niej dostęp 24/7." 
+      },
+      { 
+        question: "Jakich języków uczysz?", 
+        answer: "Specjalizuję się w nauczaniu języka angielskiego i niemieckiego. Dodatkowo posługuję się rosyjskim, włoskim, polskim, farsi oraz chińskim, co bardzo pomaga mi rozumieć trudności, z jakimi mierzą się osoby o różnych językach ojczystych." 
+      },
+      { 
+        question: "Jak długo trwają zajęcia?", 
+        answer: "Standardowe lekcje trwają 60 lub 90 minut. Darmowa lekcja próbna trwa 30 minut — to świetna okazja, aby poznać mój styl nauczania i określić swoje cele. W przypadku pilnej potrzeby przygotowania do egzaminu czy rozmowy kwalifikacyjnej możemy elastycznie dobrać dowolną liczbę i długość zajęć."
+      },
+      { 
+        question: "Czy zapewniasz materiały do nauki?", 
+        answer: "Tak! Zapewniam wszystkie niezbędne materiały dostosowane do Twojego poziomu i celów. To m.in. karty pracy, ćwiczenia oraz polecane źródła. Nie ma potrzeby kupowania dodatkowych materiałów." 
+      },
+      { 
+        question: "Czy pomagasz w przygotowaniu do egzaminów?", 
+        answer: "Oczywiście! Oferuję specjalistyczne przygotowanie do różnych egzaminów z języka angielskiego i niemieckiego, korzystając z mojego bogatego doświadczenia i certyfikatów. Już ponad 50 moich uczniów z powodzeniem zdało swoje egzaminy językowe." 
+      },
+      {
+        question: "Co wyróżnia Twój sposób nauczania?",
+        answer: "Zaczynamy od analizy potrzeb, podczas której wspólnie ustalamy Twoje cele, preferowany format zajęć oraz styl nauki. Dzięki temu wiemy dokładnie, jak działać, aby osiągnąć zamierzone efekty. Największym „sekretem” moich lekcji jest to, że w pewnym momencie zapominasz, że to zajęcia językowe — po prostu cieszysz się zadaniami, grami, filmami czy podcastami. A później uświadamiasz sobie, że faktycznie opanowałeś język."
+      },
+      {
+        question: "Czy masz wykształcenie pedagogiczne?",
+        answer: "Tak. Posiadam pełne wykształcenie pedagogiczne — tytuł licencjata i magistra. Ukończyłem także wiele międzynarodowych kursów i zdobyłem certyfikaty, m.in. TESOL, TEFL, TKT 1–3 oraz CELTA. Dzięki temu uczę nie tylko intuicyjnie, ale łączę podejście naukowe z indywidualnym, co pozwala prowadzić skuteczne zajęcia."
+      },
+      { 
+        question: "Na ile elastyczny jest grafik zajęć?", 
+        answer: "Bardzo elastyczny! Pracuję z uczniami z różnych stref czasowych i potrafię dopasować się do różnych harmonogramów. Zawsze znajdziemy czas dogodny dla nas obojga." 
+      }
     ],
+    
     stillHaveQuestions: "Nadal masz pytania?",
     contactDirectly: "Skontaktuj się ze mną bezpośrednio"
   },

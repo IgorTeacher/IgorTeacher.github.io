@@ -156,14 +156,44 @@ export const it = {
     heading: "Domande frequenti",
     subheading: "Hai domande? Ho le risposte. Ecco le domande più comuni sul mio approccio di insegnamento e la struttura delle lezioni.",
     items: [
-      { question: "Quali livelli insegni?", answer: "Insegno tutti i livelli dai principianti agli avanzati (A2–C1). Ogni lezione è personalizzata in base al tuo livello e ai tuoi obiettivi." },
-      { question: "Come si svolgono le lezioni?", answer: "Tutte le lezioni si tengono online tramite Zoom o Google Meet. Riceverai un link prima di ogni sessione." },
-      { question: "Quali lingue insegni?", answer: "Sono specializzato in inglese e tedesco. Conoscenze di altre lingue aiutano quando necessario." },
-      { question: "Quanto durano le lezioni?", answer: "Le lezioni standard durano 60 minuti. La lezione di prova gratuita è di 30 minuti per discutere gli obiettivi e provare il mio approccio." },
-      { question: "Fornisci materiali?", answer: "Sì. Fornisco materiali strutturati, esercizi e risorse pratiche in base al tuo livello." },
-      { question: "Aiuti nella preparazione agli esami?", answer: "Certamente. Offro preparazione per i principali esami di inglese e tedesco con un piano chiaro e feedback." },
-      { question: "Quanto è flessibile la programmazione?", answer: "Molto flessibile. Troveremo insieme orari che si adattano al tuo calendario e fuso orario." }
+      { 
+        question: "Quali livelli insegni?", 
+        answer: "Insegno tutti i livelli – dai primi passi (A1) fino a una padronanza sicura (C1) – sia in tedesco che in inglese. Ogni lezione è adattata al tuo livello attuale e ai tuoi obiettivi di apprendimento." 
+      },
+      { 
+        question: "Come si svolgono le lezioni?", 
+        answer: "Tutte le lezioni si svolgono online tramite Zoom, in modo comodo per studenti di tutto il mondo. Prima di ogni lezione riceverai un link di accesso. Insieme a Zoom utilizziamo una MIRO-board che contiene tutti i materiali trattati in classe e i compiti a casa. Avrai accesso a questa board 24 ore su 24." 
+      },
+      { 
+        question: "Quali lingue insegni?", 
+        answer: "Sono specializzato nell’insegnamento di inglese e tedesco. Inoltre parlo russo, italiano, polacco, farsi e cinese: questo mi aiuta molto a capire le difficoltà che possono incontrare studenti con lingue madri diverse." 
+      },
+      { 
+        question: "Quanto durano le lezioni?", 
+        answer: "Le lezioni regolari durano 60 o 90 minuti. La lezione di prova gratuita dura 30 minuti – perfetta per conoscere il mio stile di insegnamento e definire i tuoi obiettivi. In caso di preparazioni urgenti per esami o colloqui, possiamo scegliere liberamente la durata e il numero di lezioni necessarie."
+      },
+      { 
+        question: "Fornisci materiali di apprendimento?", 
+        answer: "Sì! Fornisco tutti i materiali necessari, adattati al tuo livello e ai tuoi obiettivi. Comprendono schede di lavoro, esercizi e risorse consigliate. Non è necessario acquistare altro." 
+      },
+      { 
+        question: "Puoi aiutare nella preparazione agli esami?", 
+        answer: "Assolutamente sì! Offro preparazione mirata per vari esami di inglese e tedesco, basandomi sulla mia ampia esperienza di certificazioni. Più di 50 miei studenti hanno già superato con successo i loro esami linguistici." 
+      },
+      {
+        question: "Cosa rende diverso il tuo insegnamento?",
+        answer: "Iniziamo con un’analisi dei bisogni, in cui definiamo insieme i tuoi obiettivi, le tue preferenze e il tuo stile di apprendimento. Da lì sappiamo come raggiungere i risultati desiderati. La cosa più sorprendente del mio insegnamento è che a un certo punto ti dimentichi che si tratta di lezioni di lingua: ti diverti con attività, giochi, video e podcast… e poi ti accorgi di aver padroneggiato davvero la lingua."
+      },
+      {
+        question: "Hai una formazione didattica?",
+        answer: "Sì. Ho una formazione universitaria completa con laurea triennale e magistrale in insegnamento. Ho inoltre conseguito numerose certificazioni internazionali, tra cui TESOL, TEFL, TKT 1–3 e CELTA. Questo mi rende un insegnante che non si affida solo all’intuizione, ma combina approcci scientifici e personalizzati per creare lezioni efficaci."
+      },
+      { 
+        question: "Quanto è flessibile la programmazione?", 
+        answer: "Molto flessibile! Lavoro con studenti di diversi fusi orari e posso adattarmi a vari orari. Troveremo sempre un momento che vada bene a entrambi." 
+      }
     ],
+    
     stillHaveQuestions: "Hai ancora domande?",
     contactDirectly: "Contattami direttamente"
   },
