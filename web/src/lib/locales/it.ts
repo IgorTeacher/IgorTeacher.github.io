@@ -49,16 +49,16 @@ export const it = {
     heading: "Le tue lezioni a colpo d'occhio",
     items: [
       {
-        title: "Lingue e livelli",
-        body: "Inglese e tedesco, A2–C1"
+        title: "Lingue & livelli",
+        body: "• Inglese e Tedesco dai primi passi (A1) fino alla padronanza sicura (C1/C2)\n• Impara con un approccio pratico e dinamico alla lingua, non con regole astratte\n• Trova il tuo ritmo naturale e cresci passo dopo passo con fiducia"
       },
       {
         title: "Formati",
-        body: "1:1 o in coppia • Online (Zoom/Meet) o di persona"
+        body: "• Lezioni individuali o in piccoli gruppi, dove tutti hanno spazio per parlare\n• Accesso da tutto il mondo via Zoom, in presenza quando possibile\n• Esercizi e compiti pratici per farti progredire costantemente"
       },
       {
-        title: "Chi aiuto",
-        body: "Professionisti, preparazione colloqui, conversazione sicura"
+        title: "A chi aiuto",
+        body: "• Professionisti – trasferirsi all’estero, sicurezza nel parlare, coaching linguistico\n• Studenti e candidati agli esami che hanno bisogno di una guida chiara\n• Curiosi che vogliono semplicemente godersi nuove lingue"
       }
     ]
   },

@@ -51,16 +51,17 @@ export const en = {
     items: [
       {
         title: "Languages & levels",
-        body: "English & German, A2–C1"
+        body: "• English & German from first steps (A1) to confident fluency (C1/C2)\n• Learn through practical and dynamic language awareness, not dry rules\n• Find your natural rhythm and grow step by step with confidence"
       },
       {
         title: "Formats",
-        body: "1:1 or pair • Online (Zoom/Meet) or in person"
+        body: "• 1:1 lessons or small groups where everyone has space to speak\n• Worldwide access via Zoom, in-person when possible\n• Exercises & practice tasks to keep you moving forward"
       },
       {
         title: "Who I help",
-        body: "Professionals, interview prep, confident speaking"
+        body: "• Professionals - moving abroad, speaking confidence, language-coaching\n• Students and exam-takers who need clear guidance\n• Curious learners who simply want to enjoy new languages"
       }
+      
     ]
   },
   

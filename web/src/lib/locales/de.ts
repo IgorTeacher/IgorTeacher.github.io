@@ -48,19 +48,19 @@ export const de = {
   offer: {
     heading: "Ihr Unterricht auf einen Blick",
     items: [
-      {
-        title: "Sprachen & Niveaus",
-        body: "Englisch & Deutsch, A2–C1"
-      },
-      {
-        title: "Formate",
-        body: "1:1 oder zu zweit • Online (Zoom/Meet) oder persönlich"
-      },
-      {
-        title: "Wem ich helfe",
-        body: "Berufstätige, Vorstellungsgespräche, selbstbewusstes Sprechen"
-      }
-    ]
+        {
+          title: "Sprachen & Niveaus",
+          body: "• Englisch & Deutsch von den ersten Schritten (A1) bis zur sicheren Sprachbeherrschung (C1/C2)\n• Lernen durch praktisches und dynamisches Sprachbewusstsein, nicht durch trockene Regeln\n• Finde deinen natürlichen Rhythmus und wachse Schritt für Schritt mit Selbstvertrauen"
+        },
+        {
+          title: "Formate",
+          body: "• Einzelunterricht oder Kleingruppen, in denen jeder zu Wort kommt\n• Weltweiter Zugang über Zoom, Präsenzunterricht wenn möglich\n• Übungen & Aufgaben, die dich stetig weiterbringen"
+        },
+        {
+          title: "Wem ich helfe",
+          body: "• Berufstätigen – Auslandsumzug, Sprechsicherheit, Sprachcoaching\n• Schülern und Prüfungsteilnehmern, die klare Orientierung brauchen\n• Neugierigen Lernenden, die einfach Freude an neuen Sprachen haben möchten"
+        }
+      ]
   },
   
   teachingStats: {

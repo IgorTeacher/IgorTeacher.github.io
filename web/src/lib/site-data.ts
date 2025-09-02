@@ -29,9 +29,9 @@ export const siteConfig: SiteConfig = {
   // Teaching info
   teaching: {
     languages: ["English", "German"],
-    levels: "A2–C1",
-    formats: ["1:1", "pair lessons"],
-    delivery: ["Online (Zoom/Meet)", "in person"],
+    levels: "A1 (beginner) – C1 (advanced)",
+    formats: ["1:1", "pair lessons", "small groups"],
+    delivery: ["Online (Zoom)", "in person (when possible)"],
     experience: {
       yearsTeaching: "10+",
       lessonsDelivered: "500+"

@@ -36,7 +36,9 @@ export default function Offer() {
                 </div>
                 <h3 className="font-semibold text-neutral-900 dark:text-white">{item.title}</h3>
               </div>
-              <p className="mt-3 text-neutral-700 dark:text-neutral-300">{item.body}</p>
+              <p className="mt-3 whitespace-pre-line text-neutral-700 dark:text-neutral-300">
+                {item.body}
+              </p>
             </div>
           );
           })}

@@ -50,15 +50,15 @@ export const pl = {
     items: [
       {
         title: "Języki i poziomy",
-        body: "Angielski i niemiecki, A2–C1"
+        body: "• Angielski i niemiecki od pierwszych kroków (A1) do swobodnej biegłości (C1/C2)\n• Nauka poprzez praktyczne i dynamiczne podejście do języka, a nie suche reguły\n• Znajdź swój naturalny rytm i rozwijaj się krok po kroku z pewnością siebie"
       },
       {
         title: "Formaty",
-        body: "1:1 lub w parze • Online (Zoom/Meet) lub osobiście"
+        body: "• Lekcje indywidualne lub w małych grupach, gdzie każdy ma przestrzeń do mówienia\n• Dostęp z dowolnego miejsca przez Zoom, stacjonarnie gdy to możliwe\n• Ćwiczenia i zadania utrwalające, abyś stale posuwał się naprzód"
       },
       {
         title: "Komu pomagam",
-        body: "Profesjonaliści, przygotowanie do rozmów kwalifikacyjnych, pewna mowa"
+        body: "• Profesjonalistom – wyjazd za granicę, pewność w mówieniu, coaching językowy\n• Uczniom i osobom przygotowującym się do egzaminów, które potrzebują jasnych wskazówek\n• Ciekawym świata, którzy chcą po prostu cieszyć się nauką nowych języków"
       }
     ]
   },
