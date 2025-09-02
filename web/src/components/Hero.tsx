@@ -23,6 +23,23 @@ export default function Hero() {
             <p className="text-lg text-neutral-700 dark:text-neutral-300 mb-6">
               {t('hero.subheadline')}
             </p>
+            
+            {/* Trust Badges */}
+            <div className="flex flex-wrap items-center gap-3 mb-6 text-sm text-neutral-600 dark:text-neutral-400">
+              <div className="flex items-center gap-2 bg-white dark:bg-neutral-800 px-3 py-1.5 rounded-full border border-neutral-200 dark:border-neutral-600 shadow-sm">
+                <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                <span className="font-medium">CELTA Certified</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white dark:bg-neutral-800 px-3 py-1.5 rounded-full border border-neutral-200 dark:border-neutral-600 shadow-sm">
+                <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                <span className="font-medium">10+ Years Experience</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white dark:bg-neutral-800 px-3 py-1.5 rounded-full border border-neutral-200 dark:border-neutral-600 shadow-sm">
+                <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+                <span className="font-medium">500+ Students Taught</span>
+              </div>
+            </div>
+            
             <div className="flex gap-3">
               <a 
                 href={ctas.primary.href}
