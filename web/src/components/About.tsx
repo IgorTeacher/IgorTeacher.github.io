@@ -32,21 +32,7 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-20 items-start mb-24">
           {/* Left: Photo */}
           <div className="order-2 lg:order-1">
-            {/* Trust Badges Above Photo */}
-            <div className="flex flex-wrap justify-center lg:justify-start gap-3 mb-6">
-              <div className="flex items-center gap-2 bg-white dark:bg-neutral-800 px-3 py-2 rounded-full border border-neutral-200 dark:border-neutral-600 shadow-sm">
-                <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                <span className="text-sm font-medium text-neutral-700 dark:text-neutral-300">University Qualified</span>
-              </div>
-              <div className="flex items-center gap-2 bg-white dark:bg-neutral-800 px-3 py-2 rounded-full border border-neutral-200 dark:border-neutral-600 shadow-sm">
-                <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                <span className="text-sm font-medium text-neutral-700 dark:text-neutral-300">Professional Teacher</span>
-              </div>
-              <div className="flex items-center gap-2 bg-white dark:bg-neutral-800 px-3 py-2 rounded-full border border-neutral-200 dark:border-neutral-600 shadow-sm">
-                <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                <span className="text-sm font-medium text-neutral-700 dark:text-neutral-300">International Experience</span>
-              </div>
-            </div>
+
             
             <div className="relative">
               <Image

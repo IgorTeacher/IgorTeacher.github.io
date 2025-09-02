@@ -18,21 +18,7 @@ export default function Pricing() {
           </p>
         </div>
 
-        {/* Trust Badges Above Pricing */}
-        <div className="flex flex-wrap justify-center gap-4 mb-8">
-          <div className="flex items-center gap-2 bg-white dark:bg-neutral-800 px-4 py-2 rounded-full border border-neutral-200 dark:border-neutral-600 shadow-sm">
-            <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-            <span className="text-sm font-medium text-neutral-700 dark:text-neutral-300">Money-back Guarantee</span>
-          </div>
-          <div className="flex items-center gap-2 bg-white dark:bg-neutral-800 px-4 py-2 rounded-full border border-neutral-200 dark:border-neutral-600 shadow-sm">
-            <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-            <span className="text-sm font-medium text-neutral-700 dark:text-neutral-300">No Commitment Required</span>
-          </div>
-          <div className="flex items-center gap-2 bg-white dark:bg-neutral-800 px-4 py-2 rounded-full border border-neutral-200 dark:border-neutral-600 shadow-sm">
-            <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-            <span className="text-sm font-medium text-neutral-700 dark:text-neutral-300">Flexible Scheduling</span>
-          </div>
-        </div>
+
         
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {/* Individual Lessons */}
