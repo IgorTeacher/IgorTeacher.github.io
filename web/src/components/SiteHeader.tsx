@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig, ctas } from "@/lib/site-data";
 import LanguageSelector from "@/components/LanguageSelector";
 import { useTranslation } from "@/hooks/useTranslation";
@@ -10,8 +11,15 @@ export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 bg-white/80 dark:bg-neutral-900/80 backdrop-blur border-b border-neutral-200 dark:border-neutral-700">
       <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
-        <Link href={`/${locale}`} className="font-semibold text-lg text-neutral-900 dark:text-white">
-          <span className="font-bold">{siteConfig.author.split(' ')[0]}</span> — {siteConfig.teaching.languages.join(' & ')}
+        <Link href={`/${locale}`} className="flex items-center">
+          <Image
+            src="/logos/rectangle_logo.png"
+            alt={`${siteConfig.author.split(' ')[0]} — ${siteConfig.teaching.languages.join(' & ')}`}
+            width={141} // 706/5 to fit in header
+            height={58}  // 288/5 to fit in header
+            className="h-8 w-auto dark:invert" // invert for dark mode since logo has white background
+            priority
+          />
         </Link>
         <div className="flex items-center gap-4">
           {/* Language Selector */}
