@@ -52,6 +52,8 @@ export const it = {
       age: 23,
       location: "Germania",
       avatar: "/avatars/yulia.png",
+      profileUrl: "https://www.instagram.com/iuliia.nkt",
+      platform: "instagram",
       originalLanguage: "ru"
     },
     {
@@ -72,6 +74,8 @@ export const it = {
       age: 30,
       location: "Russia",
       avatar: "/avatars/guzel.png",
+      profileUrl: "https://www.instagram.com/heroine_g",
+      platform: "instagram",
       originalLanguage: "ru"
     },
     {
@@ -82,6 +86,8 @@ export const it = {
       age: 24,
       location: "Russia",
       avatar: "/avatars/ekaterina.png",
+      profileUrl: "https://linkedin.com/in/ekaterina-mashina",
+      platform: "linkedin",
       originalLanguage: "ru"
     },
     {
@@ -92,6 +98,8 @@ export const it = {
       age: 33,
       location: "Russia",
       avatar: "/avatars/alexander.png",
+      profileUrl: "https://www.instagram.com/Alexandr.obeskurazhen",
+      platform: "instagram",
       originalLanguage: "ru"
     },
     {
@@ -102,6 +110,8 @@ export const it = {
       age: 33,
       location: "Germania",
       avatar: "/avatars/alena.png",
+      profileUrl: "https://www.linkedin.com/in/helen-kuzniatsova/",
+      platform: "linkedin",
       originalLanguage: "de"
     },
     {
@@ -112,6 +122,8 @@ export const it = {
       age: 34,
       location: "Russia",
       avatar: "/avatars/sergej.png",
+      profileUrl: "https://www.linkedin.com/in/sergej-herwald/",
+      platform: "linkedin",
       originalLanguage: "en"
     },
     {
@@ -122,6 +134,8 @@ export const it = {
       age: 42,
       location: "Germania",
       avatar: "/avatars/maxim.png",
+      profileUrl: "https://www.facebook.com/maxim.aliseiko/",
+      platform: "facebook",
       originalLanguage: "de"
     },
     {
@@ -132,6 +146,8 @@ export const it = {
       age: 30,
       location: "Russia",
       avatar: "/avatars/polina.png",
+      profileUrl: "https://www.instagram.com/Polly.savi.nova",
+      platform: "instagram",
       originalLanguage: "ru"
     },
     {
@@ -142,6 +158,8 @@ export const it = {
       age: 37,
       location: "Germania",
       avatar: "/avatars/kristina.png",
+      profileUrl: "https://www.instagram.com/kristina_morozova_tina",
+      platform: "instagram",
       originalLanguage: "de"
     }
   ],
