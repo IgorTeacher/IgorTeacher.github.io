@@ -104,8 +104,8 @@ export const ru = {
     },
     {
       id: "alena",
-      quote: "deine Erklärungen sind sehr klar; du schaffst eine tolle Lernatmosphäre; die praktischen Beispiele helfen mir immer, besser zu verstehen und erinnern",
-      fullReview: "deine Erklärungen sind sehr klar; du schaffst eine tolle Lernatmosphäre; die praktischen Beispiele helfen mir immer, besser zu verstehen und erinnern",
+      quote: "Ваши объяснения очень понятны; вы создаёте отличную атмосферу для обучения; практические примеры всегда помогают мне лучше понимать и запоминать материал",
+      fullReview: "Ваши объяснения очень понятны; вы создаёте отличную атмосферу для обучения; практические примеры всегда помогают мне лучше понимать и запоминать материал",
       name: "Alena",
       age: 33,
       location: "Германия",
@@ -116,8 +116,8 @@ export const ru = {
     },
     {
       id: "sergej",
-      quote: "I turned to Ihar because after I changed my job, it happened to be a lot of English in my life. My expectations were fully met.",
-      fullReview: "I turned to Ihar because after I changed my job, it happened to be a lot of English in my life. My expectations were fully met. The lessons cover very interesting and modern topics, always tailored to my interests and goals. I appreciate the supportive atmosphere and the practical approach. The explanations are always patient and clear. I had also tried learning English with other teachers, but their lessons felt like a MUST. With Ihar, I LOOK FORWARD to classes and truly WANT to attend them.",
+      quote: "Я обратился к Игару, потому что после смены работы в моей жизни стало много английского языка. Мои ожидания полностью оправдались.",
+      fullReview: "Я обратился к Игару, потому что после смены работы в моей жизни стало много английского языка. Мои ожидания полностью оправдались. Уроки охватывают очень интересные и современные темы, всегда адаптированные под мои интересы и цели. Я ценю поддерживающую атмосферу и практический подход. Объяснения всегда терпеливые и понятные. Я также пробовал изучать английский с другими преподавателями, но их уроки казались обязаловкой. С Игаром я С НЕТЕРПЕНИЕМ ЖДУ занятий и действительно ХОЧУ их посещать.",
       name: "Sergej",
       age: 34,
       location: "Россия",
@@ -128,8 +128,8 @@ export const ru = {
     },
     {
       id: "maxim",
-      quote: "Der Unterricht mit Igor hat mir geholfen, von Niveau A1 bis B1 zu kommen. Er erklärt auch schwierige Themen sehr gut und ohne Stress.",
-      fullReview: "Der Unterricht mit Igor hat mir geholfen, von Niveau A1 bis B1 zu kommen. Er erklärt auch schwierige Themen sehr gut und ohne Stress. Für mich ist auch wichtig, dass Igor immer flexibel mit dem Stundenplan ist. Ich empfehle ihn sehr gerne als Deutschlehrer!",
+      quote: "Занятия с Игорем помогли мне подняться с уровня А1 до В1. Он очень хорошо объясняет даже сложные темы, и это происходит без стресса.",
+      fullReview: "Занятия с Игорем помогли мне подняться с уровня А1 до В1. Он очень хорошо объясняет даже сложные темы, и это происходит без стресса. Для меня также важно, что Игорь всегда гибко подходит к расписанию занятий. Я очень рекомендую его как преподавателя немецкого языка!",
       name: "Maxim",
       age: 42,
       location: "Германия",
@@ -152,8 +152,8 @@ export const ru = {
     },
     {
       id: "kristina",
-      quote: "Du verfügst über Deine ausreichende Erfahrung, ein umfassendes Fachwissen, unter anderem soziale Anerkennung (Status als Lehrerausbilder), ein ausgeprägtes Bewusstsein für das Geschehen im Klassenzimmer.",
-      fullReview: "Du verfügst über Deine ausreichende Erfahrung, ein umfassendes Fachwissen, unter anderem soziale Anerkennung (Status als Lehrerausbilder), ein ausgeprägtes Bewusstsein für das Geschehen im Klassenzimmer, (z. B. für das Verhalten der Lernenden, ihre Fortschritte und ihren Unterstützungsbedarf), progressive Problemlösung, die zwischenmenschliche Haltung, gegenseitigen Respekt für die Lernenden und damit verbundene Werte (z. B. Vermeidung der Schuldzuweisung an die Lernenden für ihre Unzulänglichkeiten und Aufbau des Selbstwertgefühls der Lernende), Deine Leidenschaft für Deinen Beruf und Deine Arbeit, Deine Widerstandsfähigkeit und Ausdauer angesichts von Herausforderungen, Freude am Unterrichten und eine optimistische Weltsicht, die Strukturierung des Unterrichts, umfassende Reflexion, ständiges Weiterlernen, berufliche Weiterbildung und berufsbegleitende Qualifikationen, sorgfältige, flexible, unterstützende Zusammenarbeit. Du bist definitiv ein lebenslanger Weiterlerner! Ich bin sehr stolz auf Dich!",
+      quote: "У вас есть достаточный опыт, всесторонние знания, включая социальное признание (статус преподавателя-тренера), ярко выраженное понимание того, что происходит в классе.",
+      fullReview: "У вас есть достаточный опыт, всесторонние знания, включая социальное признание (статус преподавателя-тренера), ярко выраженное понимание того, что происходит в классе (например, поведение учащихся, их прогресс и потребности в поддержке), прогрессивное решение проблем, межличностный подход, взаимное уважение к учащимся и связанные с этим ценности (например, избегание обвинения учащихся в их недостатках и укрепление их самооценки), ваша страсть к профессии и работе, ваша устойчивость и выносливость перед лицом вызовов, радость от преподавания и оптимистичное мировоззрение, структурирование уроков, всесторонняя рефлексия, постоянное обучение, профессиональное развитие и повышение квалификации, тщательное, гибкое, поддерживающее сотрудничество. Вы определённо учитесь всю жизнь! Я очень горжусь вами!",
       name: "Kristina",
       age: 37,
       location: "Германия",
