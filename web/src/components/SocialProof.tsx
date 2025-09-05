@@ -14,7 +14,9 @@ export default function SocialProof() {
     loop: true, 
     align: "start", 
     slidesToScroll: 1,
-    containScroll: "trimSnaps"
+    containScroll: "trimSnaps",
+    dragFree: false,
+    skipSnaps: false
   });
   const [selected, setSelected] = useState(0);
   const [modalTestimonial, setModalTestimonial] = useState<Testimonial | null>(null);
@@ -58,14 +60,14 @@ export default function SocialProof() {
             <h2 className="text-3xl font-bold text-neutral-900 dark:text-white mb-6">{t('socialProof.heading')}</h2>
 
         <div className="mt-10 overflow-hidden px-8" ref={emblaRef}>
-          <div className="flex gap-6">
+          <div className="flex">
             {testimonials.map((t, i) => (
               <figure
                 key={i}
                 data-active={i === selected}
                 className="relative min-w-[85%] md:min-w-[48%] lg:min-w-[32%]
                            rounded-2xl border bg-white dark:bg-neutral-800 border-neutral-200 dark:border-neutral-600 p-5 shadow-sm transition
-                           will-change-transform data-[active=true]:scale-[1.01] mt-8 mb-3"
+                           will-change-transform data-[active=true]:scale-[1.01] mt-8 mb-3 mr-6"
               >
                 {/* avatar */}
                 {t.avatar && (
