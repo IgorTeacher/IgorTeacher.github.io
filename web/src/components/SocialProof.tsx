@@ -11,7 +11,7 @@ import type { Testimonial } from "@/lib/types";
 export default function SocialProof() {
   const { t, locale } = useTranslation();
   const [emblaRef, emblaApi] = useEmblaCarousel({ 
-    loop: true, 
+    loop: false, 
     align: "start", 
     slidesToScroll: 1,
     containScroll: "trimSnaps",
@@ -25,10 +25,21 @@ export default function SocialProof() {
   // Get testimonials from locale
   const testimonials: Testimonial[] = t('testimonials') || [];
 
-  // gentle autoplay
+  // gentle autoplay with custom loop
   useEffect(() => {
     if (!emblaApi) return;
-    const id = setInterval(() => emblaApi.scrollNext(), 4800);
+    const id = setInterval(() => {
+      const currentIndex = emblaApi.selectedScrollSnap();
+      const totalSlides = emblaApi.scrollSnapList().length;
+      
+      if (currentIndex === totalSlides - 1) {
+        // If we're at the last slide, go back to the first
+        emblaApi.scrollTo(0);
+      } else {
+        // Otherwise, go to the next slide
+        emblaApi.scrollNext();
+      }
+    }, 4800);
     return () => clearInterval(id);
   }, [emblaApi]);
 
@@ -60,14 +71,14 @@ export default function SocialProof() {
             <h2 className="text-3xl font-bold text-neutral-900 dark:text-white mb-6">{t('socialProof.heading')}</h2>
 
         <div className="mt-10 overflow-hidden px-8" ref={emblaRef}>
-          <div className="flex">
+          <div className="flex gap-6">
             {testimonials.map((t, i) => (
               <figure
                 key={i}
                 data-active={i === selected}
                 className="relative min-w-[85%] md:min-w-[48%] lg:min-w-[32%]
                            rounded-2xl border bg-white dark:bg-neutral-800 border-neutral-200 dark:border-neutral-600 p-5 shadow-sm transition
-                           will-change-transform data-[active=true]:scale-[1.01] mt-8 mb-3 mr-6"
+                           will-change-transform data-[active=true]:scale-[1.01] mt-8 mb-3"
               >
                 {/* avatar */}
                 {t.avatar && (
