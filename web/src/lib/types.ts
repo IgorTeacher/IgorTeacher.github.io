@@ -49,12 +49,16 @@ export interface SiteConfig {
 }
 
 export interface Testimonial {
-  quote: string;
+  id: string;                    // Unique identifier for modal
+  quote: string;                 // Short version for carousel
+  fullReview?: string;           // Full version for modal
   name: string;
+  age?: number;                  // Age for credibility
   location?: string;
-  avatar?: string;               // e.g. "/avatars/anna.jpg"
+  avatar?: string;               // e.g. "/avatars/anna.jpg" (supports .png, .jpg, .svg)
   profileUrl?: string;           // e.g. "https://www.linkedin.com/in/..."
-  platform?: "linkedin" | "instagram";
+  platform?: "linkedin" | "instagram" | "facebook";
+  originalLanguage?: string;     // Language of original review
 }
 
 export interface HowItWorksStep {

@@ -33,6 +33,119 @@ export const pl = {
     heading: "Co mówią uczniowie"
   },
   
+  testimonials: [
+    {
+      id: "maria",
+      quote: "Wszystkie moje oczekiwania od lekcji zostały spełnione. Uczyliśmy się niemieckiego od zera z celem uzyskania certyfikatu B1 i angielskiego w celu utrzymania i rozwoju mojego istniejącego poziomu B1-B2.",
+      fullReview: "Wszystkie moje oczekiwania od lekcji zostały spełnione. Uczyliśmy się niemieckiego od zera z celem uzyskania certyfikatu B1 i angielskiego w celu utrzymania i rozwoju mojego istniejącego poziomu B1-B2. Udało mi się pomyślnie uzyskać certyfikat niemiecki, a mój angielski też czuje się świetnie :) Lekcje są bardzo interesujące, z serdecznymi dyskusjami o wszystkim i dobrą równowagą między teorią a praktyką.",
+      name: "Maria",
+      age: undefined,
+      location: "Rosja",
+      avatar: "/avatars/maria.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "yulia",
+      quote: "Zostałeś moim pierwszym nauczycielem niemieckiego i od samego początku wywarłeś wrażenie bardzo pozytywnej, energicznej osoby i prawdziwego profesjonalisty, który wie, jak podejść do języka i jego praktyki.",
+      fullReview: "Zostałeś moim pierwszym nauczycielem niemieckiego i od samego początku wywarłeś wrażenie bardzo pozytywnej, energicznej osoby i prawdziwego profesjonalisty, który wie, jak podejść do języka i jego praktyki. Przyznaję szczerze, że będąc jeszcze tylko na poziomie A1 z tobą (pod koniec 2021 roku) i znając dosłownie tylko kilka fraz po niemiecku (i zdając sobie sprawę, że jestem jeszcze na początku drogi), jednak już wtedy łapałam się na myśli, że nie czuję bariery językowej i jestem gotowa do komunikacji z rodzimymi użytkownikami języka nawet z tym małym arsenałem wiedzy, którym wtedy dysponowałam - tak wysoka była moja pewność siebie po naszych lekcjach. Potem, przyjeżdżając do Niemiec po raz pierwszy z poziomem około A2 w 2022 roku, bez strachu wchodziłam w komunikację po niemiecku i już całkiem nieźle rozumiałam otaczających mnie ludzi. Później przerwałam nasze lekcje i wróciłam do zajęć już na poziomie B2, dochodząc z nimi do C1, i byłam z tego niezmiernie szczęśliwa. Nasze lekcje były zawsze bardzo bogate i interesujące, a także, co było dla mnie bardzo ważne, były wypełnione różnymi rodzajami aktywności, od mówienia po słuchanie, i to pomogło mi rozwijać i utrzymywać różne umiejętności językowe na mniej więcej tym samym poziomie. W tej chwili używam języka niemieckiego do studiów magisterskich i pracy w niemieckiej firmie, i bez wątpienia ogromny wkład w moją pewność siebie w języku w tej chwili wniósł właśnie ty. Myślałam też o możliwości wznowienia naszych lekcji w najbliższej przyszłości, ponieważ chcę dalej rozwijać mój obecny poziom C1. Dlatego bardzo ci dziękuję i mam nadzieję, że do zobaczenia wkrótce! Viele Grüße, Iuliia",
+      name: "Yulia",
+      age: 23,
+      location: "Niemcy",
+      avatar: "/avatars/yulia.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "irina",
+      quote: "Zawsze przyjazna atmosfera na lekcjach i komfortowa komunikacja, nie było strachu przed popełnieniem błędu lub powiedzeniem czegoś złego. Doskonały nauczyciel dla niespokojnych i niepewnych siebie!",
+      fullReview: "Zawsze przyjazna atmosfera na lekcjach i komfortowa komunikacja, nie było strachu przed popełnieniem błędu lub powiedzeniem czegoś złego. Doskonały nauczyciel dla niespokojnych i niepewnych siebie! Było wygodnie pracować online na wspólnej tablicy. Bardzo podobało mi się, że na lekcjach minimalnie używano rosyjskiego i maksymalnie niemieckiego, a jednocześnie wszystko było wyjaśniane zrozumiale. Nauczyciel, z którym było smutno się rozstawać po zakończeniu nauki)",
+      name: "Irina",
+      age: 37,
+      location: "Rosja",
+      avatar: "/avatars/irina.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "guzel",
+      quote: "Uwielbiałam nasze lekcje! Nie mogłam opanować podstaw, chociaż próbowałam uczyć się z różnymi korepetytorami - i tylko z tobą zrozumiałam, jak wszystko działa i, co najważniejsze, zapamiętałam to wszystko nawet po czasie bez praktyki!",
+      fullReview: "Uwielbiałam nasze lekcje! Nie mogłam opanować podstaw, chociaż próbowałam uczyć się z różnymi korepetytorami - i tylko z tobą zrozumiałam, jak wszystko działa i, co najważniejsze, zapamiętałam to wszystko nawet po czasie bez praktyki! Lekcje były zawsze żywe, bardzo płynnie i logicznie wypływające jedna z drugiej, a jeszcze zawsze było interesująco i wesoło z tobą porozmawiać. Życzę powodzenia!",
+      name: "Guzel",
+      age: 30,
+      location: "Rosja",
+      avatar: "/avatars/guzel.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "ekaterina",
+      quote: "Bardzo podoba mi się nauka! W 10 miesięcy udało mi się przejść drogę od poziomu A1 do B1 i pomyślnie zdać egzamin. Szczególnie cenię to, jak Igor wyjaśnia materiał, że staje się zrozumiały na każdym poziomie.",
+      fullReview: "Bardzo podoba mi się nauka! W 10 miesięcy udało mi się przejść drogę od poziomu A1 do B1 i pomyślnie zdać egzamin. Szczególnie cenię to, jak Igor wyjaśnia materiał, że staje się zrozumiały na każdym poziomie. Osobno chcę zauważyć elastyczny harmonogram lekcji, to bardzo wygodnie łączyć z pracą",
+      name: "Ekaterina",
+      age: 24,
+      location: "Rosja",
+      avatar: "/avatars/ekaterina.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "alexander",
+      quote: "To więcej niż lekcje angielskiego — to ciepła, pełna szacunku i zawsze interesująca komunikacja z jedną z najjaśniejszych i najgłębszych osób, które spotkałem.",
+      fullReview: "To więcej niż lekcje angielskiego — to ciepła, pełna szacunku i zawsze interesująca komunikacja z jedną z najjaśniejszych i najgłębszych osób, które spotkałem. Szczęśliwy będzie ten uczeń, który spotka Igora na przestrzeniach internetu lub w życiu: otrzyma nie tylko profesjonalnego nauczyciela, otrzyma osobowość, z którą interesująco jest rozmawiać w każdym języku.",
+      name: "Alexander Oshmarin",
+      age: 33,
+      location: "Rosja",
+      avatar: "/avatars/alexander.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "alena",
+      quote: "Twoje wyjaśnienia są bardzo jasne; tworzysz fantastyczną atmosferę nauki; praktyczne przykłady zawsze pomagają mi lepiej zrozumieć i zapamiętać.",
+      fullReview: "Twoje wyjaśnienia są bardzo jasne; tworzysz fantastyczną atmosferę nauki; praktyczne przykłady zawsze pomagają mi lepiej zrozumieć i zapamiętać.",
+      name: "Alena",
+      age: 33,
+      location: "Niemcy",
+      avatar: "/avatars/alena.png",
+      originalLanguage: "de"
+    },
+    {
+      id: "sergej",
+      quote: "Zwróciłem się do Ihara, ponieważ po zmianie pracy w moim życiu znalazło się dużo angielskiego. Moje oczekiwania zostały w pełni spełnione.",
+      fullReview: "Zwróciłem się do Ihara, ponieważ po zmianie pracy w moim życiu znalazło się dużo angielskiego. Moje oczekiwania zostały w pełni spełnione. Lekcje obejmują bardzo interesujące i nowoczesne tematy, zawsze dostosowane do moich zainteresowań i celów. Cenię wspierającą atmosferę i praktyczne podejście. Wyjaśnienia są zawsze cierpliwe i jasne. Próbowałem też uczyć się angielskiego z innymi nauczycielami, ale ich lekcje wydawały się MUSEM. Z Iharem NIE MOGĘ SIĘ DOCZEKAĆ lekcji i naprawdę CHCĘ w nich uczestniczyć.",
+      name: "Sergej",
+      age: 34,
+      location: "Rosja",
+      avatar: "/avatars/sergej.png",
+      originalLanguage: "en"
+    },
+    {
+      id: "maxim",
+      quote: "Lekcje z Igorem pomogły mi przejść od poziomu A1 do B1. Wyjaśnia nawet trudne tematy bardzo dobrze i bez stresu.",
+      fullReview: "Lekcje z Igorem pomogły mi przejść od poziomu A1 do B1. Wyjaśnia nawet trudne tematy bardzo dobrze i bez stresu. Dla mnie ważne jest też to, że Igor jest zawsze elastyczny z harmonogramem. Bardzo chętnie polecam go jako nauczyciela niemieckiego!",
+      name: "Maxim",
+      age: 42,
+      location: "Niemcy",
+      avatar: "/avatars/maxim.png",
+      originalLanguage: "de"
+    },
+    {
+      id: "polina",
+      quote: "Uwielbiam nasze lekcje! Podoba mi się wszystko, fajna i zrozumiała prezentacja materiału, wiele różnych zadań, zdjęć, wideo, audio i wiele więcej.",
+      fullReview: "Uwielbiam nasze lekcje! Podoba mi się wszystko, fajna i zrozumiała prezentacja materiału, wiele różnych zadań, zdjęć, wideo, audio i wiele więcej. Szczególnie podoba mi się, że tematy są dobierane pod moje zainteresowania i cele, chociaż zainteresowania i tematy w czasie nauki stale się zmieniały:) Igor to bardzo wszechstronny i interesujący rozmówca, nawet sama komunikacja wzbogaca, dowiadujesz się wielu nowych rzeczy i jednocześnie czujesz się, jakbyś komunikował się z przyjacielem, super wygodnie. Nie myślałam wcześniej, że na lekcjach może być tak pouczająco i wesoło jednocześnie. Szczególne podziękowania za przygotowanie do konkursu w Singapurze, w dużej mierze pomogła właśnie znajomość języka. Najlepszy!",
+      name: "Polina",
+      age: 30,
+      location: "Rosja",
+      avatar: "/avatars/polina.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "kristina",
+      quote: "Masz wystarczające doświadczenie, wszechstronną wiedzę fachową, w tym uznanie społeczne (status jako trener nauczycieli), wyraźną świadomość tego, co dzieje się w klasie.",
+      fullReview: "Masz wystarczające doświadczenie, wszechstronną wiedzę fachową, w tym uznanie społeczne (status jako trener nauczycieli), wyraźną świadomość tego, co dzieje się w klasie, (np. dla zachowania uczniów, ich postępów i ich potrzeb wsparcia), postępowe rozwiązywanie problemów, postawę interpersonalną, wzajemny szacunek dla uczniów i związane z tym wartości (np. unikanie obwiniania uczniów za ich niedociągnięcia i budowanie poczucia własnej wartości uczniów), twoją pasję do zawodu i pracy, twoją odporność i wytrwałość w obliczu wyzwań, radość z nauczania i optymistyczny światopogląd, strukturę nauczania, wszechstronną refleksję, ciągłe dalsze uczenie się, rozwój zawodowy i kwalifikacje zawodowe, staranną, elastyczną, wspierającą współpracę. Jesteś zdecydowanie uczącym się przez całe życie! Jestem bardzo dumna z ciebie!",
+      name: "Kristina",
+      age: 37,
+      location: "Niemcy",
+      avatar: "/avatars/kristina.png",
+      originalLanguage: "de"
+    }
+  ],
+  
   howItWorks: {
     heading: "Jak to działa",
     subheading: "Sprawdzone podejście, które pomogło uczniom osiągnąć płynność w języku angielskim i niemieckim, od kompletnych początkujących po zaawansowanych uczniów.",

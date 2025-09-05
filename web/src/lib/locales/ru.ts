@@ -33,6 +33,119 @@ export const ru = {
     heading: "Что говорят студенты"
   },
   
+  testimonials: [
+    {
+      id: "maria",
+      quote: "Все мои ожидания от занятий оправдались. Мы занимались с Игорем немецким с нуля с целью получения сертификата B1 и английским с целью поддержки и развития уже имеющегося уровня B1-B2.",
+      fullReview: "Все мои ожидания от занятий оправдались. Мы занимались с Игорем немецким с нуля с целью получения сертификата B1 и английским с целью поддержки и развития уже имеющегося уровня B1-B2. Сертификат по немецкому я получила успешно, мой английский тоже чувствует себя прекрасно :) Уроки очень интересные, с душевными обсуждениями всего на свете и хорошим балансом между теорией и практикой.",
+      name: "Мария",
+      age: undefined,
+      location: "Россия",
+      avatar: "/avatars/maria.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "yulia",
+      quote: "Вы стали моим первым преподавателем по немецкому и с самого начала произвели впечатление очень позитивного энергичного человека и настоящего профессионала своего дела, знающего толк в подходе к языку и его практике.",
+      fullReview: "Вы стали моим первым преподавателем по немецкому и с самого начала произвели впечатление очень позитивного энергичного человека и настоящего профессионала своего дела, знающего толк в подходе к языку и его практике. Признаюсь честно, будучи у вас еще только в группе А1 (в конце 2021 года) и зная буквально несколько фраз на немецком (и осознавая, что я еще только в начале пути), я тем не менее уже тогда ловила себя на мысли, что не чувствую языкового барьера и готова к общению с носителями даже с тем небольшим арсеналом знаний, которым тогда обладала - до того моя уверенность после наших занятий была высока. Затем, приехав в Германию впервые с уровнем примерно А2 в 2022, я без страха вступала в коммуникацию на немецком и уже весьма неплохо понимала окружающих. Позднее я прервала наши уроки и вернулась к занятиям уже на уровне B2, дойдя на них до С1, и была этому безмерно рада. Наши уроки всегда были очень насыщенными и интересными, а также, что также было для меня очень важно, были наполнены разными видами деятельности, от говорения до аудирования, и это помогало мне развивать и поддерживать разные навыки речи на примерно одинаковом уровне. В данный момент я использую немецкий язык для учебы в магистратуре и работы в немецкой компании, и безусловно огромный вклад в мою уверенность в языке прямо сейчас внесли именно вы. Я также думала о возможности возобновления наших занятий в ближайшее время, поскольку хочу и дальше развивать свой текущий уровень С1. Поэтому большое вам спасибо и, надеюсь, до встречи! Viele Grüße, Iuliia",
+      name: "Юлия",
+      age: 23,
+      location: "Германия",
+      avatar: "/avatars/yulia.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "irina",
+      quote: "Всегда дружелюбная атмосфера на занятиях и комфортное общение, не было страха ошибиться или что-то не то сказать. Отличный преподаватель для тревожных и неуверенных в себе!",
+      fullReview: "Всегда дружелюбная атмосфера на занятиях и комфортное общение, не было страха ошибиться или что-то не то сказать. Отличный преподаватель для тревожных и неуверенных в себе! Было удобно работать онлайн на совместной доске. Очень нравилось, что на занятиях минимально использовался русский язык и максимально немецкий, и при этом все доходчиво объяснялось. Преподаватель, с которым было грустно расставаться по окончании обучения)",
+      name: "Ирина",
+      age: 37,
+      location: "Россия",
+      avatar: "/avatars/irina.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "guzel",
+      quote: "Я обожала наши уроки! Никак не могла освоить базу, хотя пробовала заниматься с разными репетиторами - и только с тобой поняла, как все устроено и, самое главное, запомнила все это даже спустя время без практики!",
+      fullReview: "Я обожала наши уроки! Никак не могла освоить базу, хотя пробовала заниматься с разными репетиторами - и только с тобой поняла, как все устроено и, самое главное, запомнила все это даже спустя время без практики! Уроки были всегда живыми, очень мягко и логично вытекающими друг из друга, а еще всегда было интересно и весело с тобой пообщаться. Желаю успехов!",
+      name: "Гузель",
+      age: 30,
+      location: "Россия",
+      avatar: "/avatars/guzel.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "ekaterina",
+      quote: "Очень нравится обучение! За 10 месяцев удалось пройти путь от уровня А1 до В1 и успешно сдать экзамен. Особенно ценю то как Игорь объясняет материал, что он становится понятным на любом уровне.",
+      fullReview: "Очень нравится обучение! За 10 месяцев удалось пройти путь от уровня А1 до В1 и успешно сдать экзамен. Особенно ценю то как Игорь объясняет материал, что он становится понятным на любом уровне. Отдельно хочу отметить гибкий график занятий это очень удобно совмещать с работой",
+      name: "Екатерина",
+      age: 24,
+      location: "Россия",
+      avatar: "/avatars/ekaterina.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "alexander",
+      quote: "Это больше чем уроки английского — это тёплое, уважительное и всегда интересное общение с одним из самых ярких и глубоких людей, которых я встречал.",
+      fullReview: "Это больше чем уроки английского — это тёплое, уважительное и всегда интересное общение с одним из самых ярких и глубоких людей, которых я встречал. Повезёт тому ученику, кто встретит Игоря на просторах интернета или в жизни: он получит не просто профессионала-педагога, он получит личность, с которой интересно говорить на любом языке.",
+      name: "Александр Ошмарин",
+      age: 33,
+      location: "Россия",
+      avatar: "/avatars/alexander.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "alena",
+      quote: "deine Erklärungen sind sehr klar; du schaffst eine tolle Lernatmosphäre; die praktischen Beispiele helfen mir immer, besser zu verstehen und erinnern",
+      fullReview: "deine Erklärungen sind sehr klar; du schaffst eine tolle Lernatmosphäre; die praktischen Beispiele helfen mir immer, besser zu verstehen und erinnern",
+      name: "Alena",
+      age: 33,
+      location: "Германия",
+      avatar: "/avatars/alena.png",
+      originalLanguage: "de"
+    },
+    {
+      id: "sergej",
+      quote: "I turned to Ihar because after I changed my job, it happened to be a lot of English in my life. My expectations were fully met.",
+      fullReview: "I turned to Ihar because after I changed my job, it happened to be a lot of English in my life. My expectations were fully met. The lessons cover very interesting and modern topics, always tailored to my interests and goals. I appreciate the supportive atmosphere and the practical approach. The explanations are always patient and clear. I had also tried learning English with other teachers, but their lessons felt like a MUST. With Ihar, I LOOK FORWARD to classes and truly WANT to attend them.",
+      name: "Sergej",
+      age: 34,
+      location: "Россия",
+      avatar: "/avatars/sergej.png",
+      originalLanguage: "en"
+    },
+    {
+      id: "maxim",
+      quote: "Der Unterricht mit Igor hat mir geholfen, von Niveau A1 bis B1 zu kommen. Er erklärt auch schwierige Themen sehr gut und ohne Stress.",
+      fullReview: "Der Unterricht mit Igor hat mir geholfen, von Niveau A1 bis B1 zu kommen. Er erklärt auch schwierige Themen sehr gut und ohne Stress. Für mich ist auch wichtig, dass Igor immer flexibel mit dem Stundenplan ist. Ich empfehle ihn sehr gerne als Deutschlehrer!",
+      name: "Maxim",
+      age: 42,
+      location: "Германия",
+      avatar: "/avatars/maxim.png",
+      originalLanguage: "de"
+    },
+    {
+      id: "polina",
+      quote: "Обожаю наши уроки! Нравится все, классная и понятная подача материала, множество разнообразных заданий, фото, видео, аудио и многое другое.",
+      fullReview: "Обожаю наши уроки! Нравится все, классная и понятная подача материала, множество разнообразных заданий, фото, видео, аудио и многое другое. Особенно нравится, что темы подбираются под мои интересы и цели, хотя интересы и темы за время обучения постоянно менялись:) Игорь - очень разносторонний и интересный собеседник, даже само общение обогащает, узнаешь много нового и при этом чувствуешь как будто общаешься с другом, супер комфортно. Не думала раньше, что на уроках может быть так познавательно и весело одновременно. Отдельное спасибо за подготовку к конкурсу в Сингапуре, во многом помогло именно знание языка. Лучший!",
+      name: "Полина",
+      age: 30,
+      location: "Россия",
+      avatar: "/avatars/polina.png",
+      originalLanguage: "ru"
+    },
+    {
+      id: "kristina",
+      quote: "Du verfügst über Deine ausreichende Erfahrung, ein umfassendes Fachwissen, unter anderem soziale Anerkennung (Status als Lehrerausbilder), ein ausgeprägtes Bewusstsein für das Geschehen im Klassenzimmer.",
+      fullReview: "Du verfügst über Deine ausreichende Erfahrung, ein umfassendes Fachwissen, unter anderem soziale Anerkennung (Status als Lehrerausbilder), ein ausgeprägtes Bewusstsein für das Geschehen im Klassenzimmer, (z. B. für das Verhalten der Lernenden, ihre Fortschritte und ihren Unterstützungsbedarf), progressive Problemlösung, die zwischenmenschliche Haltung, gegenseitigen Respekt für die Lernenden und damit verbundene Werte (z. B. Vermeidung der Schuldzuweisung an die Lernenden für ihre Unzulänglichkeiten und Aufbau des Selbstwertgefühls der Lernende), Deine Leidenschaft für Deinen Beruf und Deine Arbeit, Deine Widerstandsfähigkeit und Ausdauer angesichts von Herausforderungen, Freude am Unterrichten und eine optimistische Weltsicht, die Strukturierung des Unterrichts, umfassende Reflexion, ständiges Weiterlernen, berufliche Weiterbildung und berufsbegleitende Qualifikationen, sorgfältige, flexible, unterstützende Zusammenarbeit. Du bist definitiv ein lebenslanger Weiterlerner! Ich bin sehr stolz auf Dich!",
+      name: "Kristina",
+      age: 37,
+      location: "Германия",
+      avatar: "/avatars/kristina.png",
+      originalLanguage: "de"
+    }
+  ],
+  
   howItWorks: {
     heading: "Как это работает",
     subheading: "Проверенный подход, который помог студентам достичь беглости в английском и немецком языках, от полных новичков до продвинутых учеников.",
