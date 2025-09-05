@@ -12,14 +12,14 @@ export default function SiteHeader() {
     <header className="sticky top-0 z-40 bg-white/80 dark:bg-neutral-900/80 backdrop-blur border-b border-neutral-200 dark:border-neutral-700">
       <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
         <Link href={`/${locale}`} className="flex items-center">
-          <Image
-            src="/logos/rectangle_logo.png"
-            alt={`${siteConfig.author.split(' ')[0]} — ${siteConfig.teaching.languages.join(' & ')}`}
-            width={141} // 706/5 to fit in header
-            height={58}  // 288/5 to fit in header
-            className="h-8 w-auto dark:invert" // invert for dark mode since logo has white background
-            priority
-          />
+                      <Image
+              src="/logos/rectangle_logo-6.png"
+              alt={`${siteConfig.author.split(' ')[0]} — ${siteConfig.teaching.languages.join(' & ')}`}
+              width={208} // 1792/8.6 to fit in header (maintaining aspect ratio)
+              height={32}  // 276/8.6 to fit in header (maintaining aspect ratio)
+              className="h-8 w-auto dark:invert" // invert for dark mode since logo has white background
+              priority
+            />
         </Link>
         <div className="flex items-center gap-4">
           {/* Language Selector */}
