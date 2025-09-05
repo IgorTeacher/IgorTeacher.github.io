@@ -35,16 +35,6 @@ export const de = {
   
   testimonials: [
     {
-      id: "maria",
-      quote: "Alle meine Erwartungen an den Unterricht wurden erfüllt. Wir haben Deutsch von Grund auf mit dem Ziel gelernt, ein B1-Zertifikat zu erhalten, und Englisch, um mein bestehendes B1-B2-Niveau zu erhalten und zu entwickeln.",
-      fullReview: "Alle meine Erwartungen an den Unterricht wurden erfüllt. Wir haben Deutsch von Grund auf mit dem Ziel gelernt, ein B1-Zertifikat zu erhalten, und Englisch, um mein bestehendes B1-B2-Niveau zu erhalten und zu entwickeln. Ich habe erfolgreich das deutsche Zertifikat erhalten, und mein Englisch fühlt sich auch großartig an :) Der Unterricht ist sehr interessant, mit herzlichen Diskussionen über alles und einer guten Balance zwischen Theorie und Praxis.",
-      name: "Maria",
-      age: undefined,
-      location: "Russland",
-      avatar: "/avatars/maria.svg",
-      originalLanguage: "ru"
-    },
-    {
       id: "yulia",
       quote: "Sie wurden mein erster Deutschlehrer und haben von Anfang an den Eindruck einer sehr positiven, energischen Person und eines echten Profis vermittelt, der weiß, wie man sich der Sprache und ihrer Praxis nähert.",
       fullReview: "Sie wurden mein erster Deutschlehrer und haben von Anfang an den Eindruck einer sehr positiven, energischen Person und eines echten Profis vermittelt, der weiß, wie man sich der Sprache und ihrer Praxis nähert. Ich gebe ehrlich zu, dass ich, obwohl ich bei Ihnen noch nur auf A1-Niveau war (Ende 2021) und buchstäblich nur ein paar Phrasen auf Deutsch kannte (und mir bewusst war, dass ich noch am Anfang des Weges stand), mich dennoch bereits damals dabei ertappte, dass ich keine Sprachbarriere fühle und bereit bin, mit Muttersprachlern zu kommunizieren, selbst mit dem kleinen Wissensarsenal, das ich damals besaß - so hoch war mein Vertrauen nach unseren Stunden. Dann, als ich 2022 zum ersten Mal mit etwa A2-Niveau nach Deutschland kam, trat ich furchtlos in die Kommunikation auf Deutsch ein und verstand die Menschen um mich herum bereits ziemlich gut. Später unterbrach ich unseren Unterricht und kehrte bereits auf B2-Niveau zu den Kursen zurück, erreichte mit ihnen C1 und war darüber unermesslich glücklich. Unsere Stunden waren immer sehr reichhaltig und interessant, und auch, was für mich sehr wichtig war, waren sie mit verschiedenen Aktivitäten gefüllt, vom Sprechen bis zum Hören, und das half mir, verschiedene Sprachfähigkeiten auf etwa dem gleichen Niveau zu entwickeln und zu erhalten. Im Moment verwende ich Deutsch für mein Masterstudium und die Arbeit in einem deutschen Unternehmen, und zweifellos hat Sie einen enormen Beitrag zu meinem Vertrauen in die Sprache geleistet. Ich dachte auch über die Möglichkeit nach, unseren Unterricht in naher Zukunft wieder aufzunehmen, da ich mein aktuelles C1-Niveau weiterentwickeln möchte. Vielen Dank und hoffentlich bis bald! Viele Grüße, Iuliia",
@@ -76,6 +66,16 @@ export const de = {
       avatar: "/students/guzel.png",
       profileUrl: "https://www.instagram.com/heroine_g",
       platform: "instagram",
+      originalLanguage: "ru"
+    },
+    {
+      id: "maria",
+      quote: "Alle meine Erwartungen an den Unterricht wurden erfüllt. Wir haben Deutsch von Grund auf mit dem Ziel gelernt, ein B1-Zertifikat zu erhalten, und Englisch, um mein bestehendes B1-B2-Niveau zu erhalten und zu entwickeln.",
+      fullReview: "Alle meine Erwartungen an den Unterricht wurden erfüllt. Wir haben Deutsch von Grund auf mit dem Ziel gelernt, ein B1-Zertifikat zu erhalten, und Englisch, um mein bestehendes B1-B2-Niveau zu erhalten und zu entwickeln. Ich habe erfolgreich das deutsche Zertifikat erhalten, und mein Englisch fühlt sich auch großartig an :) Der Unterricht ist sehr interessant, mit herzlichen Diskussionen über alles und einer guten Balance zwischen Theorie und Praxis.",
+      name: "Maria",
+      age: undefined,
+      location: "Russland",
+      avatar: "/avatars/maria.svg",
       originalLanguage: "ru"
     },
     {

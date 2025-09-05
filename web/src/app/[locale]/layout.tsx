@@ -40,14 +40,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const metadata: Record<string, any> = {
     en: {
-      title: "Learn English & German with Ihar - CELTA Certified Teacher",
-      description: "CELTA-certified teacher offering personalized English and German lessons. Book a free 30-minute trial class.",
-      keywords: "English lessons, German lessons, CELTA teacher, online language learning, personalized tutoring",
+      title: "Learn English & German with Ihar - CELTA Certified Teacher | Online Language Lessons",
+      description: "Professional CELTA-certified teacher Ihar offers personalized English and German lessons online. 13+ years experience, 14,000+ teaching hours. Book your free 30-minute trial class today!",
+      keywords: "English lessons, German lessons, CELTA teacher, online language learning, personalized tutoring, English teacher, German teacher, language tutor, online classes, English conversation, German conversation, IELTS preparation, TOEFL preparation, business English, academic English",
     },
     de: {
-      title: "Englisch & Deutsch lernen mit Ihar - CELTA-zertifizierter Lehrer",
-      description: "CELTA-zertifizierter Lehrer für personalisierten Englisch- und Deutschunterricht. Kostenlose 30-minütige Probestunde buchen.",
-      keywords: "Englischunterricht, Deutschunterricht, CELTA Lehrer, Online-Sprachunterricht, personalisierte Nachhilfe",
+      title: "Englisch & Deutsch lernen mit Ihar - CELTA-zertifizierter Lehrer | Online Sprachunterricht",
+      description: "Professioneller CELTA-zertifizierter Lehrer Ihar bietet personalisierten Englisch- und Deutschunterricht online. 13+ Jahre Erfahrung, 14.000+ Unterrichtsstunden. Buchen Sie Ihre kostenlose 30-minütige Probestunde!",
+      keywords: "Englischunterricht, Deutschunterricht, CELTA Lehrer, Online-Sprachunterricht, personalisierte Nachhilfe, Englischlehrer, Deutschlehrer, Sprachlehrer, Online-Kurse, Englisch Konversation, Deutsch Konversation, IELTS Vorbereitung, TOEFL Vorbereitung, Business Englisch, akademisches Englisch",
     },
     ru: {
       title: "Изучайте английский и немецкий с Игаром - Сертифицированный преподаватель CELTA",

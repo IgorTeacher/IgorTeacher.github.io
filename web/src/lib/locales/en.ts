@@ -36,16 +36,6 @@ export const en = {
   
   testimonials: [
     {
-      id: "maria",
-      quote: "All my expectations from the lessons were met. We studied German from scratch with the goal of obtaining a B1 certificate and English to maintain and develop my existing B1-B2 level.",
-      fullReview: "All my expectations from the lessons were met. We studied German from scratch with the goal of obtaining a B1 certificate and English to maintain and develop my existing B1-B2 level. I successfully obtained the German certificate, and my English is also feeling great :) The lessons are very interesting, with heartfelt discussions about everything and a good balance between theory and practice.",
-      name: "Maria",
-      age: undefined,
-      location: "Russia",
-      avatar: "/avatars/maria.svg",
-      originalLanguage: "ru"
-    },
-    {
       id: "yulia",
       quote: "You became my first German teacher and from the very beginning made an impression of a very positive, energetic person and a true professional who knows how to approach language and its practice.",
       fullReview: "You became my first German teacher and from the very beginning made an impression of a very positive, energetic person and a true professional who knows how to approach language and its practice. I admit honestly, being at A1 level with you (at the end of 2021) and knowing literally a few phrases in German (and realizing that I was still at the beginning of the journey), I nevertheless already then caught myself thinking that I don't feel a language barrier and am ready to communicate with native speakers even with that small arsenal of knowledge that I then possessed - my confidence after our lessons was so high. Then, arriving in Germany for the first time with approximately A2 level in 2022, I fearlessly entered into communication in German and already understood those around me quite well. Later I interrupted our lessons and returned to classes already at B2 level, reaching C1 with them, and was immensely happy about it. Our lessons were always very rich and interesting, and also, which was also very important to me, were filled with different types of activities, from speaking to listening, and this helped me develop and maintain different speech skills at approximately the same level. At the moment I use German for my master's studies and work in a German company, and undoubtedly a huge contribution to my confidence in the language right now was made by you. I also thought about the possibility of resuming our lessons in the near future, since I want to continue developing my current C1 level. So thank you very much and hopefully see you soon! Viele Grüße, Iuliia",
@@ -77,6 +67,16 @@ export const en = {
       avatar: "/students/guzel.png",
       profileUrl: "https://www.instagram.com/heroine_g",
       platform: "instagram",
+      originalLanguage: "ru"
+    },
+    {
+      id: "maria",
+      quote: "All my expectations from the lessons were met. We studied German from scratch with the goal of obtaining a B1 certificate and English to maintain and develop my existing B1-B2 level.",
+      fullReview: "All my expectations from the lessons were met. We studied German from scratch with the goal of obtaining a B1 certificate and English to maintain and develop my existing B1-B2 level. I successfully obtained the German certificate, and my English is also feeling great :) The lessons are very interesting, with heartfelt discussions about everything and a good balance between theory and practice.",
+      name: "Maria",
+      age: undefined,
+      location: "Russia",
+      avatar: "/avatars/maria.svg",
       originalLanguage: "ru"
     },
     {

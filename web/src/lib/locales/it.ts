@@ -35,16 +35,6 @@ export const it = {
   
   testimonials: [
     {
-      id: "maria",
-      quote: "Tutte le mie aspettative dalle lezioni sono state soddisfatte. Abbiamo studiato tedesco da zero con l'obiettivo di ottenere un certificato B1 e inglese per mantenere e sviluppare il mio livello B1-B2 esistente.",
-      fullReview: "Tutte le mie aspettative dalle lezioni sono state soddisfatte. Abbiamo studiato tedesco da zero con l'obiettivo di ottenere un certificato B1 e inglese per mantenere e sviluppare il mio livello B1-B2 esistente. Ho ottenuto con successo il certificato tedesco, e anche il mio inglese si sente benissimo :) Le lezioni sono molto interessanti, con discussioni cordiali su tutto e un buon equilibrio tra teoria e pratica.",
-      name: "Maria",
-      age: undefined,
-      location: "Russia",
-      avatar: "/avatars/maria.svg",
-      originalLanguage: "ru"
-    },
-    {
       id: "yulia",
       quote: "Sei diventato il mio primo insegnante di tedesco e fin dall'inizio hai fatto un'impressione di una persona molto positiva ed energica e di un vero professionista che sa come approcciarsi alla lingua e alla sua pratica.",
       fullReview: "Sei diventato il mio primo insegnante di tedesco e fin dall'inizio hai fatto un'impressione di una persona molto positiva ed energica e di un vero professionista che sa come approcciarsi alla lingua e alla sua pratica. Ammetto onestamente che, essendo ancora solo al livello A1 con te (alla fine del 2021) e conoscendo letteralmente solo alcune frasi in tedesco (e rendendomi conto che ero ancora all'inizio del percorso), tuttavia già allora mi sono sorpresa a pensare che non sentivo una barriera linguistica ed ero pronta a comunicare con i madrelingua anche con quel piccolo arsenale di conoscenze che possedevo allora - così alta era la mia fiducia dopo le nostre lezioni. Poi, arrivando in Germania per la prima volta con un livello approssimativo A2 nel 2022, ho intrapreso senza paura la comunicazione in tedesco e già capivo abbastanza bene le persone intorno a me. Più tardi ho interrotto le nostre lezioni e sono tornata alle lezioni già al livello B2, raggiungendo C1 con loro, e ne sono stata immensamente felice. Le nostre lezioni sono sempre state molto ricche e interessanti, e anche, cosa che era molto importante per me, erano piene di diversi tipi di attività, dal parlare all'ascolto, e questo mi ha aiutato a sviluppare e mantenere diverse abilità linguistiche a circa lo stesso livello. Al momento uso il tedesco per i miei studi magistrali e il lavoro in un'azienda tedesca, e senza dubbio un enorme contributo alla mia fiducia nella lingua in questo momento è stato dato da te. Ho anche pensato alla possibilità di riprendere le nostre lezioni nel prossimo futuro, poiché voglio continuare a sviluppare il mio attuale livello C1. Quindi grazie mille e spero di rivederti presto! Viele Grüße, Iuliia",
@@ -76,6 +66,16 @@ export const it = {
       avatar: "/students/guzel.png",
       profileUrl: "https://www.instagram.com/heroine_g",
       platform: "instagram",
+      originalLanguage: "ru"
+    },
+    {
+      id: "maria",
+      quote: "Tutte le mie aspettative dalle lezioni sono state soddisfatte. Abbiamo studiato tedesco da zero con l'obiettivo di ottenere un certificato B1 e inglese per mantenere e sviluppare il mio livello B1-B2 esistente.",
+      fullReview: "Tutte le mie aspettative dalle lezioni sono state soddisfatte. Abbiamo studiato tedesco da zero con l'obiettivo di ottenere un certificato B1 e inglese per mantenere e sviluppare il mio livello B1-B2 esistente. Ho ottenuto con successo il certificato tedesco, e anche il mio inglese si sente benissimo :) Le lezioni sono molto interessanti, con discussioni cordiali su tutto e un buon equilibrio tra teoria e pratica.",
+      name: "Maria",
+      age: undefined,
+      location: "Russia",
+      avatar: "/avatars/maria.svg",
       originalLanguage: "ru"
     },
     {

@@ -13,7 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     sitemapEntries.push({
       url: `${baseUrl}/${locale}`,
       lastModified: currentDate,
-      changeFrequency: 'monthly',
+      changeFrequency: 'weekly',
       priority: 1,
     });
     
@@ -21,8 +21,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
     sitemapEntries.push({
       url: `${baseUrl}/${locale}/cv`,
       lastModified: currentDate,
-      changeFrequency: 'yearly',
-      priority: 0.5,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    });
+    
+    // Add anchor sections for better sitelink potential
+    sitemapEntries.push({
+      url: `${baseUrl}/${locale}#offer`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    });
+    
+    sitemapEntries.push({
+      url: `${baseUrl}/${locale}#testimonials`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    });
+    
+    sitemapEntries.push({
+      url: `${baseUrl}/${locale}#faq`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.6,
     });
   });
   
@@ -30,7 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   sitemapEntries.push({
     url: baseUrl,
     lastModified: currentDate,
-    changeFrequency: 'monthly',
+    changeFrequency: 'weekly',
     priority: 1,
   });
   

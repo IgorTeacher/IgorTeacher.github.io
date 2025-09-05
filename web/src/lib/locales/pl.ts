@@ -35,16 +35,6 @@ export const pl = {
   
   testimonials: [
     {
-      id: "maria",
-      quote: "Wszystkie moje oczekiwania od lekcji zostały spełnione. Uczyliśmy się niemieckiego od zera z celem uzyskania certyfikatu B1 i angielskiego w celu utrzymania i rozwoju mojego istniejącego poziomu B1-B2.",
-      fullReview: "Wszystkie moje oczekiwania od lekcji zostały spełnione. Uczyliśmy się niemieckiego od zera z celem uzyskania certyfikatu B1 i angielskiego w celu utrzymania i rozwoju mojego istniejącego poziomu B1-B2. Udało mi się pomyślnie uzyskać certyfikat niemiecki, a mój angielski też czuje się świetnie :) Lekcje są bardzo interesujące, z serdecznymi dyskusjami o wszystkim i dobrą równowagą między teorią a praktyką.",
-      name: "Maria",
-      age: undefined,
-      location: "Rosja",
-      avatar: "/avatars/maria.svg",
-      originalLanguage: "ru"
-    },
-    {
       id: "yulia",
       quote: "Zostałeś moim pierwszym nauczycielem niemieckiego i od samego początku wywarłeś wrażenie bardzo pozytywnej, energicznej osoby i prawdziwego profesjonalisty, który wie, jak podejść do języka i jego praktyki.",
       fullReview: "Zostałeś moim pierwszym nauczycielem niemieckiego i od samego początku wywarłeś wrażenie bardzo pozytywnej, energicznej osoby i prawdziwego profesjonalisty, który wie, jak podejść do języka i jego praktyki. Przyznaję szczerze, że będąc jeszcze tylko na poziomie A1 z tobą (pod koniec 2021 roku) i znając dosłownie tylko kilka fraz po niemiecku (i zdając sobie sprawę, że jestem jeszcze na początku drogi), jednak już wtedy łapałam się na myśli, że nie czuję bariery językowej i jestem gotowa do komunikacji z rodzimymi użytkownikami języka nawet z tym małym arsenałem wiedzy, którym wtedy dysponowałam - tak wysoka była moja pewność siebie po naszych lekcjach. Potem, przyjeżdżając do Niemiec po raz pierwszy z poziomem około A2 w 2022 roku, bez strachu wchodziłam w komunikację po niemiecku i już całkiem nieźle rozumiałam otaczających mnie ludzi. Później przerwałam nasze lekcje i wróciłam do zajęć już na poziomie B2, dochodząc z nimi do C1, i byłam z tego niezmiernie szczęśliwa. Nasze lekcje były zawsze bardzo bogate i interesujące, a także, co było dla mnie bardzo ważne, były wypełnione różnymi rodzajami aktywności, od mówienia po słuchanie, i to pomogło mi rozwijać i utrzymywać różne umiejętności językowe na mniej więcej tym samym poziomie. W tej chwili używam języka niemieckiego do studiów magisterskich i pracy w niemieckiej firmie, i bez wątpienia ogromny wkład w moją pewność siebie w języku w tej chwili wniósł właśnie ty. Myślałam też o możliwości wznowienia naszych lekcji w najbliższej przyszłości, ponieważ chcę dalej rozwijać mój obecny poziom C1. Dlatego bardzo ci dziękuję i mam nadzieję, że do zobaczenia wkrótce! Viele Grüße, Iuliia",
@@ -76,6 +66,16 @@ export const pl = {
       avatar: "/students/guzel.png",
       profileUrl: "https://www.instagram.com/heroine_g",
       platform: "instagram",
+      originalLanguage: "ru"
+    },
+    {
+      id: "maria",
+      quote: "Wszystkie moje oczekiwania od lekcji zostały spełnione. Uczyliśmy się niemieckiego od zera z celem uzyskania certyfikatu B1 i angielskiego w celu utrzymania i rozwoju mojego istniejącego poziomu B1-B2.",
+      fullReview: "Wszystkie moje oczekiwania od lekcji zostały spełnione. Uczyliśmy się niemieckiego od zera z celem uzyskania certyfikatu B1 i angielskiego w celu utrzymania i rozwoju mojego istniejącego poziomu B1-B2. Udało mi się pomyślnie uzyskać certyfikat niemiecki, a mój angielski też czuje się świetnie :) Lekcje są bardzo interesujące, z serdecznymi dyskusjami o wszystkim i dobrą równowagą między teorią a praktyką.",
+      name: "Maria",
+      age: undefined,
+      location: "Rosja",
+      avatar: "/avatars/maria.svg",
       originalLanguage: "ru"
     },
     {
