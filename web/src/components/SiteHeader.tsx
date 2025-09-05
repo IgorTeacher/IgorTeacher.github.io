@@ -13,7 +13,7 @@ export default function SiteHeader() {
       <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
         <Link href={`/${locale}`} className="flex items-center">
                       <Image
-              src="/logos/rectangle_logo-6.png"
+              src="/logos/rectangle_logo-6-nobg.png"
               alt={`${siteConfig.author.split(' ')[0]} — ${siteConfig.teaching.languages.join(' & ')}`}
               width={208} // 1792/8.6 to fit in header (maintaining aspect ratio)
               height={32}  // 276/8.6 to fit in header (maintaining aspect ratio)
