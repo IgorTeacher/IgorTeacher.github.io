@@ -41,7 +41,7 @@ export const de = {
       name: "Maria",
       age: undefined,
       location: "Russland",
-      avatar: "/avatars/maria.png",
+      avatar: "/avatars/maria.svg",
       originalLanguage: "ru"
     },
     {
@@ -51,7 +51,7 @@ export const de = {
       name: "Yulia",
       age: 23,
       location: "Deutschland",
-      avatar: "/avatars/yulia.png",
+      avatar: "/students/yulia.png",
       profileUrl: "https://www.instagram.com/iuliia.nkt",
       platform: "instagram",
       originalLanguage: "ru"
@@ -63,7 +63,7 @@ export const de = {
       name: "Irina",
       age: 37,
       location: "Russland",
-      avatar: "/avatars/irina.png",
+      avatar: "/students/irina.png",
       originalLanguage: "ru"
     },
     {
@@ -73,7 +73,7 @@ export const de = {
       name: "Guzel",
       age: 30,
       location: "Russland",
-      avatar: "/avatars/guzel.png",
+      avatar: "/students/guzel.png",
       profileUrl: "https://www.instagram.com/heroine_g",
       platform: "instagram",
       originalLanguage: "ru"
@@ -85,19 +85,19 @@ export const de = {
       name: "Ekaterina",
       age: 24,
       location: "Russland",
-      avatar: "/avatars/ekaterina.png",
+      avatar: "/students/ekaterina.png",
       profileUrl: "https://linkedin.com/in/ekaterina-mashina",
       platform: "linkedin",
       originalLanguage: "ru"
     },
     {
       id: "alexander",
-      quote: "Das ist mehr als Englischunterricht — das ist warme, respektvolle und immer interessante Kommunikation mit einem der hellsten und tiefgründigsten Menschen, denen ich begegnet bin.",
-      fullReview: "Das ist mehr als Englischunterricht — das ist warme, respektvolle und immer interessante Kommunikation mit einem der hellsten und tiefgründigsten Menschen, denen ich begegnet bin. Glücklich ist der Schüler, der Igor in den Weiten des Internets oder im Leben trifft: er wird nicht nur einen professionellen Lehrer bekommen, er wird eine Persönlichkeit bekommen, mit der es interessant ist, in jeder Sprache zu sprechen.",
+      quote: "Das ist mehr als Englischunterricht - das ist warme, respektvolle und immer interessante Kommunikation mit einem der hellsten und tiefgründigsten Menschen, denen ich begegnet bin.",
+      fullReview: "Das ist mehr als Englischunterricht - das ist warme, respektvolle und immer interessante Kommunikation mit einem der hellsten und tiefgründigsten Menschen, denen ich begegnet bin. Glücklich ist der Schüler, der Igor in den Weiten des Internets oder im Leben trifft: er wird nicht nur einen professionellen Lehrer bekommen, er wird eine Persönlichkeit bekommen, mit der es interessant ist, in jeder Sprache zu sprechen.",
       name: "Alexander Oshmarin",
       age: 33,
       location: "Russland",
-      avatar: "/avatars/alexander.png",
+      avatar: "/students/alexander.png",
       profileUrl: "https://www.instagram.com/Alexandr.obeskurazhen",
       platform: "instagram",
       originalLanguage: "ru"
@@ -109,7 +109,7 @@ export const de = {
       name: "Alena",
       age: 33,
       location: "Deutschland",
-      avatar: "/avatars/alena.png",
+      avatar: "/avatars/alena.svg",
       profileUrl: "https://www.linkedin.com/in/helen-kuzniatsova/",
       platform: "linkedin",
       originalLanguage: "de"
@@ -121,7 +121,7 @@ export const de = {
       name: "Sergej",
       age: 34,
       location: "Russland",
-      avatar: "/avatars/sergej.png",
+      avatar: "/students/sergej.png",
       profileUrl: "https://www.linkedin.com/in/sergej-herwald/",
       platform: "linkedin",
       originalLanguage: "en"
@@ -133,7 +133,7 @@ export const de = {
       name: "Maxim",
       age: 42,
       location: "Deutschland",
-      avatar: "/avatars/maxim.png",
+      avatar: "/students/maxim.png",
       profileUrl: "https://www.facebook.com/maxim.aliseiko/",
       platform: "facebook",
       originalLanguage: "de"
@@ -145,7 +145,7 @@ export const de = {
       name: "Polina",
       age: 30,
       location: "Russland",
-      avatar: "/avatars/polina.png",
+      avatar: "/students/polina.png",
       profileUrl: "https://www.instagram.com/Polly.savi.nova",
       platform: "instagram",
       originalLanguage: "ru"
@@ -157,7 +157,7 @@ export const de = {
       name: "Kristina",
       age: 37,
       location: "Deutschland",
-      avatar: "/avatars/kristina.png",
+      avatar: "/students/kristina.png",
       profileUrl: "https://www.instagram.com/kristina_morozova_tina",
       platform: "instagram",
       originalLanguage: "de"

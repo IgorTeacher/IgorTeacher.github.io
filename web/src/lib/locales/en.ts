@@ -42,7 +42,7 @@ export const en = {
       name: "Maria",
       age: undefined,
       location: "Russia",
-      avatar: "/avatars/maria.png",
+      avatar: "/avatars/maria.svg",
       originalLanguage: "ru"
     },
     {
@@ -52,7 +52,7 @@ export const en = {
       name: "Yulia",
       age: 23,
       location: "Germany",
-      avatar: "/avatars/yulia.png",
+      avatar: "/students/yulia.png",
       profileUrl: "https://www.instagram.com/iuliia.nkt",
       platform: "instagram",
       originalLanguage: "ru"
@@ -64,7 +64,7 @@ export const en = {
       name: "Irina",
       age: 37,
       location: "Russia",
-      avatar: "/avatars/irina.png",
+      avatar: "/students/irina.png",
       originalLanguage: "ru"
     },
     {
@@ -74,7 +74,7 @@ export const en = {
       name: "Guzel",
       age: 30,
       location: "Russia",
-      avatar: "/avatars/guzel.png",
+      avatar: "/students/guzel.png",
       profileUrl: "https://www.instagram.com/heroine_g",
       platform: "instagram",
       originalLanguage: "ru"
@@ -86,19 +86,19 @@ export const en = {
       name: "Ekaterina",
       age: 24,
       location: "Russia",
-      avatar: "/avatars/ekaterina.png",
+      avatar: "/students/ekaterina.png",
       profileUrl: "https://linkedin.com/in/ekaterina-mashina",
       platform: "linkedin",
       originalLanguage: "ru"
     },
     {
       id: "alexander",
-      quote: "This is more than English lessons — this is warm, respectful and always interesting communication with one of the brightest and deepest people I have met.",
-      fullReview: "This is more than English lessons — this is warm, respectful and always interesting communication with one of the brightest and deepest people I have met. Lucky is the student who meets Igor on the expanses of the internet or in life: he will get not just a professional teacher, he will get a personality with whom it is interesting to talk in any language.",
+      quote: "This is more than English lessons - this is warm, respectful and always interesting communication with one of the brightest and deepest people I have met.",
+      fullReview: "This is more than English lessons - this is warm, respectful and always interesting communication with one of the brightest and deepest people I have met. Lucky is the student who meets Igor on the expanses of the internet or in life: he will get not just a professional teacher, he will get a personality with whom it is interesting to talk in any language.",
       name: "Alexander Oshmarin",
       age: 33,
       location: "Russia",
-      avatar: "/avatars/alexander.png",
+      avatar: "/students/alexander.png",
       profileUrl: "https://www.instagram.com/Alexandr.obeskurazhen",
       platform: "instagram",
       originalLanguage: "ru"
@@ -110,7 +110,7 @@ export const en = {
       name: "Alena",
       age: 33,
       location: "Germany",
-      avatar: "/avatars/alena.png",
+      avatar: "/avatars/alena.svg",
       profileUrl: "https://www.linkedin.com/in/helen-kuzniatsova/",
       platform: "linkedin",
       originalLanguage: "de"
@@ -122,7 +122,7 @@ export const en = {
       name: "Sergej",
       age: 34,
       location: "Russia",
-      avatar: "/avatars/sergej.png",
+      avatar: "/students/sergej.png",
       profileUrl: "https://www.linkedin.com/in/sergej-herwald/",
       platform: "linkedin",
       originalLanguage: "en"
@@ -134,7 +134,7 @@ export const en = {
       name: "Maxim",
       age: 42,
       location: "Germany",
-      avatar: "/avatars/maxim.png",
+      avatar: "/students/maxim.png",
       profileUrl: "https://www.facebook.com/maxim.aliseiko/",
       platform: "facebook",
       originalLanguage: "de"
@@ -146,7 +146,7 @@ export const en = {
       name: "Polina",
       age: 30,
       location: "Russia",
-      avatar: "/avatars/polina.png",
+      avatar: "/students/polina.png",
       profileUrl: "https://www.instagram.com/Polly.savi.nova",
       platform: "instagram",
       originalLanguage: "ru"
@@ -158,7 +158,7 @@ export const en = {
       name: "Kristina",
       age: 37,
       location: "Germany",
-      avatar: "/avatars/kristina.png",
+      avatar: "/students/kristina.png",
       profileUrl: "https://www.instagram.com/kristina_morozova_tina",
       platform: "instagram",
       originalLanguage: "de"

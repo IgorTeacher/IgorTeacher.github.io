@@ -41,7 +41,7 @@ export const pl = {
       name: "Maria",
       age: undefined,
       location: "Rosja",
-      avatar: "/avatars/maria.png",
+      avatar: "/avatars/maria.svg",
       originalLanguage: "ru"
     },
     {
@@ -51,7 +51,7 @@ export const pl = {
       name: "Yulia",
       age: 23,
       location: "Niemcy",
-      avatar: "/avatars/yulia.png",
+      avatar: "/students/yulia.png",
       profileUrl: "https://www.instagram.com/iuliia.nkt",
       platform: "instagram",
       originalLanguage: "ru"
@@ -63,7 +63,7 @@ export const pl = {
       name: "Irina",
       age: 37,
       location: "Rosja",
-      avatar: "/avatars/irina.png",
+      avatar: "/students/irina.png",
       originalLanguage: "ru"
     },
     {
@@ -73,7 +73,7 @@ export const pl = {
       name: "Guzel",
       age: 30,
       location: "Rosja",
-      avatar: "/avatars/guzel.png",
+      avatar: "/students/guzel.png",
       profileUrl: "https://www.instagram.com/heroine_g",
       platform: "instagram",
       originalLanguage: "ru"
@@ -85,19 +85,19 @@ export const pl = {
       name: "Ekaterina",
       age: 24,
       location: "Rosja",
-      avatar: "/avatars/ekaterina.png",
+      avatar: "/students/ekaterina.png",
       profileUrl: "https://linkedin.com/in/ekaterina-mashina",
       platform: "linkedin",
       originalLanguage: "ru"
     },
     {
       id: "alexander",
-      quote: "To więcej niż lekcje angielskiego — to ciepła, pełna szacunku i zawsze interesująca komunikacja z jedną z najjaśniejszych i najgłębszych osób, które spotkałem.",
-      fullReview: "To więcej niż lekcje angielskiego — to ciepła, pełna szacunku i zawsze interesująca komunikacja z jedną z najjaśniejszych i najgłębszych osób, które spotkałem. Szczęśliwy będzie ten uczeń, który spotka Igora na przestrzeniach internetu lub w życiu: otrzyma nie tylko profesjonalnego nauczyciela, otrzyma osobowość, z którą interesująco jest rozmawiać w każdym języku.",
+      quote: "To więcej niż lekcje angielskiego - to ciepła, pełna szacunku i zawsze interesująca komunikacja z jedną z najjaśniejszych i najgłębszych osób, które spotkałem.",
+      fullReview: "To więcej niż lekcje angielskiego - to ciepła, pełna szacunku i zawsze interesująca komunikacja z jedną z najjaśniejszych i najgłębszych osób, które spotkałem. Szczęśliwy będzie ten uczeń, który spotka Igora na przestrzeniach internetu lub w życiu: otrzyma nie tylko profesjonalnego nauczyciela, otrzyma osobowość, z którą interesująco jest rozmawiać w każdym języku.",
       name: "Alexander Oshmarin",
       age: 33,
       location: "Rosja",
-      avatar: "/avatars/alexander.png",
+      avatar: "/students/alexander.png",
       profileUrl: "https://www.instagram.com/Alexandr.obeskurazhen",
       platform: "instagram",
       originalLanguage: "ru"
@@ -109,7 +109,7 @@ export const pl = {
       name: "Alena",
       age: 33,
       location: "Niemcy",
-      avatar: "/avatars/alena.png",
+      avatar: "/avatars/alena.svg",
       profileUrl: "https://www.linkedin.com/in/helen-kuzniatsova/",
       platform: "linkedin",
       originalLanguage: "de"
@@ -121,7 +121,7 @@ export const pl = {
       name: "Sergej",
       age: 34,
       location: "Rosja",
-      avatar: "/avatars/sergej.png",
+      avatar: "/students/sergej.png",
       profileUrl: "https://www.linkedin.com/in/sergej-herwald/",
       platform: "linkedin",
       originalLanguage: "en"
@@ -133,7 +133,7 @@ export const pl = {
       name: "Maxim",
       age: 42,
       location: "Niemcy",
-      avatar: "/avatars/maxim.png",
+      avatar: "/students/maxim.png",
       profileUrl: "https://www.facebook.com/maxim.aliseiko/",
       platform: "facebook",
       originalLanguage: "de"
@@ -145,7 +145,7 @@ export const pl = {
       name: "Polina",
       age: 30,
       location: "Rosja",
-      avatar: "/avatars/polina.png",
+      avatar: "/students/polina.png",
       profileUrl: "https://www.instagram.com/Polly.savi.nova",
       platform: "instagram",
       originalLanguage: "ru"
@@ -157,7 +157,7 @@ export const pl = {
       name: "Kristina",
       age: 37,
       location: "Niemcy",
-      avatar: "/avatars/kristina.png",
+      avatar: "/students/kristina.png",
       profileUrl: "https://www.instagram.com/kristina_morozova_tina",
       platform: "instagram",
       originalLanguage: "de"
@@ -300,7 +300,7 @@ export const pl = {
     items: [
       { 
         question: "Jakie poziomy nauczania oferujesz?", 
-        answer: "Uczę na wszystkich poziomach — od pierwszych kroków (A1) aż po swobodną biegłość (C1) — zarówno z języka niemieckiego, jak i angielskiego. Każda lekcja jest dopasowana do Twojego obecnego poziomu i celów językowych." 
+        answer: "Uczę na wszystkich poziomach - od pierwszych kroków (A1) aż po swobodną biegłość (C1) - zarówno z języka niemieckiego, jak i angielskiego. Każda lekcja jest dopasowana do Twojego obecnego poziomu i celów językowych." 
       },
       { 
         question: "W jaki sposób odbywają się zajęcia?", 
@@ -312,7 +312,7 @@ export const pl = {
       },
       { 
         question: "Jak długo trwają zajęcia?", 
-        answer: "Standardowe lekcje trwają 60 lub 90 minut. Darmowa lekcja próbna trwa 30 minut — to świetna okazja, aby poznać mój styl nauczania i określić swoje cele. W przypadku pilnej potrzeby przygotowania do egzaminu czy rozmowy kwalifikacyjnej możemy elastycznie dobrać dowolną liczbę i długość zajęć."
+        answer: "Standardowe lekcje trwają 60 lub 90 minut. Darmowa lekcja próbna trwa 30 minut - to świetna okazja, aby poznać mój styl nauczania i określić swoje cele. W przypadku pilnej potrzeby przygotowania do egzaminu czy rozmowy kwalifikacyjnej możemy elastycznie dobrać dowolną liczbę i długość zajęć."
       },
       { 
         question: "Czy zapewniasz materiały do nauki?", 
@@ -324,11 +324,11 @@ export const pl = {
       },
       {
         question: "Co wyróżnia Twój sposób nauczania?",
-        answer: "Zaczynamy od analizy potrzeb, podczas której wspólnie ustalamy Twoje cele, preferowany format zajęć oraz styl nauki. Dzięki temu wiemy dokładnie, jak działać, aby osiągnąć zamierzone efekty. Największym „sekretem” moich lekcji jest to, że w pewnym momencie zapominasz, że to zajęcia językowe — po prostu cieszysz się zadaniami, grami, filmami czy podcastami. A później uświadamiasz sobie, że faktycznie opanowałeś język."
+        answer: "Zaczynamy od analizy potrzeb, podczas której wspólnie ustalamy Twoje cele, preferowany format zajęć oraz styl nauki. Dzięki temu wiemy dokładnie, jak działać, aby osiągnąć zamierzone efekty. Największym „sekretem” moich lekcji jest to, że w pewnym momencie zapominasz, że to zajęcia językowe - po prostu cieszysz się zadaniami, grami, filmami czy podcastami. A później uświadamiasz sobie, że faktycznie opanowałeś język."
       },
       {
         question: "Czy masz wykształcenie pedagogiczne?",
-        answer: "Tak. Posiadam pełne wykształcenie pedagogiczne — tytuł licencjata i magistra. Ukończyłem także wiele międzynarodowych kursów i zdobyłem certyfikaty, m.in. TESOL, TEFL, TKT 1–3 oraz CELTA. Dzięki temu uczę nie tylko intuicyjnie, ale łączę podejście naukowe z indywidualnym, co pozwala prowadzić skuteczne zajęcia."
+        answer: "Tak. Posiadam pełne wykształcenie pedagogiczne - tytuł licencjata i magistra. Ukończyłem także wiele międzynarodowych kursów i zdobyłem certyfikaty, m.in. TESOL, TEFL, TKT 1–3 oraz CELTA. Dzięki temu uczę nie tylko intuicyjnie, ale łączę podejście naukowe z indywidualnym, co pozwala prowadzić skuteczne zajęcia."
       },
       { 
         question: "Na ile elastyczny jest grafik zajęć?", 

@@ -41,7 +41,7 @@ export const ru = {
       name: "Мария",
       age: undefined,
       location: "Россия",
-      avatar: "/avatars/maria.png",
+      avatar: "/avatars/maria.svg",
       originalLanguage: "ru"
     },
     {
@@ -51,7 +51,7 @@ export const ru = {
       name: "Юлия",
       age: 23,
       location: "Германия",
-      avatar: "/avatars/yulia.png",
+      avatar: "/students/yulia.png",
       profileUrl: "https://www.instagram.com/iuliia.nkt",
       platform: "instagram",
       originalLanguage: "ru"
@@ -63,7 +63,7 @@ export const ru = {
       name: "Ирина",
       age: 37,
       location: "Россия",
-      avatar: "/avatars/irina.png",
+      avatar: "/students/irina.png",
       originalLanguage: "ru"
     },
     {
@@ -73,7 +73,7 @@ export const ru = {
       name: "Гузель",
       age: 30,
       location: "Россия",
-      avatar: "/avatars/guzel.png",
+      avatar: "/students/guzel.png",
       profileUrl: "https://www.instagram.com/heroine_g",
       platform: "instagram",
       originalLanguage: "ru"
@@ -85,19 +85,19 @@ export const ru = {
       name: "Екатерина",
       age: 24,
       location: "Россия",
-      avatar: "/avatars/ekaterina.png",
+      avatar: "/students/ekaterina.png",
       profileUrl: "https://linkedin.com/in/ekaterina-mashina",
       platform: "linkedin",
       originalLanguage: "ru"
     },
     {
       id: "alexander",
-      quote: "Это больше чем уроки английского — это тёплое, уважительное и всегда интересное общение с одним из самых ярких и глубоких людей, которых я встречал.",
-      fullReview: "Это больше чем уроки английского — это тёплое, уважительное и всегда интересное общение с одним из самых ярких и глубоких людей, которых я встречал. Повезёт тому ученику, кто встретит Игоря на просторах интернета или в жизни: он получит не просто профессионала-педагога, он получит личность, с которой интересно говорить на любом языке.",
+      quote: "Это больше чем уроки английского - это тёплое, уважительное и всегда интересное общение с одним из самых ярких и глубоких людей, которых я встречал.",
+      fullReview: "Это больше чем уроки английского - это тёплое, уважительное и всегда интересное общение с одним из самых ярких и глубоких людей, которых я встречал. Повезёт тому ученику, кто встретит Игоря на просторах интернета или в жизни: он получит не просто профессионала-педагога, он получит личность, с которой интересно говорить на любом языке.",
       name: "Александр Ошмарин",
       age: 33,
       location: "Россия",
-      avatar: "/avatars/alexander.png",
+      avatar: "/students/alexander.png",
       profileUrl: "https://www.instagram.com/Alexandr.obeskurazhen",
       platform: "instagram",
       originalLanguage: "ru"
@@ -109,7 +109,7 @@ export const ru = {
       name: "Alena",
       age: 33,
       location: "Германия",
-      avatar: "/avatars/alena.png",
+      avatar: "/avatars/alena.svg",
       profileUrl: "https://www.linkedin.com/in/helen-kuzniatsova/",
       platform: "linkedin",
       originalLanguage: "de"
@@ -121,7 +121,7 @@ export const ru = {
       name: "Sergej",
       age: 34,
       location: "Россия",
-      avatar: "/avatars/sergej.png",
+      avatar: "/students/sergej.png",
       profileUrl: "https://www.linkedin.com/in/sergej-herwald/",
       platform: "linkedin",
       originalLanguage: "en"
@@ -133,7 +133,7 @@ export const ru = {
       name: "Maxim",
       age: 42,
       location: "Германия",
-      avatar: "/avatars/maxim.png",
+      avatar: "/students/maxim.png",
       profileUrl: "https://www.facebook.com/maxim.aliseiko/",
       platform: "facebook",
       originalLanguage: "de"
@@ -145,7 +145,7 @@ export const ru = {
       name: "Полина",
       age: 30,
       location: "Россия",
-      avatar: "/avatars/polina.png",
+      avatar: "/students/polina.png",
       profileUrl: "https://www.instagram.com/Polly.savi.nova",
       platform: "instagram",
       originalLanguage: "ru"
@@ -157,7 +157,7 @@ export const ru = {
       name: "Kristina",
       age: 37,
       location: "Германия",
-      avatar: "/avatars/kristina.png",
+      avatar: "/students/kristina.png",
       profileUrl: "https://www.instagram.com/kristina_morozova_tina",
       platform: "instagram",
       originalLanguage: "de"
