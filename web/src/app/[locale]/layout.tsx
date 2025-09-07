@@ -73,9 +73,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: currentMeta.description,
     keywords: currentMeta.keywords,
     icons: {
-      icon: '/logos/favicon.png',
-      shortcut: '/logos/favicon.png',
-      apple: '/logos/favicon.png',
+      icon: [
+        { url: '/favicon.ico', sizes: 'any' },
+        { url: '/logos/favicon-32.png', sizes: '32x32', type: 'image/png' },
+        { url: '/logos/favicon-64.png', sizes: '64x64', type: 'image/png' },
+      ],
+      shortcut: '/favicon.ico',
+      apple: '/logos/favicon-64.png',
     },
     alternates: {
       canonical: `${baseUrl}/${locale}`,
