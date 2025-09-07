@@ -7,6 +7,11 @@ import AnalyticsRouteTracker from '@/components/AnalyticsRouteTracker';
 export const metadata: Metadata = {
   title: 'Ihar Teacher - Language Learning',
   description: 'CELTA-certified teacher offering personalized English and German lessons',
+  icons: {
+    icon: '/logos/favicon.png',
+    shortcut: '/logos/favicon.png',
+    apple: '/logos/favicon.png',
+  },
 };
 
 export default function RootLayout({

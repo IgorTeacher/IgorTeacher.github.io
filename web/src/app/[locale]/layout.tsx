@@ -72,6 +72,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: currentMeta.title,
     description: currentMeta.description,
     keywords: currentMeta.keywords,
+    icons: {
+      icon: '/logos/favicon.png',
+      shortcut: '/logos/favicon.png',
+      apple: '/logos/favicon.png',
+    },
     alternates: {
       canonical: `${baseUrl}/${locale}`,
       languages: {
