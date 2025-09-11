@@ -50,6 +50,19 @@ export const en = {
       originalLanguage: "ru"
     },
     {
+      id: "alexander",
+      learnerLanguage: ["en"],
+      quote: "This is more than English lessons - this is warm, respectful and always interesting communication with one of the brightest and deepest people I have met.",
+      fullReview: "This is more than English lessons - this is warm, respectful and always interesting communication with one of the brightest and deepest people I have met. Lucky is the student who meets Igor on the expanses of the internet or in life: he will get not just a professional teacher, he will get a personality with whom it is interesting to talk in any language.",
+      name: "Alexander Oshmarin",
+      age: 33,
+      location: "",
+      avatar: "/students/alexander.png",
+      profileUrl: "https://www.instagram.com/Alexandr.obeskurazhen",
+      platform: "instagram",
+      originalLanguage: "ru"
+    },
+    {
       id: "irina",
       learnerLanguage: ["de"],
       quote: "Always friendly atmosphere in classes and comfortable communication, there was no fear of making mistakes or saying something wrong. Excellent teacher for anxious and insecure people!",
@@ -95,19 +108,6 @@ export const en = {
       avatar: "/students/ekaterina.png",
       profileUrl: "https://linkedin.com/in/ekaterina-mashina",
       platform: "linkedin",
-      originalLanguage: "ru"
-    },
-    {
-      id: "alexander",
-      learnerLanguage: ["en"],
-      quote: "This is more than English lessons - this is warm, respectful and always interesting communication with one of the brightest and deepest people I have met.",
-      fullReview: "This is more than English lessons - this is warm, respectful and always interesting communication with one of the brightest and deepest people I have met. Lucky is the student who meets Igor on the expanses of the internet or in life: he will get not just a professional teacher, he will get a personality with whom it is interesting to talk in any language.",
-      name: "Alexander Oshmarin",
-      age: 33,
-      location: "",
-      avatar: "/students/alexander.png",
-      profileUrl: "https://www.instagram.com/Alexandr.obeskurazhen",
-      platform: "instagram",
       originalLanguage: "ru"
     },
     {
@@ -172,6 +172,45 @@ export const en = {
       location: "",
       avatar: "/students/kristina.png",
       profileUrl: "https://www.instagram.com/kristina_morozova_tina",
+      platform: "instagram",
+      originalLanguage: "de"
+    },
+    {
+      id: "katsiaryna",
+      learnerLanguage: ["en", "de"],
+      quote: "Thanks to Ihar’s support and professionalism, I was able to learn German from scratch and successfully pass the exam with 54 out of 60 points!",
+      fullReview: "I really enjoyed studying with Ihar! At first, he helped me with English, and later I confirmed my level as C1. Then I unexpectedly decided to apply to study in Austria, where knowledge of German at least at A2 level was required. There was less than half a year before admission, and during that time I had to prepare for my school exams while also starting to learn a completely new language. Thanks to Ihar’s support and professionalism, I was able to learn German from scratch and successfully pass the exam with 54 out of 60 points! He is a wonderful teacher who knows exactly how to approach his students. He treats his profession and every lesson with great care. I wholeheartedly recommend him!!!",
+      name: "Katsiaryna",
+      age: 18,
+      location: "",
+      avatar: "/students/katsiaryna.png",
+      profileUrl: "https://www.instagram.com/katsirynaa",
+      platform: "instagram",
+      originalLanguage: "ru"
+    },
+    {
+      id: "alla",
+      learnerLanguage: ["en"],
+      quote: "As a teacher, I can say with certainty that you are a talented educator, well-versed in teaching methodology and truly passionate about your work.",
+      fullReview: "Igor! As a teacher, I can say with certainty that you are a talented educator, well-versed in teaching methodology and truly passionate about your work. You are incredibly charismatic and interesting as a person, which for me is one of the most important factors when choosing a teacher. You travel a lot, and that gives you tremendous linguistic and cultural experience. Thanks to this, your students hear a living, natural language in class. It’s great that you keep up with the times, skillfully integrating new teaching innovations into your lessons and sharing them with colleagues. I learn a lot from you and I’m proud to know you! 😉",
+      name: "Ala",
+      age: 39,
+      location: "",
+      avatar: "/students/alla.png",
+      profileUrl: "https://www.instagram.com/ala.j.polski",
+      platform: "instagram",
+      originalLanguage: "ru"
+    },
+    {
+      id: "sevastian",
+      learnerLanguage: ["de"],
+      quote: "Ihar is a very empathetic teacher. Someone who creates a fascinating blend of fun and solid, always up-to-date teaching content.",
+      fullReview: "Ihar is a very empathetic teacher. Someone who creates a fascinating blend of fun and solid, always up-to-date teaching content. He doesn’t stick to old principles but is always learning new things and remains curious about his students. His lessons often follow a plan, yet there is always space to wander off into interesting conversations on all kinds of topics.",
+      name: "Sevastian Shakin",
+      age: 21,
+      location: "",
+      avatar: "/students/sevastian.png",
+      profileUrl: "https://www.instagram.com/shakinarts",
       platform: "instagram",
       originalLanguage: "de"
     }

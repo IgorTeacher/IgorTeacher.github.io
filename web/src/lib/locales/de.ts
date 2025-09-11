@@ -49,6 +49,19 @@ export const de = {
       originalLanguage: "ru"
     },
     {
+      id: "alexander",
+      learnerLanguage: ["en"],
+      quote: "Das ist mehr als Englischunterricht - das ist warme, respektvolle und immer interessante Kommunikation mit einem der hellsten und tiefgründigsten Menschen, denen ich begegnet bin.",
+      fullReview: "Das ist mehr als Englischunterricht - das ist warme, respektvolle und immer interessante Kommunikation mit einem der hellsten und tiefgründigsten Menschen, denen ich begegnet bin. Glücklich ist der Schüler, der Igor in den Weiten des Internets oder im Leben trifft: er wird nicht nur einen professionellen Lehrer bekommen, er wird eine Persönlichkeit bekommen, mit der es interessant ist, in jeder Sprache zu sprechen.",
+      name: "Alexander Oshmarin",
+      age: 33,
+      location: "",
+      avatar: "/students/alexander.png",
+      profileUrl: "https://www.instagram.com/Alexandr.obeskurazhen",
+      platform: "instagram",
+      originalLanguage: "ru"
+    },
+    {
       id: "irina",
       learnerLanguage: ["de"],
       quote: "Immer freundliche Atmosphäre im Unterricht und angenehme Kommunikation, es gab keine Angst, Fehler zu machen oder etwas Falsches zu sagen. Ausgezeichneter Lehrer für ängstliche und unsichere Menschen!",
@@ -94,19 +107,6 @@ export const de = {
       avatar: "/students/ekaterina.png",
       profileUrl: "https://linkedin.com/in/ekaterina-mashina",
       platform: "linkedin",
-      originalLanguage: "ru"
-    },
-    {
-      id: "alexander",
-      learnerLanguage: ["en"],
-      quote: "Das ist mehr als Englischunterricht - das ist warme, respektvolle und immer interessante Kommunikation mit einem der hellsten und tiefgründigsten Menschen, denen ich begegnet bin.",
-      fullReview: "Das ist mehr als Englischunterricht - das ist warme, respektvolle und immer interessante Kommunikation mit einem der hellsten und tiefgründigsten Menschen, denen ich begegnet bin. Glücklich ist der Schüler, der Igor in den Weiten des Internets oder im Leben trifft: er wird nicht nur einen professionellen Lehrer bekommen, er wird eine Persönlichkeit bekommen, mit der es interessant ist, in jeder Sprache zu sprechen.",
-      name: "Alexander Oshmarin",
-      age: 33,
-      location: "",
-      avatar: "/students/alexander.png",
-      profileUrl: "https://www.instagram.com/Alexandr.obeskurazhen",
-      platform: "instagram",
       originalLanguage: "ru"
     },
     {
@@ -171,6 +171,45 @@ export const de = {
       location: "",
       avatar: "/students/kristina.png",
       profileUrl: "https://www.instagram.com/kristina_morozova_tina",
+      platform: "instagram",
+      originalLanguage: "de"
+    },
+    {
+      id: "katsiaryna",
+      learnerLanguage: ["en", "de"],
+      quote: "Dank der Unterstützung und Professionalität von Ihar konnte ich Deutsch von Grund auf lernen und die Prüfung mit 54 von 60 Punkten erfolgreich bestehen!",
+      fullReview: "Das Lernen mit Ihar hat mir unglaublich gut gefallen! Zuerst hat er mir beim Englisch geholfen, und später habe ich mein Niveau als C1 bestätigt. Dann habe ich unerwartet beschlossen, mich in Österreich zu bewerben, wo Deutschkenntnisse mindestens auf A2-Niveau erforderlich sind. Bis zur Bewerbung blieb weniger als ein halbes Jahr, und in dieser Zeit musste ich mich gleichzeitig auf meine Schulprüfungen vorbereiten und eine völlig neue Sprache lernen. Dank der Unterstützung und Professionalität von Ihar konnte ich Deutsch von Grund auf lernen und die Prüfung mit 54 von 60 Punkten erfolgreich bestehen! Er ist ein großartiger Lehrer, der genau weiß, wie er auf seine Schüler eingehen muss. Er nimmt seinen Beruf und jede Stunde sehr ernst. Ich empfehle ihn von ganzem Herzen!!!",
+      name: "Katsiaryna",
+      age: 18,
+      location: "",
+      avatar: "/students/katsiaryna.png",
+      profileUrl: "https://www.instagram.com/katsirynaa",
+      platform: "instagram",
+      originalLanguage: "ru"
+    },
+    {
+      id: "alla",
+      learnerLanguage: ["en"],
+      quote: "Als Lehrerin kann ich mit Sicherheit sagen, dass du ein talentierter Pädagoge bist, der die Unterrichtsmethodik sehr gut beherrscht und seinen Beruf liebt.",
+      fullReview: "Igor! Als Lehrerin kann ich mit Sicherheit sagen, dass du ein talentierter Pädagoge bist, der die Unterrichtsmethodik sehr gut beherrscht und seinen Beruf liebt. Du bist unglaublich charismatisch und als Persönlichkeit äußerst interessant – für mich einer der wichtigsten Faktoren bei der Wahl eines Lehrers. Du reist viel, und das bringt dir ein enormes sprachliches und kulturelles Wissen. Deshalb hören die Schüler im Unterricht eine lebendige und natürliche Sprache. Toll ist auch, dass du mit der Zeit gehst, geschickt neue Lehrmethoden in deinen Unterricht einbaust und diese mit deinen Kollegen teilst. Ich lerne sehr viel von dir und bin stolz darauf, dich zu kennen! 😉",
+      name: "Ala",
+      age: 39,
+      location: "",
+      avatar: "/students/alla.png",
+      profileUrl: "https://www.instagram.com/ala.j.polski",
+      platform: "instagram",
+      originalLanguage: "ru"
+    },
+    {
+      id: "sevastian",
+      learnerLanguage: ["de"],
+      quote: "Ihar ist ein sehr einfühlsamer Lehrer. Einer, der eine sehr spannende Mischung von Spaß und gutem, immer aktuellem Lehrstoff erzielt.",
+      fullReview: "Ihar ist ein sehr einfühlsamer Lehrer. Einer, der eine sehr spannende Mischung von Spaß und gutem, immer aktuellem Lehrstoff erzielt. Er bleibt nicht bei alten Prinzipien, sondern lernt immer neu dazu und ist neugierig auf seine Studierenden. Sein Unterricht hat oft einen Plan, aber auch eine gewisse Bereitschaft sich in interessanten Gesprächen über alle möglichen Themen zu verlaufen.",
+      name: "Sevastian Shakin",
+      age: 21,
+      location: "",
+      avatar: "/students/sevastian.png",
+      profileUrl: "https://www.instagram.com/shakinarts",
       platform: "instagram",
       originalLanguage: "de"
     }
