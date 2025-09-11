@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import { X, ExternalLink, Instagram, Linkedin, Facebook } from "lucide-react";
+import LanguageFlags from "./LanguageFlags";
 import type { Testimonial } from "@/lib/types";
 
 interface TestimonialModalProps {
@@ -10,13 +11,15 @@ interface TestimonialModalProps {
   isOpen: boolean;
   onClose: () => void;
   locale: string;
+  t: (key: string) => string;
 }
 
 export default function TestimonialModal({ 
   testimonial, 
   isOpen, 
   onClose, 
-  locale 
+  locale,
+  t
 }: TestimonialModalProps) {
   const modalRef = useRef<HTMLDivElement>(null);
 
@@ -123,6 +126,12 @@ export default function TestimonialModal({
                 {testimonial.location && (
                   <div className="text-sm text-neutral-600 dark:text-neutral-400">
                     {testimonial.location}
+                  </div>
+                )}
+                {testimonial.learnerLanguage && testimonial.learnerLanguage.length > 0 && (
+                  <div className="flex items-center gap-2 mt-1">
+                    <span className="text-xs text-neutral-500 dark:text-neutral-500">{t('socialProof.learningLabel')}</span>
+                    <LanguageFlags languages={testimonial.learnerLanguage} />
                   </div>
                 )}
               </div>

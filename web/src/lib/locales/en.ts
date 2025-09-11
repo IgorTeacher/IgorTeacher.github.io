@@ -31,12 +31,14 @@ export const en = {
   },
   
   socialProof: {
-    heading: "What students say"
+    heading: "What students say",
+    learningLabel: "Learning:"
   },
   
   testimonials: [
     {
       id: "yulia",
+      learnerLanguage: ["de"],
       quote: "You became my first German teacher and from the very beginning made an impression of a very positive, energetic person and a true professional who knows how to approach language and its practice.",
       fullReview: "You became my first German teacher and from the very beginning made an impression of a very positive, energetic person and a true professional who knows how to approach language and its practice. I admit honestly, being at A1 level with you (at the end of 2021) and knowing literally a few phrases in German (and realizing that I was still at the beginning of the journey), I nevertheless already then caught myself thinking that I don't feel a language barrier and am ready to communicate with native speakers even with that small arsenal of knowledge that I then possessed - my confidence after our lessons was so high. Then, arriving in Germany for the first time with approximately A2 level in 2022, I fearlessly entered into communication in German and already understood those around me quite well. Later I interrupted our lessons and returned to classes already at B2 level, reaching C1 with them, and was immensely happy about it. Our lessons were always very rich and interesting, and also, which was also very important to me, were filled with different types of activities, from speaking to listening, and this helped me develop and maintain different speech skills at approximately the same level. At the moment I use German for my master's studies and work in a German company, and undoubtedly a huge contribution to my confidence in the language right now was made by you. I also thought about the possibility of resuming our lessons in the near future, since I want to continue developing my current C1 level. So thank you very much and hopefully see you soon! Viele Grüße, Iuliia",
       name: "Yulia",
@@ -49,6 +51,7 @@ export const en = {
     },
     {
       id: "irina",
+      learnerLanguage: ["de"],
       quote: "Always friendly atmosphere in classes and comfortable communication, there was no fear of making mistakes or saying something wrong. Excellent teacher for anxious and insecure people!",
       fullReview: "Always friendly atmosphere in classes and comfortable communication, there was no fear of making mistakes or saying something wrong. Excellent teacher for anxious and insecure people! It was convenient to work online on a shared board. I really liked that in classes Russian was minimally used and German was maximally used, and at the same time everything was explained clearly. A teacher with whom it was sad to part at the end of training)",
       name: "Irina",
@@ -59,6 +62,7 @@ export const en = {
     },
     {
       id: "guzel",
+      learnerLanguage: ["de"],
       quote: "I loved our lessons! I couldn't master the basics, although I tried to study with different tutors - and only with you I understood how everything works and, most importantly, remembered it all even after time without practice!",
       fullReview: "I loved our lessons! I couldn't master the basics, although I tried to study with different tutors - and only with you I understood how everything works and, most importantly, remembered it all even after time without practice! The lessons were always lively, very smoothly and logically flowing from one to another, and it was always interesting and fun to chat with you. I wish you success!",
       name: "Guzel",
@@ -71,6 +75,7 @@ export const en = {
     },
     {
       id: "maria",
+      learnerLanguage: ["de", "en"],
       quote: "All my expectations from the lessons were met. We studied German from scratch with the goal of obtaining a B1 certificate and English to maintain and develop my existing B1-B2 level.",
       fullReview: "All my expectations from the lessons were met. We studied German from scratch with the goal of obtaining a B1 certificate and English to maintain and develop my existing B1-B2 level. I successfully obtained the German certificate, and my English is also feeling great :) The lessons are very interesting, with heartfelt discussions about everything and a good balance between theory and practice.",
       name: "Maria",
@@ -81,6 +86,7 @@ export const en = {
     },
     {
       id: "ekaterina",
+      learnerLanguage: ["en"],
       quote: "I really like the training! In 10 months I managed to go from A1 to B1 level and successfully pass the exam. I especially appreciate how Igor explains the material so that it becomes understandable at any level.",
       fullReview: "I really like the training! In 10 months I managed to go from A1 to B1 level and successfully pass the exam. I especially appreciate how Igor explains the material so that it becomes understandable at any level. I especially want to note the flexible schedule of classes, it's very convenient to combine with work",
       name: "Ekaterina",
@@ -93,6 +99,7 @@ export const en = {
     },
     {
       id: "alexander",
+      learnerLanguage: ["en"],
       quote: "This is more than English lessons - this is warm, respectful and always interesting communication with one of the brightest and deepest people I have met.",
       fullReview: "This is more than English lessons - this is warm, respectful and always interesting communication with one of the brightest and deepest people I have met. Lucky is the student who meets Igor on the expanses of the internet or in life: he will get not just a professional teacher, he will get a personality with whom it is interesting to talk in any language.",
       name: "Alexander Oshmarin",
@@ -105,6 +112,7 @@ export const en = {
     },
     {
       id: "alena",
+      learnerLanguage: ["de"],
       quote: "Your explanations are very clear; you create a great learning atmosphere; the practical examples always help me understand better and remember.",
       fullReview: "Your explanations are very clear; you create a great learning atmosphere; the practical examples always help me understand better and remember.",
       name: "Alena",
@@ -117,6 +125,7 @@ export const en = {
     },
     {
       id: "sergej",
+      learnerLanguage: ["en"],
       quote: "I turned to Ihar because after I changed my job, it happened to be a lot of English in my life. My expectations were fully met.",
       fullReview: "I turned to Ihar because after I changed my job, it happened to be a lot of English in my life. My expectations were fully met. The lessons cover very interesting and modern topics, always tailored to my interests and goals. I appreciate the supportive atmosphere and the practical approach. The explanations are always patient and clear. I had also tried learning English with other teachers, but their lessons felt like a MUST. With Ihar, I LOOK FORWARD to classes and truly WANT to attend them.",
       name: "Sergej",
@@ -129,6 +138,7 @@ export const en = {
     },
     {
       id: "maxim",
+      learnerLanguage: ["de"],
       quote: "The lessons with Igor helped me to get from A1 to B1 level. He explains even difficult topics very well and without stress.",
       fullReview: "The lessons with Igor helped me to get from A1 to B1 level. He explains even difficult topics very well and without stress. For me it is also important that Igor is always flexible with the schedule. I highly recommend him as a German teacher!",
       name: "Maxim",
@@ -141,6 +151,7 @@ export const en = {
     },
     {
       id: "polina",
+      learnerLanguage: ["en"],
       quote: "I love our lessons! I like everything, cool and understandable presentation of material, many different tasks, photos, videos, audio and much more.",
       fullReview: "I love our lessons! I like everything, cool and understandable presentation of material, many different tasks, photos, videos, audio and much more. I especially like that topics are selected according to my interests and goals, although interests and topics have constantly changed during the training:) Igor is a very versatile and interesting conversationalist, even the communication itself enriches, you learn a lot of new things and at the same time you feel like you're communicating with a friend, super comfortable. I didn't think before that lessons could be so educational and fun at the same time. Special thanks for preparing for the competition in Singapore, knowledge of the language helped a lot. The best!",
       name: "Polina",
@@ -153,6 +164,7 @@ export const en = {
     },
     {
       id: "kristina",
+      learnerLanguage: ["de", "en"],
       quote: "You have sufficient experience, comprehensive expertise, including social recognition (status as teacher trainer), a pronounced awareness of what happens in the classroom.",
       fullReview: "You have sufficient experience, comprehensive expertise, including social recognition (status as teacher trainer), a pronounced awareness of what happens in the classroom, (e.g. for the behavior of learners, their progress and their support needs), progressive problem solving, the interpersonal attitude, mutual respect for learners and associated values (e.g. avoiding blaming learners for their inadequacies and building learners' self-esteem), your passion for your profession and your work, your resilience and perseverance in the face of challenges, joy in teaching and an optimistic worldview, the structuring of teaching, comprehensive reflection, constant further learning, professional development and professional qualifications, careful, flexible, supportive cooperation. You are definitely a lifelong learner! I am very proud of you!",
       name: "Kristina",

@@ -59,6 +59,7 @@ export interface Testimonial {
   profileUrl?: string;           // e.g. "https://www.linkedin.com/in/..."
   platform?: "linkedin" | "instagram" | "facebook";
   originalLanguage?: string;     // Language of original review
+  learnerLanguage?: string[];    // Languages the student was learning ["de", "en"]
 }
 
 export interface HowItWorksStep {

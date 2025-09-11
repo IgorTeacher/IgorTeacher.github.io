@@ -6,6 +6,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { useEffect, useState, useCallback } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
 import TestimonialModal from "./TestimonialModal";
+import LanguageFlags from "./LanguageFlags";
 import type { Testimonial } from "@/lib/types";
 
 export default function SocialProof() {
@@ -72,7 +73,7 @@ export default function SocialProof() {
 
         <div className="mt-10 overflow-hidden px-8" ref={emblaRef}>
           <div className="flex gap-6">
-            {testimonials.map((t, i) => (
+            {testimonials.map((testimonial, i) => (
               <figure
                 key={i}
                 data-active={i === selected}
@@ -81,11 +82,11 @@ export default function SocialProof() {
                            will-change-transform data-[active=true]:scale-[1.01] mt-8 mb-3"
               >
                 {/* avatar */}
-                {t.avatar && (
+                {testimonial.avatar && (
                   <div className="absolute -top-6 -left-4 h-12 w-12 rounded-full ring-4 ring-white overflow-hidden shadow">
                     <Image 
-                      src={t.avatar} 
-                      alt={t.name} 
+                      src={testimonial.avatar} 
+                      alt={testimonial.name} 
                       width={48} 
                       height={48} 
                       className="object-cover w-full h-full"
@@ -95,29 +96,37 @@ export default function SocialProof() {
 
                 {/* quote */}
                 <blockquote className="text-neutral-800 dark:text-neutral-200">
-                  &ldquo;{t.quote}&rdquo;
+                  &ldquo;{testimonial.quote}&rdquo;
                 </blockquote>
 
                 {/* name / location / link */}
                 <figcaption className="mt-4 flex items-center justify-between text-sm text-neutral-600 dark:text-neutral-400">
-                  <div>
-                    <span className="font-medium text-neutral-800 dark:text-white">{t.name}</span>
-                    {t.age && <span className="text-neutral-600 dark:text-neutral-400">, {t.age}</span>}
-                    {t.location ? <span className="text-neutral-600 dark:text-neutral-400">, {t.location}</span> : null}
+                  <div className="flex flex-col gap-1">
+                    <div>
+                      <span className="font-medium text-neutral-800 dark:text-white">{testimonial.name}</span>
+                      {testimonial.age && <span className="text-neutral-600 dark:text-neutral-400">, {testimonial.age}</span>}
+                      {testimonial.location ? <span className="text-neutral-600 dark:text-neutral-400">, {testimonial.location}</span> : null}
+                    </div>
+                    {testimonial.learnerLanguage && testimonial.learnerLanguage.length > 0 && (
+                      <div className="flex items-center gap-1">
+                        <span className="text-xs text-neutral-500 dark:text-neutral-500">{t('socialProof.learningLabel')}</span>
+                        <LanguageFlags languages={testimonial.learnerLanguage} />
+                      </div>
+                    )}
                   </div>
-                  {t.profileUrl && (
+                  {testimonial.profileUrl && (
                     <a
-                      href={t.profileUrl}
+                      href={testimonial.profileUrl}
                       target="_blank"
                       rel="noreferrer"
                       className="inline-flex items-center gap-1 text-neutral-500 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-white transition-colors"
-                      aria-label={`${t.name} profile`}
+                      aria-label={`${testimonial.name} profile`}
                     >
-                      {t.platform === "linkedin" ? (
+                      {testimonial.platform === "linkedin" ? (
                         <Linkedin className="h-4 w-4" />
-                      ) : t.platform === "instagram" ? (
+                      ) : testimonial.platform === "instagram" ? (
                         <Instagram className="h-4 w-4" />
-                      ) : t.platform === "facebook" ? (
+                      ) : testimonial.platform === "facebook" ? (
                         <Facebook className="h-4 w-4" />
                       ) : (
                         <ExternalLink className="h-4 w-4" />
@@ -127,10 +136,10 @@ export default function SocialProof() {
                 </figcaption>
 
                 {/* Read More button - right aligned */}
-                {t.fullReview && (
+                {testimonial.fullReview && (
                   <div className="mt-3 flex justify-end">
-                    <button
-                      onClick={() => openModal(t)}
+                    <button 
+                      onClick={() => openModal(testimonial)} 
                       className="text-sm text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors"
                     >
                       Read more...
@@ -163,6 +172,7 @@ export default function SocialProof() {
         isOpen={isModalOpen}
         onClose={closeModal}
         locale={locale}
+        t={t}
       />
     </section>
   );

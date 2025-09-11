@@ -30,12 +30,14 @@ export const de = {
   },
   
   socialProof: {
-    heading: "Was Schüler sagen"
+    heading: "Was Schüler sagen",
+    learningLabel: "Lernt:"
   },
   
   testimonials: [
     {
       id: "yulia",
+      learnerLanguage: ["de"],
       quote: "Sie wurden mein erster Deutschlehrer und haben von Anfang an den Eindruck einer sehr positiven, energischen Person und eines echten Profis vermittelt, der weiß, wie man sich der Sprache und ihrer Praxis nähert.",
       fullReview: "Sie wurden mein erster Deutschlehrer und haben von Anfang an den Eindruck einer sehr positiven, energischen Person und eines echten Profis vermittelt, der weiß, wie man sich der Sprache und ihrer Praxis nähert. Ich gebe ehrlich zu, dass ich, obwohl ich bei Ihnen noch nur auf A1-Niveau war (Ende 2021) und buchstäblich nur ein paar Phrasen auf Deutsch kannte (und mir bewusst war, dass ich noch am Anfang des Weges stand), mich dennoch bereits damals dabei ertappte, dass ich keine Sprachbarriere fühle und bereit bin, mit Muttersprachlern zu kommunizieren, selbst mit dem kleinen Wissensarsenal, das ich damals besaß - so hoch war mein Vertrauen nach unseren Stunden. Dann, als ich 2022 zum ersten Mal mit etwa A2-Niveau nach Deutschland kam, trat ich furchtlos in die Kommunikation auf Deutsch ein und verstand die Menschen um mich herum bereits ziemlich gut. Später unterbrach ich unseren Unterricht und kehrte bereits auf B2-Niveau zu den Kursen zurück, erreichte mit ihnen C1 und war darüber unermesslich glücklich. Unsere Stunden waren immer sehr reichhaltig und interessant, und auch, was für mich sehr wichtig war, waren sie mit verschiedenen Aktivitäten gefüllt, vom Sprechen bis zum Hören, und das half mir, verschiedene Sprachfähigkeiten auf etwa dem gleichen Niveau zu entwickeln und zu erhalten. Im Moment verwende ich Deutsch für mein Masterstudium und die Arbeit in einem deutschen Unternehmen, und zweifellos hat Sie einen enormen Beitrag zu meinem Vertrauen in die Sprache geleistet. Ich dachte auch über die Möglichkeit nach, unseren Unterricht in naher Zukunft wieder aufzunehmen, da ich mein aktuelles C1-Niveau weiterentwickeln möchte. Vielen Dank und hoffentlich bis bald! Viele Grüße, Iuliia",
       name: "Yulia",
@@ -48,6 +50,7 @@ export const de = {
     },
     {
       id: "irina",
+      learnerLanguage: ["de"],
       quote: "Immer freundliche Atmosphäre im Unterricht und angenehme Kommunikation, es gab keine Angst, Fehler zu machen oder etwas Falsches zu sagen. Ausgezeichneter Lehrer für ängstliche und unsichere Menschen!",
       fullReview: "Immer freundliche Atmosphäre im Unterricht und angenehme Kommunikation, es gab keine Angst, Fehler zu machen oder etwas Falsches zu sagen. Ausgezeichneter Lehrer für ängstliche und unsichere Menschen! Es war bequem, online an einem gemeinsamen Board zu arbeiten. Mir hat besonders gefallen, dass im Unterricht minimal Russisch und maximal Deutsch verwendet wurde, und gleichzeitig alles verständlich erklärt wurde. Ein Lehrer, von dem es traurig war, sich am Ende der Ausbildung zu trennen)",
       name: "Irina",
@@ -58,6 +61,7 @@ export const de = {
     },
     {
       id: "guzel",
+      learnerLanguage: ["de"],
       quote: "Ich liebte unsere Stunden! Ich konnte die Grundlagen nicht meistern, obwohl ich versuchte, mit verschiedenen Tutoren zu lernen - und nur mit Ihnen verstand ich, wie alles funktioniert und, was am wichtigsten ist, erinnerte mich an alles, auch nach Zeit ohne Übung!",
       fullReview: "Ich liebte unsere Stunden! Ich konnte die Grundlagen nicht meistern, obwohl ich versuchte, mit verschiedenen Tutoren zu lernen - und nur mit Ihnen verstand ich, wie alles funktioniert und, was am wichtigsten ist, erinnerte mich an alles, auch nach Zeit ohne Übung! Die Stunden waren immer lebendig, sehr sanft und logisch ineinander fließend, und es war immer interessant und lustig, mit Ihnen zu plaudern. Ich wünsche Ihnen Erfolg!",
       name: "Guzel",
@@ -70,6 +74,7 @@ export const de = {
     },
     {
       id: "maria",
+      learnerLanguage: ["de", "en"],
       quote: "Alle meine Erwartungen an den Unterricht wurden erfüllt. Wir haben Deutsch von Grund auf mit dem Ziel gelernt, ein B1-Zertifikat zu erhalten, und Englisch, um mein bestehendes B1-B2-Niveau zu erhalten und zu entwickeln.",
       fullReview: "Alle meine Erwartungen an den Unterricht wurden erfüllt. Wir haben Deutsch von Grund auf mit dem Ziel gelernt, ein B1-Zertifikat zu erhalten, und Englisch, um mein bestehendes B1-B2-Niveau zu erhalten und zu entwickeln. Ich habe erfolgreich das deutsche Zertifikat erhalten, und mein Englisch fühlt sich auch großartig an :) Der Unterricht ist sehr interessant, mit herzlichen Diskussionen über alles und einer guten Balance zwischen Theorie und Praxis.",
       name: "Maria",
@@ -80,6 +85,7 @@ export const de = {
     },
     {
       id: "ekaterina",
+      learnerLanguage: ["en"],
       quote: "Mir gefällt das Training sehr! In 10 Monaten schaffte ich es, von A1- auf B1-Niveau zu gelangen und die Prüfung erfolgreich zu bestehen. Ich schätze besonders, wie Igor den Stoff erklärt, so dass er auf jedem Niveau verständlich wird.",
       fullReview: "Mir gefällt das Training sehr! In 10 Monaten schaffte ich es, von A1- auf B1-Niveau zu gelangen und die Prüfung erfolgreich zu bestehen. Ich schätze besonders, wie Igor den Stoff erklärt, so dass er auf jedem Niveau verständlich wird. Besonders möchte ich den flexiblen Stundenplan erwähnen, es ist sehr bequem, ihn mit der Arbeit zu kombinieren",
       name: "Ekaterina",
@@ -92,6 +98,7 @@ export const de = {
     },
     {
       id: "alexander",
+      learnerLanguage: ["en"],
       quote: "Das ist mehr als Englischunterricht - das ist warme, respektvolle und immer interessante Kommunikation mit einem der hellsten und tiefgründigsten Menschen, denen ich begegnet bin.",
       fullReview: "Das ist mehr als Englischunterricht - das ist warme, respektvolle und immer interessante Kommunikation mit einem der hellsten und tiefgründigsten Menschen, denen ich begegnet bin. Glücklich ist der Schüler, der Igor in den Weiten des Internets oder im Leben trifft: er wird nicht nur einen professionellen Lehrer bekommen, er wird eine Persönlichkeit bekommen, mit der es interessant ist, in jeder Sprache zu sprechen.",
       name: "Alexander Oshmarin",
@@ -104,6 +111,7 @@ export const de = {
     },
     {
       id: "alena",
+      learnerLanguage: ["de"],
       quote: "Deine Erklärungen sind sehr klar; du schaffst eine tolle Lernatmosphäre; die praktischen Beispiele helfen mir immer, besser zu verstehen und erinnern.",
       fullReview: "Deine Erklärungen sind sehr klar; du schaffst eine tolle Lernatmosphäre; die praktischen Beispiele helfen mir immer, besser zu verstehen und erinnern.",
       name: "Alena",
@@ -116,6 +124,7 @@ export const de = {
     },
     {
       id: "sergej",
+      learnerLanguage: ["en"],
       quote: "Ich wandte mich an Ihar, weil nach meinem Jobwechsel viel Englisch in mein Leben kam. Meine Erwartungen wurden voll erfüllt.",
       fullReview: "Ich wandte mich an Ihar, weil nach meinem Jobwechsel viel Englisch in mein Leben kam. Meine Erwartungen wurden voll erfüllt. Der Unterricht behandelt sehr interessante und moderne Themen, immer auf meine Interessen und Ziele zugeschnitten. Ich schätze die unterstützende Atmosphäre und den praktischen Ansatz. Die Erklärungen sind immer geduldig und klar. Ich hatte auch versucht, Englisch mit anderen Lehrern zu lernen, aber ihre Stunden fühlten sich wie ein MUSS an. Mit Ihar FREUE ich mich auf die Klassen und möchte sie wirklich besuchen.",
       name: "Sergej",
@@ -128,6 +137,7 @@ export const de = {
     },
     {
       id: "maxim",
+      learnerLanguage: ["de"],
       quote: "Der Unterricht mit Igor hat mir geholfen, von Niveau A1 bis B1 zu kommen. Er erklärt auch schwierige Themen sehr gut und ohne Stress.",
       fullReview: "Der Unterricht mit Igor hat mir geholfen, von Niveau A1 bis B1 zu kommen. Er erklärt auch schwierige Themen sehr gut und ohne Stress. Für mich ist auch wichtig, dass Igor immer flexibel mit dem Stundenplan ist. Ich empfehle ihn sehr gerne als Deutschlehrer!",
       name: "Maxim",
@@ -140,6 +150,7 @@ export const de = {
     },
     {
       id: "polina",
+      learnerLanguage: ["en"],
       quote: "Ich liebe unsere Stunden! Mir gefällt alles, coole und verständliche Präsentation des Materials, viele verschiedene Aufgaben, Fotos, Videos, Audio und vieles mehr.",
       fullReview: "Ich liebe unsere Stunden! Mir gefällt alles, coole und verständliche Präsentation des Materials, viele verschiedene Aufgaben, Fotos, Videos, Audio und vieles mehr. Besonders gefällt mir, dass Themen nach meinen Interessen und Zielen ausgewählt werden, obwohl sich Interessen und Themen während des Trainings ständig geändert haben:) Igor ist ein sehr vielseitiger und interessanter Gesprächspartner, sogar die Kommunikation selbst bereichert, man lernt viel Neues und fühlt sich gleichzeitig, als würde man mit einem Freund sprechen, super bequem. Ich dachte früher nicht, dass Unterricht so lehrreich und lustig gleichzeitig sein könnte. Besonderen Dank für die Vorbereitung auf den Wettbewerb in Singapur, das Sprachwissen hat sehr geholfen. Der Beste!",
       name: "Polina",
@@ -152,6 +163,7 @@ export const de = {
     },
     {
       id: "kristina",
+      learnerLanguage: ["de", "en"],
       quote: "Du verfügst über ausreichende Erfahrung, umfassendes Fachwissen, einschließlich sozialer Anerkennung (Status als Lehrerausbilder), ein ausgeprägtes Bewusstsein für das Geschehen im Klassenzimmer.",
       fullReview: "Du verfügst über ausreichende Erfahrung, umfassendes Fachwissen, einschließlich sozialer Anerkennung (Status als Lehrerausbilder), ein ausgeprägtes Bewusstsein für das Geschehen im Klassenzimmer, (z. B. für das Verhalten der Lernenden, ihre Fortschritte und ihren Unterstützungsbedarf), progressive Problemlösung, die zwischenmenschliche Haltung, gegenseitigen Respekt für die Lernenden und damit verbundene Werte (z. B. Vermeidung der Schuldzuweisung an die Lernenden für ihre Unzulänglichkeiten und Aufbau des Selbstwertgefühls der Lernende), Deine Leidenschaft für Deinen Beruf und Deine Arbeit, Deine Widerstandsfähigkeit und Ausdauer angesichts von Herausforderungen, Freude am Unterrichten und eine optimistische Weltsicht, die Strukturierung des Unterrichts, umfassende Reflexion, ständiges Weiterlernen, berufliche Weiterbildung und berufsbegleitende Qualifikationen, sorgfältige, flexible, unterstützende Zusammenarbeit. Du bist definitiv ein lebenslanger Weiterlerner! Ich bin sehr stolz auf Dich!",
       name: "Kristina",
