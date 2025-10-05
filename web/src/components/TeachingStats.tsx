@@ -12,7 +12,7 @@ export default function TeachingStats() {
   const { t } = useTranslation();
 
   // Calculate values for dynamic text
-  const yearsTeaching = calculateYearsFromDate('2013-01-01');
+  const yearsTeaching = calculateYearsFromDate('2013-11-01');
   
   return (
     <section className="py-20 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-neutral-800 dark:to-neutral-700">

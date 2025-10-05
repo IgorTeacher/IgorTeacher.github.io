@@ -477,7 +477,9 @@ export const pl = {
       { value: "Elastyczna", label: "Harmonogram" },
       { value: "Certyfikowany", label: "Ekspert nauczyciel" }
     ],
-    noObligationText: "Bez zobowiązań po lekcji próbnej"
+    noObligationText: "Bez zobowiązań po lekcji próbnej",
+    availableWorldwide: "Dostępne na całym świecie via Zoom",
+    noCommitmentRequired: "Bez wiążących zobowiązań"
   },
   
   ctas: {

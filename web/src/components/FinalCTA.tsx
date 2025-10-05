@@ -46,7 +46,7 @@ export default function FinalCTA() {
 
         <div className="mt-8 pt-8 border-t border-blue-500">
           <p className="text-blue-100 text-sm">
-            ✨ No commitment required • Available worldwide via Zoom • {t('finalCTA.noObligationText')}
+            ✨ {t('finalCTA.noCommitmentRequired')} • {t('finalCTA.availableWorldwide')} • {t('finalCTA.noObligationText')}
           </p>
         </div>
       </div>

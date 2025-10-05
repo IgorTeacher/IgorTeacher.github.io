@@ -464,7 +464,9 @@ export const de = {
       { value: "Flexibel", label: "Terminplanung" },
       { value: "Zertifiziert", label: "Fachlehrer" }
     ],
-    noObligationText: "Keine Verpflichtung nach der Probestunde"
+    noObligationText: "Keine Verpflichtung nach der Probestunde",
+    availableWorldwide: "Verfügbar weltweit via Zoom",
+    noCommitmentRequired: "Keine Verpflichtung erforderlich"
   },
   
   ctas: {

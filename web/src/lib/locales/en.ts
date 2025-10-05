@@ -464,7 +464,9 @@ export const en = {
       { value: "Flexible", label: "Scheduling" },
       { value: "Certified", label: "Expert Teacher" }
     ],
-    noObligationText: "No obligation after the trial"
+    noObligationText: "No obligation after the trial",
+    availableWorldwide: "Available worldwide via Zoom",
+    noCommitmentRequired: "No commitment required"
   },
   
   ctas: {

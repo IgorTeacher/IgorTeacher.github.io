@@ -464,7 +464,9 @@ export const it = {
       { value: "Flessibile", label: "Programmazione" },
       { value: "Certificato", label: "Insegnante esperto" }
     ],
-    noObligationText: "Nessun obbligo dopo la lezione di prova"
+    noObligationText: "Nessun obbligo dopo la lezione di prova",
+    availableWorldwide: "Disponibile in tutto il mondo via Zoom",
+    noCommitmentRequired: "Nessun impegno richiesto"
   },
   
   ctas: {
