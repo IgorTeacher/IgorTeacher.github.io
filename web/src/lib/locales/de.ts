@@ -268,7 +268,7 @@ export const de = {
     {
       id: "daria",
       learnerLanguage: ["de"],
-      quote: "Igor ist ein wunderbarer Lehrer.",
+      quote: "Igor ist ein wunderbarer Lehrer. Er versteht es, beide Schüler in das Gespräch einzubeziehen (wir lernen zusammen mit meinem Mann) (...) wir haben die B1-Prüfung ohne Probleme bestanden und machen mit Igor weiter.",
       fullReview: "Igor ist ein wunderbarer Lehrer. Er versteht es, beide Schüler in das Gespräch einzubeziehen (wir lernen zusammen mit meinem Mann), gibt interessante Themen zum Diskutieren, übt keinen Druck aus, treibt nicht an, und in einem ruhigen, angenehmen Tempo haben wir ohne Probleme die B1-Prüfung bestanden und machen mit Igor weiter.",
       name: "Daria",
       age: 31,

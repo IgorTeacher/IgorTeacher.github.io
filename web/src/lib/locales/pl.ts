@@ -281,7 +281,7 @@ export const pl = {
     {
       id: "daria",
       learnerLanguage: ["de"],
-      quote: "Igor jest wspaniałym nauczycielem.",
+      quote: "Igor jest wspaniałym nauczycielem. Potrafi zaangażować oboje uczniów w rozmowę (uczymy się z mężem) (...) bez problemu zdaliśmy egzamin na poziomie B1 i kontynuujemy naukę z Igorem.",
       fullReview: "Igor jest wspaniałym nauczycielem. Potrafi zaangażować oboje uczniów w rozmowę (uczymy się z mężem), daje ciekawe tematy do dyskusji, nie wywiera presji, nie pogania, a w spokojnym tempie, czerpiąc przyjemność z nauki, bez problemu zdaliśmy egzamin na poziomie B1 i kontynuujemy naukę z Igorem.",
       name: "Daria",
       age: 31,

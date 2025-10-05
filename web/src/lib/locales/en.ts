@@ -269,7 +269,7 @@ export const en = {
     {
       id: "daria",
       learnerLanguage: ["de"],
-      quote: "Igor is a wonderful teacher.",
+      quote: "Igor is a wonderful teacher. He knows how to engage both students in a conversation (we study together with my husband) (...) we passed the B1 exam without any problems and continue learning with Igor.",
       fullReview: "Igor is a wonderful teacher. He knows how to engage both students in a conversation (we study together with my husband), gives interesting topics for discussion, doesn’t pressure or rush us, and in a calm, enjoyable pace we managed to pass the B1 exam without any problems and continue learning with Igor.",
       name: "Daria",
       age: 31,

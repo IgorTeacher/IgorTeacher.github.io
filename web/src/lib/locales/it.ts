@@ -268,7 +268,7 @@ export const it = {
     {
       id: "daria",
       learnerLanguage: ["de"],
-      quote: "Igor è un insegnante meraviglioso.",
+      quote: "Igor è un insegnante meraviglioso. Sa coinvolgere entrambi gli studenti nel processo di conversazione (studiamo con mio marito) (...) abbiamo superato senza problemi l’esame di livello B1 e continuiamo a studiare con Igor.",
       fullReview: "Igor è un insegnante meraviglioso. Sa coinvolgere entrambi gli studenti nel processo di conversazione (studiamo con mio marito), propone argomenti interessanti per la discussione, non mette pressione né fretta, e con un ritmo tranquillo e piacevole abbiamo superato senza problemi l’esame di livello B1 e continuiamo a studiare con Igor.",
       name: "Daria",
       age: 31,
