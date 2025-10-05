@@ -178,8 +178,8 @@ export const en = {
     {
       id: "katsiaryna",
       learnerLanguage: ["en", "de"],
-      quote: "Thanks to Ihar’s support and professionalism, I was able to learn German from scratch and successfully pass the exam with 54 out of 60 points!",
-      fullReview: "I really enjoyed studying with Ihar! At first, he helped me with English, and later I confirmed my level as C1. Then I unexpectedly decided to apply to study in Austria, where knowledge of German at least at A2 level was required. There was less than half a year before admission, and during that time I had to prepare for my school exams while also starting to learn a completely new language. Thanks to Ihar’s support and professionalism, I was able to learn German from scratch and successfully pass the exam with 54 out of 60 points! He is a wonderful teacher who knows exactly how to approach his students. He treats his profession and every lesson with great care. I wholeheartedly recommend him!!!",
+      quote: "Thanks to Ihar's support and professionalism, I was able to learn German from scratch and successfully pass the exam with 54 out of 60 points!",
+      fullReview: "I really enjoyed studying with Ihar! At first, he helped me with English, and later I confirmed my level as C1. Then I unexpectedly decided to apply to study in Austria, where knowledge of German at least at A2 level was required. There was less than half a year before admission, and during that time I had to prepare for my school exams while also starting to learn a completely new language. Thanks to Ihar's support and professionalism, I was able to learn German from scratch and successfully pass the exam with 54 out of 60 points! He is a wonderful teacher who knows exactly how to approach his students. He treats his profession and every lesson with great care. I wholeheartedly recommend him!!!",
       name: "Katsiaryna",
       age: 18,
       location: "",
@@ -213,6 +213,71 @@ export const en = {
       profileUrl: "https://www.instagram.com/shakinarts",
       platform: "instagram",
       originalLanguage: "de"
+    },
+    {
+      id: "anna",
+      learnerLanguage: ["de"],
+      quote: "Since 2021, I’ve been learning German with Ihar.",
+      fullReview: "Since 2021, I’ve been learning German with Ihar. I’ve had experience with both online and offline lessons, as well as classes in large and small groups. In every case and format, our lessons have always been dynamic, engaging, and truly enjoyable. What I like most is that every lesson is full of language — we communicate, discuss different topics, exchange ideas, and overall learn in a clear and pleasant way, without any fear of making mistakes. It’s also very important for me to feel the value of the learning process itself — and Ihar, in my opinion, supports this a lot. He also takes care of the student’s comfort throughout every lesson, explains everything clearly when asked, and helps to correct mistakes. I would say that Ihar is a wonderful and very professional teacher — one of the best I’ve met throughout my learning journey!",
+      name: "Anna",
+      age: 24,
+      location: "",
+      avatar: "/students/anna.png",
+      profileUrl: "https://t.me/korjik_an",
+      platform: "telegram",
+      originalLanguage: "de"
+    },
+    {
+      id: "jelena",
+      learnerLanguage: [],
+      quote: "I’m writing this as a colleague of Igor, not as his student — though honestly, I often felt like one.",
+      fullReview: "I’m writing this as a colleague of Igor, not as his student — though honestly, I often felt like one. He’s the kind of teacher everyone wishes they had, always sharing his experience so generously that even our coffee breaks felt like mini masterclasses. He even helped me get my very first job – basically my career’s secret cheat code! I also fondly remember our prep sessions together and the way we discussed different teaching approaches, it was both inspiring and fun. As a colleague and as a person, Igor is simply brilliant.",
+      name: "Jelena Alioshkina",
+      age: 28,
+      location: "",
+      avatar: "/students/jelena.png",
+      profileUrl: "https://www.instagram.com/musiagallery",
+      platform: "instagram",
+      originalLanguage: "en"
+    },
+    {
+      id: "alena",
+      learnerLanguage: ["en"],
+      quote: "I really enjoyed having classes with you.",
+      fullReview: "I really enjoyed having classes with you. The lessons were always interesting and engaging, and I felt comfortable and relaxed. You explain everything clearly and with care, and you create an atmosphere where I want to learn and speak English. It was nice that we had not only a learning process but also friendly conversations. Thank you for your support and attention during the lessons, it really helped me to move forward.",
+      name: "Alena",
+      age: 30,
+      location: "",
+      avatar: "/students/alena.png",
+      profileUrl: "https://www.linkedin.com/in/alena-proskura/",
+      platform: "linkedin",
+      originalLanguage: "en"
+    },
+    {
+      id: "ivan",
+      learnerLanguage: ["de"],
+      quote: "Only positive ones) it’s just a perfect match!)",
+      fullReview: "Only positive ones) it’s just a perfect match!)",
+      name: "Ivan",
+      age: 38,
+      location: "",
+      avatar: "/students/ivan_und_daria.png",
+      profileUrl: "instagram.com/caps0lock",
+      platform: "instagram",
+      originalLanguage: "ru"
+    },
+    {
+      id: "daria",
+      learnerLanguage: ["de"],
+      quote: "Igor is a wonderful teacher.",
+      fullReview: "Igor is a wonderful teacher. He knows how to engage both students in a conversation (we study together with my husband), gives interesting topics for discussion, doesn’t pressure or rush us, and in a calm, enjoyable pace we managed to pass the B1 exam without any problems and continue learning with Igor.",
+      name: "Daria",
+      age: 31,
+      location: "",
+      avatar: "/students/ivan_und_daria.png",
+      profileUrl: "instagram.com/malomerkina",
+      platform: "instagram",
+      originalLanguage: "ru"
     }
   ],
   

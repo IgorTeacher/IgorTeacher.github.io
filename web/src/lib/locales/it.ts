@@ -212,6 +212,71 @@ export const it = {
       profileUrl: "https://www.instagram.com/shakinarts",
       platform: "instagram",
       originalLanguage: "de"
+    },
+    {
+      id: "anna",
+      learnerLanguage: ["de"],
+      quote: "Dal 2021 studio tedesco con Ihar.",
+      fullReview: "Dal 2021 studio tedesco con Ihar. Ho avuto esperienze sia con lezioni online che offline, così come in gruppi grandi e piccoli. In ogni caso e in ogni formato, le nostre lezioni sono sempre state dinamiche, coinvolgenti e molto piacevoli. Ciò che mi piace di più è che ogni lezione è piena di lingua: comunichiamo, discutiamo diversi argomenti, scambiamo idee e, in generale, impariamo in modo chiaro e rilassato, senza paura di sbagliare. È anche molto importante per me sentire il valore del processo di apprendimento — e Ihar, a mio parere, lo sostiene molto. Inoltre, si prende cura del comfort dello studente durante ogni lezione, spiega tutto in modo chiaro quando viene chiesto e aiuta a correggere gli errori. Direi che Ihar è un insegnante meraviglioso e molto professionale, uno dei migliori che abbia incontrato nel mio percorso di apprendimento!",
+      name: "Anna",
+      age: 24,
+      location: "",
+      avatar: "/students/anna.png",
+      profileUrl: "https://t.me/korjik_an",
+      platform: "telegram",
+      originalLanguage: "de"
+    },
+    {
+      id: "jelena",
+      learnerLanguage: [],
+      quote: "Scrivo questo come collega di Igor, non come sua studentessa — anche se, onestamente, spesso mi sono sentita tale.",
+      fullReview: "Scrivo questo come collega di Igor, non come sua studentessa — anche se, onestamente, spesso mi sono sentita tale. È il tipo di insegnante che tutti vorrebbero avere: condivide sempre la sua esperienza con grande generosità, tanto che persino le nostre pause caffè sembravano piccole lezioni magistrali. Mi ha persino aiutata a ottenere il mio primo lavoro — praticamente il mio codice segreto per la carriera! Ricordo con affetto anche le nostre sessioni di preparazione insieme e i modi in cui discutevamo diversi approcci didattici — era allo stesso tempo stimolante e divertente. Come collega e come persona, Igor è semplicemente brillante.",
+      name: "Jelena Alioshkina",
+      age: 28,
+      location: "",
+      avatar: "/students/jelena.png",
+      profileUrl: "https://www.instagram.com/musiagallery",
+      platform: "instagram",
+      originalLanguage: "en"
+    },
+    {
+      id: "alena",
+      learnerLanguage: ["en"],
+      quote: "Mi è piaciuto moltissimo fare le lezioni con te.",
+      fullReview: "Mi è piaciuto moltissimo fare le lezioni con te. Le lezioni sono sempre state interessanti e coinvolgenti, e mi sono sentita a mio agio e rilassata. Spieghi tutto in modo chiaro e con attenzione, e crei un’atmosfera in cui ho voglia di imparare e parlare inglese. È stato bello che non avessimo solo un processo di apprendimento, ma anche conversazioni amichevoli. Grazie per il tuo supporto e la tua attenzione durante le lezioni, mi hanno davvero aiutato a fare progressi.",
+      name: "Alena",
+      age: 30,
+      location: "",
+      avatar: "/students/alena.png",
+      profileUrl: "https://www.linkedin.com/in/alena-proskura/",
+      platform: "linkedin",
+      originalLanguage: "en"
+    },
+    {
+      id: "ivan",
+      learnerLanguage: ["de"],
+      quote: "Solo impressioni positive) è semplicemente un abbinamento perfetto!)",
+      fullReview: "Solo impressioni positive) è semplicemente un abbinamento perfetto!)",
+      name: "Ivan",
+      age: 38,
+      location: "",
+      avatar: "/students/ivan_und_daria.png",
+      profileUrl: "instagram.com/caps0lock",
+      platform: "instagram",
+      originalLanguage: "ru"
+    },
+    {
+      id: "daria",
+      learnerLanguage: ["de"],
+      quote: "Igor è un insegnante meraviglioso.",
+      fullReview: "Igor è un insegnante meraviglioso. Sa coinvolgere entrambi gli studenti nel processo di conversazione (studiamo con mio marito), propone argomenti interessanti per la discussione, non mette pressione né fretta, e con un ritmo tranquillo e piacevole abbiamo superato senza problemi l’esame di livello B1 e continuiamo a studiare con Igor.",
+      name: "Daria",
+      age: 31,
+      location: "",
+      avatar: "/students/ivan_und_daria.png",
+      profileUrl: "instagram.com/malomerkina",
+      platform: "instagram",
+      originalLanguage: "ru"
     }
   ],
   
