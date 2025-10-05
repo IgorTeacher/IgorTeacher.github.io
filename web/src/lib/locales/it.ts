@@ -339,7 +339,7 @@ export const it = {
   },
   about: {
     heading: "Conosci il tuo insegnante",
-    subtitle: "Educatore appassionato con oltre un decennio di esperienza nell'insegnamento delle lingue",
+    subtitle: "Educatore appassionato con oltre [YEARS] anni di esperienza nell'insegnamento delle lingue",
     introduction: {
               greeting: "Ciao, sono Ihar (Igor) Ausiany. Insegno inglese e tedesco da oltre [YEARS] anni, e nel frattempo ho anche imparato lingue io stesso — farsi, polacco, francese e persino un po' di cinese. Lo menziono perché conosco davvero gli alti e bassi dell'apprendimento delle lingue dall'interno.",
       certifications: "Sono certificato CELTA e attualmente mi sto preparando per gli esami DELTA Cambridge. Ho tre diplomi universitari focalizzati sulle lingue, il più recente dalla SWPS University in Studi Inglesi (percorso di insegnamento).",

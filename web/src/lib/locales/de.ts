@@ -339,7 +339,7 @@ export const de = {
   },
   about: {
     heading: "Lernen Sie Ihren Lehrer kennen",
-    subtitle: "Leidenschaftlicher Pädagoge mit über einem Jahrzehnt Erfahrung im Sprachunterricht",
+    subtitle: "Leidenschaftlicher Pädagoge mit über [YEARS] Jahren Erfahrung im Sprachunterricht",
     introduction: {
               greeting: "Hallo, ich bin Ihar (Igor) Ausiany. Ich unterrichte seit über [YEARS] Jahren Englisch und Deutsch, und dabei habe ich auch selbst Sprachen gelernt — Persisch, Polnisch, Französisch und sogar ein bisschen Chinesisch. Ich erwähne das, weil ich die Höhen und Tiefen des Sprachenlernens wirklich von innen kenne.",
       certifications: "Ich bin CELTA-zertifiziert und bereite mich derzeit auf die DELTA Cambridge Prüfungen vor. Ich habe drei sprachbezogene Universitätsdiplome, das neueste von der SWPS Universität in Englischstudien (Lehrtrack).",

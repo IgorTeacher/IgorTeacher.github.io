@@ -8,8 +8,8 @@ export default function About() {
   const { t } = useTranslation();
 
   // Calculate values for dynamic text
-  const yearsTeaching = calculateYearsFromDate('2013-01-01');
-  const teachingHours = calculateTeachingHours('2013-01-01', 22.5);
+  const yearsTeaching = calculateYearsFromDate('2013-11-01');
+  const teachingHours = calculateTeachingHours('2013-11-01', 22.5);
   
   // Debug: Log calculated values
   console.log('Years from 2013:', yearsTeaching);
@@ -24,7 +24,7 @@ export default function About() {
             {t('about.heading')}
           </h2>
           <p className="text-xl text-neutral-600 dark:text-neutral-300 max-w-3xl mx-auto leading-relaxed">
-            {t('about.subtitle')}
+            {t('about.subtitle').replace('[YEARS]', yearsTeaching.toString())}
           </p>
         </div>
 

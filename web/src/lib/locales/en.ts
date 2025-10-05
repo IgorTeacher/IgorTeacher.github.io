@@ -341,7 +341,7 @@ export const en = {
   },
   about: {
     heading: "Meet Your Teacher",
-    subtitle: "Passionate educator with over a decade of experience in language teaching",
+    subtitle: "Passionate educator with over [YEARS] years of experience in language teaching",
     introduction: {
               greeting: "Hi, I'm Ihar (Igor) Ausiany. I've been teaching English and German for over [YEARS] years, and along the way I've also learned languages myself — Farsi, Polish, French, and even a bit of Chinese. I mention this because I truly know the ups and downs of language learning from the inside.",
       certifications: "I'm CELTA-certified and currently preparing for the DELTA Cambridge exams. I hold three language-focused university diplomas, the most recent from SWPS University in English Studies (Teaching track).",
