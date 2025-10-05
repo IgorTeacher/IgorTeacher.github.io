@@ -261,7 +261,7 @@ export const de = {
       age: 38,
       location: "",
       avatar: "/students/ivan_und_daria.png",
-      profileUrl: "instagram.com/caps0lock",
+      profileUrl: "https://www.instagram.com/caps0lock",
       platform: "instagram",
       originalLanguage: "ru"
     },
@@ -274,7 +274,7 @@ export const de = {
       age: 31,
       location: "",
       avatar: "/students/ivan_und_daria.png",
-      profileUrl: "instagram.com/malomerkina",
+      profileUrl: "https://www.instagram.com/malomerkina",
       platform: "instagram",
       originalLanguage: "ru"
     }
