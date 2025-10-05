@@ -53,7 +53,7 @@ export default function TeachingStats() {
             <div className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-3">
               <AnimatedCounter 
                 startValue={0} 
-                endValue={100} 
+                endValue={350} 
                 suffix="+" 
                 duration={3500}
               />
